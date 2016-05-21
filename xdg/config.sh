@@ -17,15 +17,17 @@ if [ ! -f ./icon-theme.cache ];then
 fi
 
 auto_distroicon() {
-	if [ -f /usr/bin/dpkg ]; then
-		if [ $(cat /etc/os-release|grep "^ID=debian$") ];then
-			#Siduction
-			if dpkg --get-selections|grep siduction &>/dev/null;then
-				_distributor="siduction"
-			else
-				_distributor="debian"
-			fi
+	if [ $(cat /etc/os-release|grep "^ID=debian$") ];then
+		#Siduction
+		if dpkg --get-selections|grep siduction &>/dev/null;then
+			_distributor="siduction"
+		else
+			_distributor="debian"
 		fi
+	elif [ $(cat /etc/os-release|grep "^ID=opensuse$") ];then
+		#_distributor="suse"
+		#FIXME add a suse icon
+		printf "\n"
 	fi
 	for _dir in $(echo $(find -maxdepth 1 -mindepth 1 -type d));do
 		cd $_dir
