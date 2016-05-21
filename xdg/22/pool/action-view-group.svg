@@ -5,139 +5,98 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   viewBox="0 0 48 48"
+   version="1.1"
    id="svg2"
-   version="1.1">
+   viewBox="0 0 22 22">
   <defs
      id="defs4">
     <linearGradient
-       id="0"
-       y1="42.22"
-       y2="4.22"
-       x2="0"
-       gradientUnits="userSpaceOnUse">
+       gradientUnits="userSpaceOnUse"
+       x2="20.956"
+       y2="-2.01"
+       x1="21"
+       y1="20"
+       id="0">
       <stop
-         stop-color="#ddd"
-         id="stop7" />
+         id="stop7"
+         stop-color="#ddd" />
       <stop
-         offset="1"
+         id="stop9"
          stop-color="#fff"
-         id="stop9" />
+         offset="1" />
     </linearGradient>
     <linearGradient
-       id="1"
-       y1="5.158"
-       x1="43.06"
-       y2="57.35"
-       x2="45.501"
-       gradientUnits="userSpaceOnUse">
+       gradientUnits="userSpaceOnUse"
+       x2="0"
+       y2="19"
+       y1="2"
+       id="1">
       <stop
-         stop-color="#fff"
-         id="stop12" />
+         id="stop12"
+         stop-color="#fff" />
       <stop
-         offset="1"
-         stop-color="#fff"
+         id="stop14"
          stop-opacity="0"
-         id="stop14" />
+         stop-color="#fff"
+         offset="1" />
     </linearGradient>
   </defs>
   <path
-     opacity="0.1"
-     d="m 4 5.22 h 40 v 38 H 4 z"
-     id="path16" />
+     id="path16"
+     d="M 1,2 H21 V21 H1 z"
+     opacity="0.1" />
   <path
-     fill="url(#0)"
-     d="m 4 4.22 h 40 v 38 H 4 z"
-     id="path18" />
-  <g
-     style="fill:#ffffff;opacity:0.6"
-     transform="translate(0,1)"
-     id="g4205">
-    <rect
-       y="9"
-       x="7"
-       height="3"
-       width="34"
-       id="rect4207"
-       style="opacity:0.7;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <path
-       id="path4209"
-       d="m 15,15 -6,0 0,6 6,0 z"
-       style="opacity:0.4;fill:#ffffff" />
-    <path
-       style="opacity:0.4;fill:#ffffff"
-       d="m 27,15 -6,0 0,6 6,0 z"
-       id="path4211" />
-    <path
-       id="path4213"
-       d="m 39,15 -6,0 0,6 6,0 z"
-       style="opacity:0.4;fill:#ffffff" />
-    <rect
-       style="opacity:0.7;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4215"
-       width="34"
-       height="3"
-       x="7"
-       y="24" />
-    <path
-       style="opacity:0.4;fill:#ffffff"
-       d="m 15,30 -6,0 0,6 6,0 z"
-       id="path4217" />
-    <path
-       id="path4219"
-       d="m 27,30 -6,0 0,6 6,0 z"
-       style="opacity:0.4;fill:#ffffff" />
-  </g>
+     id="path18"
+     d="M 1,1 H21 V20 H1 z"
+     fill="url(#0)" />
   <g
      fill="none"
      id="g20">
     <path
        stroke="#000"
        opacity="0.4"
-       d="m 4.4684,4.689 0,37.0625 39.0625,0 0,-37.0625 -39.0625,0 z"
-       id="path22" />
+       id="path22"
+       d="m 1.5,1.5 0,18 19,0 0,-18 -19,0 z" />
     <path
        stroke="url(#1)"
-       d="m 5.4372,5.6578 0,35.125 37.125,0 0,-35.125 -37.125,0 z"
-       id="path24" />
+       opacity="0.4"
+       id="path24"
+       d="m 2.5,2.5 0,16 17,0 0,-16 -17,0 z" />
   </g>
-  <g
-     id="g4196">
-    <rect
-       style="opacity:0.7;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4160"
-       width="34"
-       height="3"
-       x="7"
-       y="9" />
-    <path
-       style="opacity:0.4;fill:#171717"
-       d="m 15,15 -6,0 0,6 6,0 z"
-       id="path30" />
-    <path
-       id="path4156"
-       d="m 27,15 -6,0 0,6 6,0 z"
-       style="opacity:0.4;fill:#171717" />
-    <path
-       style="opacity:0.4;fill:#171717"
-       d="m 39,15 -6,0 0,6 6,0 z"
-       id="path4158" />
-    <rect
-       y="24"
-       x="7"
-       height="3"
-       width="34"
-       id="rect4180"
-       style="opacity:0.7;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <path
-       id="path4182"
-       d="m 15,30 -6,0 0,6 6,0 z"
-       style="opacity:0.4;fill:#171717" />
-    <path
-       style="opacity:0.4;fill:#171717"
-       d="m 27,30 -6,0 0,6 6,0 z"
-       id="path4184" />
-  </g>
+  <rect
+     style="opacity:0.7;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect4160"
+     width="16"
+     height="1"
+     x="3"
+     y="3" />
+  <path
+     style="opacity:0.4;fill:#171717"
+     d="m 7,6 -2.9953199,0 0,2.9953199 2.9953199,0 z"
+     id="path30" />
+  <path
+     id="path4156"
+     d="m 11.985959,6 -2.9953193,0 0,2.9953199 2.9953193,0 z"
+     style="opacity:0.4;fill:#171717" />
+  <path
+     style="opacity:0.4;fill:#171717"
+     d="m 17,6.0046801 -2.99532,0 L 14.00468,9 17,9 Z"
+     id="path4158" />
+  <rect
+     y="11"
+     x="3.0265217"
+     height="1"
+     width="15.973478"
+     id="rect4180"
+     style="opacity:0.7;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <path
+     id="path4182"
+     d="M 6.9953199,14 4,14 l 0,2.99532 2.9953199,0 z"
+     style="opacity:0.4;fill:#171717" />
+  <path
+     style="opacity:0.4;fill:#171717"
+     d="m 12,14.00468 -2.9953193,0 0,2.99532 L 12,17 Z"
+     id="path4184" />
   <metadata
      id="metadata9999">
     <rdf:RDF>

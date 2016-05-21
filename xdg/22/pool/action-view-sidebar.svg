@@ -5,225 +5,165 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   viewBox="0 0 48 48"
-   version="1.1"
-   id="svg2">
+   id="svg2"
+   viewBox="0 0 22 22"
+   version="1.1">
   <defs
      id="defs4">
     <linearGradient
        gradientUnits="userSpaceOnUse"
-       x2="0"
-       y2="42.08"
-       y1="5.957"
+       x2="20.956"
+       y2="-2.01"
+       x1="21"
+       y1="20"
        id="0">
       <stop
          id="stop7"
-         stop-color="#fff" />
+         stop-color="#ddd" />
       <stop
-         stop-opacity="0"
          id="stop9"
          stop-color="#fff"
          offset="1" />
     </linearGradient>
     <linearGradient
        gradientUnits="userSpaceOnUse"
-       x2="43.912"
-       y2="-0.997"
-       x1="44"
-       y1="43.02"
+       x2="0"
+       y2="19"
+       y1="2"
        id="1">
       <stop
          id="stop12"
-         stop-color="#ddd" />
+         stop-color="#fff" />
       <stop
+         stop-opacity="0"
          id="stop14"
          stop-color="#fff"
          offset="1" />
     </linearGradient>
   </defs>
   <path
-     d="m 4,6.02 h 40 v 38 H 4 z"
+     d="M 1,2 H 21 V 21 H 1 z"
      id="path16"
      opacity="0.1" />
   <path
-     d="m 4,5.02 h 40 v 38 H 4 z"
+     d="M 1,1 H 21 V 20 H 1 z"
      id="path18"
-     fill="url(#1)" />
+     fill="url(#0)" />
   <path
-     d="M 4,5.02 H 44 V 15.139 H 4 z"
+     d="M 1,1 H 21 V 7 H 1 z"
      id="path20"
      fill="#5288d1" />
   <rect
-     y="15"
-     x="5"
-     height="27"
-     width="11"
-     id="rect4164"
-     style="opacity:0.4;fill:#6a6a6a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+     style="opacity:0.4;fill:#6a6a6a"
+     id="rect3031"
+     height="13"
+     y="7"
+     x="1"
+     width="8" />
   <g
      fill="none"
      id="g22">
-    <g
-       stroke="#000"
-       id="g24">
-      <path
-         opacity="0.4"
-         d="m 4.4688,5.4881 0,37.0625 39.0625,0 0,-37.0625 -39.0625,0 z"
-         id="path26" />
-      <path
-         opacity="0.4"
-         d="m 4.9369,14.6279 38.1261,4e-4"
-         id="path28" />
-    </g>
     <path
-       stroke="url(#0)"
+       stroke="#000"
        opacity="0.4"
-       d="m 5.4375,6.4568 0,35.125 37.125,0 0,-35.125 -37.125,0 z"
-       id="path30" />
+       d="m 1.5,1.5 0,18 19,0 0,-18 -19,0 z"
+       id="path24" />
+    <path
+       stroke="url(#1)"
+       opacity="0.4"
+       d="m 2.5,2.5 0,16 17,0 0,-16 -17,0 z"
+       id="path26" />
+  </g>
+  <path
+     d="M 2,6 H 20 V 7 H 2 z"
+     id="path28"
+     opacity="0.4" />
+  <g
+     fill="#fff"
+     id="g30">
+    <path
+       opacity="0.4"
+       d="M 3,7 19,7 19,8 3,8 Z"
+       id="path32" />
+    <g
+       color="#000"
+       fill-rule="evenodd"
+       id="g34">
+      <path
+         d="M 3,3 4,3 4,4 3,4 Z"
+         id="path36" />
+      <path
+         d="M 6,3 8,3 8,5 6,5 Z"
+         id="path38" />
+      <path
+         d="m 9,4 2,0 0,1 -2,0 z"
+         id="path40" />
+      <path
+         d="M 4,4 5,4 5,5 4,5 Z"
+         id="path42" />
+    </g>
+    <rect
+       style="opacity:0.4;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect3368"
+       width="4"
+       height="2"
+       x="3"
+       y="10" />
+    <rect
+       y="13"
+       x="3"
+       height="2"
+       width="4"
+       id="rect3370"
+       style="opacity:0.4;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+    <rect
+       style="opacity:0.4;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect3372"
+       width="4"
+       height="2"
+       x="3"
+       y="16" />
+    <rect
+       y="9"
+       x="3"
+       height="2"
+       width="4"
+       id="rect3362"
+       style="opacity:0.6;fill:#171717;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+    <rect
+       style="opacity:0.6;fill:#171717;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect3364"
+       width="4"
+       height="2"
+       x="3"
+       y="12" />
+    <rect
+       y="15"
+       x="3"
+       height="2"
+       width="4"
+       id="rect3366"
+       style="opacity:0.6;fill:#171717;fill-opacity:1;fill-rule:evenodd;stroke:none" />
   </g>
   <g
      color="#000"
      fill-rule="evenodd"
-     fill="#fff"
-     id="g32">
+     fill="#c1c1c1"
+     id="g44">
     <path
-       d="m 7.03,9.111 1,0 0,1 -1,0 z"
-       id="path34" />
-    <path
-       d="m 8.03,10.111 1,0 0,1 -1,0 z"
-       id="path36" />
-    <path
-       d="m 9.03,11.11 1,0 0,1 -1,0 z"
-       id="path38" />
-    <path
-       d="m 7.03,11.11 1,0 0,1 -1,0 z"
-       id="path40" />
-    <path
-       d="m 9.03,9.111 1,0 0,1 -1,0 z"
-       id="path42" />
-    <path
-       d="m 12.03,9.111 1,0 0,3 -1,0 z"
-       id="path44" />
-    <path
-       transform="matrix(0,1,-1,0,0,0)"
-       d="m 11.11,-15.03 1,0 0,3 -1,0 z"
+       d="M 3,4 4,4 4,5 3,5 Z"
        id="path46" />
     <path
-       transform="scale(-1,-1)"
-       d="m -15.03,-12.11 1,0 0,3 -1,0 z"
+       d="M 4,3 5,3 5,4 4,4 Z"
        id="path48" />
-    <g
-       transform="matrix(0,-1,1,0,0,0)"
-       id="g50">
-      <path
-         d="m -10.111,12.03 1,0 0,3 -1,0 z"
-         id="path52" />
-      <path
-         d="m -12.11,17.03 1,0 0,3 -1,0 z"
-         id="path54" />
-    </g>
-  </g>
-  <rect
-     style="fill:#ffffff"
-     id="rect3047"
-     height="1"
-     y="15"
-     x="17"
-     width="24.926811" />
-  <rect
-     width="11"
-     x="5"
-     y="15"
-     height="1"
-     id="rect4175"
-     style="fill:#ffffff;opacity:0.6" />
-  <g
-     style="fill:#ffffff;opacity:0.4"
-     transform="translate(0,1)"
-     id="g4183">
-    <rect
-       ry="1"
-       y="18"
-       x="7"
-       height="3"
-       width="7"
-       id="rect4185"
-       style="opacity:0.7;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
-       style="opacity:0.7;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4187"
-       width="7"
-       height="3"
-       x="7"
-       y="24"
-       ry="1" />
-    <rect
-       ry="1"
-       y="30"
-       x="7"
-       height="3"
-       width="7"
-       id="rect4189"
-       style="opacity:0.7;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
-       style="opacity:0.7;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4191"
-       width="7"
-       height="3"
-       x="7"
-       y="36"
-       ry="1" />
-  </g>
-  <g
-     id="g4177">
-    <rect
-       style="opacity:0.7;fill:#171717;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4166"
-       width="7"
-       height="3"
-       x="7"
-       y="18"
-       ry="1" />
-    <rect
-       ry="1"
-       y="24"
-       x="7"
-       height="3"
-       width="7"
-       id="rect4169"
-       style="opacity:0.7;fill:#171717;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
-       style="opacity:0.7;fill:#171717;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4171"
-       width="7"
-       height="3"
-       x="7"
-       y="30"
-       ry="1" />
-    <rect
-       ry="1"
-       y="36"
-       x="7"
-       height="3"
-       width="7"
-       id="rect4173"
-       style="opacity:0.7;fill:#171717;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   </g>
   <rect
      style="opacity:0.4"
-     id="rect3043"
-     height="27"
-     y="15"
-     x="16"
+     id="rect3033"
+     height="12"
+     y="7"
+     x="8"
      width="1" />
-  <rect
-     style="opacity:0.7;fill:#ffffff"
-     transform="matrix(0,1,-1,0,0,0)"
-     width="26"
-     x="16"
-     y="-18"
-     height="1"
-     id="rect4168" />
   <metadata
      id="metadata9999">
     <rdf:RDF>
