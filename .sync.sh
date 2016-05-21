@@ -7,7 +7,8 @@ basedir=`dirname "$(readlink -f "${0}")"`
 cd ${basedir}
 git add .
 #srsly git...
-MESSAGE="$(fortune fortunes)"
+LANG=C
+MESSAGE="$(git status)"
 #read MESSAGE
 git commit -m "$MESSAGE"
 git push origin master

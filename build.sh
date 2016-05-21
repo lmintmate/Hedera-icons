@@ -650,7 +650,6 @@ done
 if [ -d "$_tmpdir/Ivy" ];then
 	rm $_tmpdir/Ivy/*.sh
 	find $_tmpdir/Ivy -mindepth 1 -name "*.svg" -exec rm -rf {} \;
-	#find $_tmpdir/Ivy -type d -name "pool" -exec rm -rf {} \;
 fi
 cp "$_basedir"/.misc/COPYING $_tmpdir/Ivy/COPYING
 cp "$_basedir"/.misc/LICENSE $_tmpdir/Ivy/LICENSE
