@@ -15,6 +15,7 @@ Goals:
 ##### Distro(use at your own risk!) 
 
 * [@DEB](https://raw.githubusercontent.com/sixsixfive/Ivy/master/dist/ivy-icon-theme_1.0-1_all.deb)
+* [@RPM](https://raw.githubusercontent.com/sixsixfive/Ivy/master/dist/ivy-icon-theme_1.0-1_noarch.rpm) - (only tested with SuSe!)
 
 ### See also:
 

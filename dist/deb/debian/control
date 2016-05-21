@@ -11,4 +11,4 @@ Pre-Depends: curl, tar, xz-utils
 Depends: hicolor-icon-theme
 Replaces: ivy-theme-installer
 Breaks: ivy-theme-installer
-Description: Classic Icon theme
+Description: An easier way to install Ivy systemwide

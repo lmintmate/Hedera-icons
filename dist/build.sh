@@ -2,7 +2,7 @@
 basedir="$(dirname "$(readlink -f "${0}")")"; cd "${basedir}"
 type su-to-root >/dev/null 2>&1 || { 
 	echo >&2 "I require menu, but it's not installed. aborting!";exit 1;}
-_scriptdep="debhelper dpkg-dev fakeroot findutils sed gawk grep libfile-fcntllock-perl"
+_scriptdep="debhelper dpkg-dev fakeroot findutils sed gawk grep libfile-fcntllock-perl alien"
 _makedep=""
 
 install_depends() {
@@ -35,6 +35,8 @@ build() {
 install_depends
 cd "${basedir}"
 build
+##only tested on suse
+fakeroot alien -r -c -k --description="An easier way to install Ivy systemwide" ivy-icon-theme_1.0-1_all.deb
 clean
 printf "\n\n\ndone\n\n\n"
 sleep 5

@@ -1,15 +1,21 @@
 #!/bin/sh
 set -e
-
+type curl >/dev/null 2>&1 || {
+	echo >&2 "I require curl but it's not installed. Aborting.";exit 1;}
 _tmpdir=/tmp
 
+if [ ! -d /usr/share/icons ];then
+    printf "/usr isn't your default prefix - aborting!\n"
+    exit 1
+fi
 #FIXME add loop/integrity checks
 printf '\n==> Downloading the latest release from GitHub!\n'
 curl -L https://github.com/sixsixfive/Ivy/releases/download/pre/ivy-icon-theme.txz > "${_tmpdir}"/icons.src --progress-bar
 
 printf '\n==> Extracting...\n'
-if [ ! -d /usr/share/icons ]; then
-    mkdir -p /usr/share/icons
+if [ -d /usr/share/icons/Ivy ]; then
+    printf "the Ivy folder already exits - aborting!\n"
+    exit 1
 fi
 tar -xvf "${_tmpdir}"/icons.src -C /usr/share/icons &&
 rm -f "${_tmpdir}"/icons.src
