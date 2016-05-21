@@ -74,10 +74,10 @@ toggleqtworkaround() {
 while [ 1 ];do
 	clear
 	printf "\nWhat would you like to do?:\n
-#1: Try to automaticly set  the distributor icon
+#1: Try to automatically set the distributor icon
 #2: Set a custom distributor icon
 #3: Reset distributor icon
-#8: Toggle the Qt-workaround (Don't do this if you use Qt applications!)
+#8: Toggle the Qt-workaround
 #9: Exit this script\n\n"
 	printf "Make your choice: [1,2,8,9]"
 	read _choice
