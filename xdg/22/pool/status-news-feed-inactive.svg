@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 22 22" id="svg2">
+ <defs id="defs4">
+  <linearGradient gradientUnits="userSpaceOnUse" x2="0" y2="21" y1="0" id="0">
+   <stop id="stop7" stop-color="#ff8b36"/>
+   <stop id="stop9" stop-color="#ff9f58" offset="1"/>
+  </linearGradient>
+  <linearGradient gradientUnits="userSpaceOnUse" x2="0" y2="20" y1="1" id="1">
+   <stop id="stop12" stop-color="#fff"/>
+   <stop id="stop14" stop-opacity="0" stop-color="#fff" offset="1"/>
+  </linearGradient>
+  <filter id="filter3404" color-interpolation-filters="sRGB">
+   <feColorMatrix id="feColorMatrix3406" values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "/>
+  </filter>
+  <filter id="filter3408" color-interpolation-filters="sRGB">
+   <feColorMatrix id="feColorMatrix3410" values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "/>
+  </filter>
+  <filter id="filter3412" color-interpolation-filters="sRGB">
+   <feColorMatrix id="feColorMatrix3414" values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "/>
+  </filter>
+  <filter id="filter3416" color-interpolation-filters="sRGB">
+   <feColorMatrix id="feColorMatrix3418" values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "/>
+  </filter>
+  <filter id="filter3420" color-interpolation-filters="sRGB">
+   <feColorMatrix id="feColorMatrix3422" values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "/>
+  </filter>
+  <filter id="filter3424" color-interpolation-filters="sRGB">
+   <feColorMatrix id="feColorMatrix3426" values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "/>
+  </filter>
+  <filter id="filter3428" color-interpolation-filters="sRGB">
+   <feColorMatrix id="feColorMatrix3430" values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "/>
+  </filter>
+  <filter id="filter3432" color-interpolation-filters="sRGB">
+   <feColorMatrix id="feColorMatrix3434" values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "/>
+  </filter>
+  <filter id="filter3436" color-interpolation-filters="sRGB">
+   <feColorMatrix id="feColorMatrix3438" values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "/>
+  </filter>
+ </defs>
+ <g id="g3440" opacity="0.5">
+  <path d="m 3,1 17,0 c 1.108,0 2,0.892 2,2 l 0,17 c 0,1.108 -0.892,2 -2,2 L 3,22 C 1.892,22 1,21.108 1,20 L 1,3 C 1,1.892 1.892,1 3,1 Z" id="rect16" opacity="0.1" filter="url(#filter3436)"/>
+  <path d="m 3,0 17,0 c 1.108,0 2,0.892 2,2 l 0,17 c 0,1.108 -0.892,2 -2,2 L 3,21 C 1.892,21 1,20.108 1,19 L 1,2 C 1,0.892 1.892,0 3,0 Z" id="rect18" fill="url(#0)" filter="url(#filter3432)"/>
+  <path d="m 5,4 0,2 c 5.93985,0.170292 10.8512,5.09643 11,11 l 2,0 C 17.863017,10.47677 13.01901,5.1063 6.7293,4.132 6.165477,4.044666 5.58558,4.01425 4.99997,3.999998 Z" id="path20" opacity="0.2" filter="url(#filter3428)"/>
+  <path d="m 5,5 0,2 c 5.93985,0.170292 10.8512,5.09643 11,11 l 2,0 C 17.863017,11.47677 13.01901,6.1063 6.7293,5.132 6.165477,5.04467 5.58558,5.01425 4.99997,4.999998 Z" id="path22" fill="#eeeeec" filter="url(#filter3424)"/>
+  <path d="m 5,9 0,2 c 3.44791,0.161353 5.85231,2.57919 6,6 l 2,0 C 13,12 10,9 5,9 Z" id="path24" opacity="0.1" filter="url(#filter3420)"/>
+  <path d="m 5,10 0,2 c 3.44791,0.161353 5.85231,2.57919 6,6 l 2,0 c 0,-5 -3,-8 -8,-8 z" id="path26" fill="#eeeeec" filter="url(#filter3416)"/>
+  <path d="m 6.4827,14.0016 c -0.815081,-0.0022 -1.48268,0.651965 -1.48268,1.48212 0,0.830159 0.666826,1.48539 1.48268,1.48753 0.815082,0.0022 1.48268,-0.651965 1.48268,-1.48212 0,-0.778477 -0.587979,-1.41049 -1.32988,-1.48753 -0.035903,-0.0038 -0.088835,1.38e-4 -0.152794,0 z" id="path28" opacity="0.1" filter="url(#filter3412)"/>
+  <path d="m 6.4827,15.0016 c -0.815081,-0.0022 -1.48268,0.651965 -1.48268,1.48212 0,0.830159 0.666826,1.48539 1.48268,1.48753 0.815082,0.0022 1.48268,-0.651965 1.48268,-1.48212 0,-0.778477 -0.587979,-1.41049 -1.32988,-1.48753 -0.035903,-0.0038 -0.088835,1.38e-4 -0.152794,0 z" id="path30" fill="#eeeeec" filter="url(#filter3408)"/>
+  <g id="g32" fill="none" filter="url(#filter3404)">
+   <path d="M 3,0.5 C 2.156104,0.5 1.5,1.156104 1.5,2 l 0,17 c 0,0.843896 0.656104,1.5 1.5,1.5 l 17,0 c 0.843896,0 1.5,-0.656104 1.5,-1.5 l 0,-17 C 21.5,1.156104 20.843896,0.5 20,0.5 l -17,0 z" id="path34" opacity="0.4" stroke="#000"/>
+   <path d="M 3,1.5 C 2.692658,1.5 2.5,1.692658 2.5,2 l 0,17 c 0,0.307342 0.192658,0.5 0.5,0.5 l 17,0 c 0.307342,0 0.5,-0.192658 0.5,-0.5 l 0,-17 C 20.5,1.692658 20.307342,1.5 20,1.5 l -17,0 z" id="path36" opacity="0.4" stroke="url(#1)"/>
+  </g>
+ </g>
+ <metadata id="metadata9999">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Ivy icon theme</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:source>https://github.com/sixsixfive</dc:source>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>ivy</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>ssf</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+    <dc:identifier>SSF</dc:identifier>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+</svg>

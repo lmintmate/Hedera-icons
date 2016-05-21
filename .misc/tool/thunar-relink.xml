@@ -1,0 +1,13 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>emblem-symbolic-link</icon>
+	<name>Relink Symlink</name>
+	<unique-id>1455242857347339-3</unique-id>
+	<command>LINK=../pool/$(yad --title=&quot;Link Source&quot; --no-buttons --geometry=400 --entry).svg; for file in %N; do ln -sf &quot;$(echo &quot;$LINK&quot;)&quot; &quot;$file&quot;; done</command>
+	<description>relink one or more symlinks</description>
+	<patterns>*</patterns>
+	<image-files/>
+	<other-files/>
+</action>
+</actions>

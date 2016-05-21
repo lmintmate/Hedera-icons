@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" id="svg2" viewBox="0 0 48 48">
+ <defs id="defs4"/>
+ <path d="m 4,5.22 h 40 v 38 H 4 z" id="0" opacity="0.1"/>
+ <path d="m 4,4.22 h 40 v 38 H 4 z" id="1" fill="#d02604"/>
+ <path d="m 4.468728,4.688542 v 37.0625 h 39.0625 v -37.0625 h -39.0625 z" id="2" stroke="#000" fill="none" opacity="0.4"/>
+ <rect id="3" fill-rule="evenodd" height="1" y="35" opacity="0.3" x="5" width="38"/>
+ <rect id="4" fill-rule="evenodd" height="1" y="29" opacity="0.3" x="5" width="38"/>
+ <rect id="5" fill-rule="evenodd" height="1" y="23" opacity="0.3" x="5" width="38"/>
+ <rect id="6" fill-rule="evenodd" height="1" y="17" opacity="0.3" x="5" width="38"/>
+ <rect id="7" fill-rule="evenodd" height="1" y="11" opacity="0.3" x="5" width="38"/>
+ <rect id="8" fill-rule="evenodd" height="1" fill="#fff" y="36" opacity="0.1" x="5" width="38"/>
+ <rect id="9" fill-rule="evenodd" height="1" fill="#fff" y="30" opacity="0.1" x="5" width="38"/>
+ <rect id="A" fill-rule="evenodd" height="1" fill="#fff" y="24" opacity="0.1" x="5" width="38"/>
+ <rect id="B" fill-rule="evenodd" height="1" fill="#fff" y="18" opacity="0.1" x="5" width="38"/>
+ <rect id="C" fill-rule="evenodd" height="1" fill="#fff" y="12" opacity="0.1" x="5" width="38"/>
+ <rect id="D" fill-rule="evenodd" height="6" y="5" opacity="0.3" x="15" width="1"/>
+ <rect id="E" fill-rule="evenodd" height="5" y="18" opacity="0.3" x="15" width="1"/>
+ <rect id="F" fill-rule="evenodd" height="1" fill="#fff" y="5" opacity="0.1" x="5" width="38"/>
+ <rect id="G" fill-rule="evenodd" height="5" y="30" opacity="0.3" x="15" width="1"/>
+ <rect id="H" fill-rule="evenodd" height="6" y="5" opacity="0.3" x="32" width="1"/>
+ <rect id="I" fill-rule="evenodd" height="5" y="18" opacity="0.3" x="32" width="1"/>
+ <rect id="J" fill-rule="evenodd" height="5" y="30" opacity="0.3" x="32" width="1"/>
+ <rect id="K" fill-rule="evenodd" height="5" y="12" opacity="0.3" x="24" width="1"/>
+ <rect id="L" fill-rule="evenodd" height="5" y="24" opacity="0.3" x="24" width="1"/>
+ <rect id="M" fill-rule="evenodd" height="5" y="36" opacity="0.3" x="24" width="1"/>
+ <metadata id="metadata9999">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Ivy icon theme</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:source>https://github.com/sixsixfive</dc:source>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>ivy</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>ssf</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+    <dc:identifier>SSF</dc:identifier>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+</svg>

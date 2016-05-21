@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" id="svg2" version="1.1">
+ <rect width="42" x="3" y="4" rx="4" height="42" ry="4" id="rect16" opacity="0.1"/>
+ <rect width="42" x="3" y="3" rx="4" height="42" ry="4" id="rect18" fill="url(#linearGradient4146)" fill-opacity="1"/>
+ <path id="path4326" d="m -5.0097656,8.0058594 a 0.99363028,0.99363028 0 0 0 -0.9335938,0.6796875 l -2,6.0000001 a 0.99363028,0.99363028 0 0 0 0.3925782,1.142578 L 18.162109,32.912109 c 0.207411,1.296475 0.768001,2.54064 1.722657,3.44336 1.098985,1.039197 2.60272,1.638112 4.115234,1.638672 1.569103,0 3.128758,-0.646337 4.238281,-1.75586 1.109523,-1.109523 1.75586,-2.669178 1.75586,-4.238281 a 0.99363028,0.99363028 0 0 0 0,-0.0039 c -0.0015,-0.37752 -0.111206,-0.742766 -0.183594,-1.113282 l 5.408203,-4.054687 c 1.793778,-0.283503 3.499883,-1.131331 4.716797,-2.480469 1.307963,-1.450079 2.056609,-3.392886 2.058594,-5.345703 a 0.99363028,0.99363028 0 0 0 0,-0.002 c 0,-2.092702 -0.862034,-4.17258 -2.341797,-5.652344 C 38.17258,11.867893 36.092702,11.005859 34,11.005859 c -2.092702,0 -4.17258,0.862034 -5.652344,2.341797 C 26.867893,14.82742 26.005859,16.907298 26.005859,19 a 0.99363028,0.99363028 0 0 0 0,0.0039 c 0.0028,0.875472 0.246571,1.724889 0.53125,2.552735 l -2.542968,4.449218 c -0.493483,0.0016 -0.973027,0.135772 -1.451172,0.257813 L -4.4472656,8.1738281 a 0.99363028,0.99363028 0 0 0 -0.5625,-0.1679687 z" mask="url(#mask4346)" opacity="0.4" stroke-dasharray="none" stroke-opacity="1" fill="#000" fill-rule="evenodd" stroke="none" stroke-linejoin="miter" fill-opacity="1" stroke-linecap="round" stroke-width="1" stroke-dashoffset="0" stroke-miterlimit="4"/>
+ <defs id="defs4">
+  <linearGradient id="0" y1="4.02" y2="44.02" x2="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" id="stop7"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0" id="stop9"/>
+  </linearGradient>
+  <linearGradient id="1" y1="3" y2="45" x2="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#6a6a6a" id="stop12" stop-opacity="1"/>
+   <stop offset="1" stop-color="#7d7d7d" id="stop14" stop-opacity="1"/>
+  </linearGradient>
+  <linearGradient xlink:href="#1" id="linearGradient4146" x1="38" y1="3" x2="38" y2="46" gradientUnits="userSpaceOnUse"/>
+  <mask maskUnits="userSpaceOnUse" id="mask4342">
+   <rect width="42" x="3" y="3" rx="4" height="42" ry="4" id="rect4344" fill="#fff" fill-opacity="1"/>
+  </mask>
+  <mask maskUnits="userSpaceOnUse" id="mask4346">
+   <rect id="rect4348" ry="4" height="42" rx="4" y="3" x="3" width="42" fill="#fff" fill-opacity="1"/>
+  </mask>
+ </defs>
+ <g id="g20" fill="none">
+  <path d="m 7,3.5128 c -1.94587,0 -3.5,1.5541 -3.5,3.5 l 0,34 c 0,1.9459 1.55413,3.5 3.5,3.5 l 34,0 c 1.94587,0 3.5,-1.5541 3.5,-3.5 l 0,-34 c 0,-1.9459 -1.55413,-3.5 -3.5,-3.5 l -34,0 z" id="path22" opacity="0.8" stroke="#000"/>
+  <path d="m 7,4.5128 c -1.40738,0 -2.5,1.0926 -2.5,2.5 l 0,34 c 0,1.4074 1.09262,2.5 2.5,2.5 l 34,0 c 1.40738,0 2.5,-1.0926 2.5,-2.5 l 0,-34 c 0,-1.4074 -1.09262,-2.5 -2.5,-2.5 l -34,0 z" id="path24" opacity="0.3" stroke="url(#0)"/>
+ </g>
+ <metadata id="metadata9999">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:source>https://github.com/sixsixfive</dc:source>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>ivy</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>ssf</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+    <dc:identifier>SSF</dc:identifier>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+ <circle id="path4292" cx="34" cy="19" r="7" opacity="1" stroke-dasharray="none" stroke-opacity="1" fill="#ebebeb" fill-rule="evenodd" stroke="none" stroke-linejoin="miter" fill-opacity="1" stroke-linecap="round" stroke-width="1" stroke-dashoffset="0" stroke-miterlimit="4"/>
+ <circle cy="32" cx="24" id="circle4303" r="5" opacity="1" stroke-dasharray="none" stroke-opacity="1" fill="#ebebeb" fill-rule="evenodd" stroke="none" stroke-linejoin="miter" fill-opacity="1" stroke-linecap="round" stroke-width="1" stroke-dashoffset="0" stroke-miterlimit="4"/>
+ <path d="m 24,28 4,-7 8,4 -8,6 z" id="path4307" stroke-opacity="1" fill="#ebebeb" fill-rule="evenodd" stroke="none" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="1"/>
+ <circle id="circle4305" cx="24" cy="32" r="4" opacity="1" stroke-dasharray="none" stroke-opacity="1" fill="#171717" fill-rule="evenodd" stroke="none" stroke-linejoin="miter" fill-opacity="1" stroke-linecap="round" stroke-width="1" stroke-dashoffset="0" stroke-miterlimit="4"/>
+ <circle r="4" cy="19" cx="34" id="circle4309" opacity="1" stroke-dasharray="none" stroke-opacity="1" fill="#171717" fill-rule="evenodd" stroke="none" stroke-linejoin="miter" fill-opacity="1" stroke-linecap="round" stroke-width="1" stroke-dashoffset="0" stroke-miterlimit="4"/>
+ <circle id="circle4311" cx="34" cy="19" r="3" opacity="1" stroke-dasharray="none" stroke-opacity="1" fill="#ebebeb" fill-rule="evenodd" stroke="none" stroke-linejoin="miter" fill-opacity="1" stroke-linecap="round" stroke-width="1" stroke-dashoffset="0" stroke-miterlimit="4"/>
+ <circle id="path4313" cx="24" cy="32" r="3" opacity="1" stroke-dasharray="none" stroke-opacity="1" fill="#ebebeb" fill-rule="evenodd" stroke="none" stroke-linejoin="miter" fill-opacity="1" stroke-linecap="round" stroke-width="1" stroke-dashoffset="0" stroke-miterlimit="4"/>
+ <path d="M 26,29.777891 -5,9 -7,15 22.460677,34.574973" id="path4315" mask="url(#mask4342)" stroke-opacity="1" fill="#ebebeb" fill-rule="evenodd" stroke="none" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="1"/>
+</svg>

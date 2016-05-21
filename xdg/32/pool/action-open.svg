@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" id="svg2" version="1.1">
+ <defs id="defs4">
+  <linearGradient id="0" y1="8" x1="38.13" y2="27.845" x2="38.02" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.6741 0 0 0.63116 0.477 -0.593)">
+   <stop stop-color="#ff8b36" id="stop7"/>
+   <stop offset="1" stop-color="#d25900" id="stop9"/>
+  </linearGradient>
+  <linearGradient id="1" xlink:href="#4" y1="12" x1="31" y2="28.807" x2="31.04" gradientUnits="userSpaceOnUse"/>
+  <linearGradient id="2" xlink:href="#4" y1="1.5" y2="18" x2="0" gradientUnits="userSpaceOnUse"/>
+  <linearGradient id="3" y1="7.121" x1="30.881" y2="30.15" x2="31.04" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 0.81786 0 5.269)">
+   <stop stop-color="#5288d1" id="stop14"/>
+   <stop offset="1" stop-color="#95b6e3" id="stop16"/>
+  </linearGradient>
+  <linearGradient id="4">
+   <stop stop-color="#fff" id="stop19"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0" id="stop21"/>
+  </linearGradient>
+  <linearGradient id="5" y1="3.993" x1="3.153" y2="22.971" x2="2.281" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.66 0 0 0.67035 0.68 -0.626)">
+   <stop stop-color="#eeeeec" id="stop24"/>
+   <stop offset="1" stop-color="#555753" id="stop26"/>
+  </linearGradient>
+ </defs>
+ <g id="g28" color="#000">
+  <g id="g30" fill-rule="evenodd">
+   <path d="m 17.5719,8.0072 c -0.27423,0 -0.437851,0.175496 -0.556875,0.404122 -0.03967,0.07621 -0.06918,0.159325 -0.103125,0.242475 l -0.5156,1.2932 -0.5362,1.3931 c -0.03395,0.08315 -0.06345,0.166264 -0.103125,0.242473 -0.119024,0.228626 -0.28892,0.461265 -0.556875,0.404123 l -6.06375,0 -3.17625,0 -3.96,0 0,17.2977 c 0,0.358215 0.29436,0.646598 0.66,0.646598 l 27.72,0 c 0.36564,0 0.66,-0.288383 0.66,-0.646598 l 0,-20.6306 c 0,-0.358215 -0.317071,-0.522318 -0.66,-0.646597 l -3.56812,0 -5.67188,0 z" id="path32" opacity="0.2"/>
+   <path d="m 4.8463,2.0554 c -0.36564,0 -0.524205,0.32554 -0.66,0.670353 l -0.7837,2.3111 -0.7425,0 c -0.36564,0 -0.66,0.298977 -0.66,0.670353 l 0,22.4291 c 0,0.371376 0.29436,0.670353 0.66,0.670353 l 27.72,0 c 0.36564,0 0.66,-0.298977 0.66,-0.670353 l 0,-22.4291 c 0,-0.371375 -0.29436,-0.670353 -0.66,-0.670353 l -14.85,0 -0.7837,-2.3111 C 14.610605,2.38094 14.45204,2.0554 14.0864,2.0554 Z" id="path34" fill="url(#5)"/>
+  </g>
+  <g id="g36" fill="none">
+   <path d="M 5.2188,3.5938 C 4.929836,4.300017 4.709741,5.06096 4.31255,5.75005 l 0.03125,0 C 4.288476,5.863006 4.232934,5.928823 4.18755,6.00005 4.142166,6.071277 4.072991,6.150054 4.00005,6.18755 3.854167,6.262541 3.709231,6.242781 3.4063,6.25005 a 0.123953,0.123953 0 0 1 -0.03125,0 C 3.232089,6.206978 3.175275,6.234008 3.1563,6.25005 3.137325,6.266092 3.129514,6.310153 3.12505,6.4063 c -0.00893,0.192294 0.051929,0.481091 0,0.71875 l 0,20.5312 26.7812,0 0,-21.4062 -14.375,0 C 15.219462,6.264484 15.06133,6.272968 14.90625,6.18755 14.82871,6.144841 14.765392,6.080093 14.71875,6.00005 14.672108,5.920007 14.617303,5.844204 14.5625,5.7188 14.210939,5.04286 13.991307,4.2817 13.71875,3.5938 l -8.5,0 z" transform="matrix(0.97069,0,0,0.9897,0.505,0.037)" id="path38" opacity="0.67" stroke="#fff" stroke-linejoin="round" stroke-width="1.02"/>
+   <path d="M 4.9824,2.5712 C 4.904271,2.5712 4.894577,2.587355 4.839709,2.654498 4.78484,2.721641 4.720004,2.845684 4.656249,3.00851 l -0.7746,2.1987 C 3.831019,5.34073 3.695659,5.435798 3.555498,5.436279 l -0.73384,0 c -0.172995,0 -0.305767,0.135637 -0.305767,0.312366 l 0,22.3949 c 0,0.176729 0.132772,0.312366 0.305767,0.312366 l 27.3967,0 c 0.172995,0 0.305767,-0.135637 0.305767,-0.312366 l 0,-22.3949 c 0,-0.176729 -0.132772,-0.312366 -0.305767,-0.312366 l -14.6768,0 C 15.401397,5.435801 15.266037,5.340733 15.215407,5.207213 l -0.7746,-2.1987 C 14.377049,2.845684 14.312215,2.72164 14.257346,2.654498 14.202476,2.587355 14.192786,2.5712 14.11466,2.5712 Z" id="path40" opacity="0.4" stroke="#000"/>
+  </g>
+ </g>
+ <path fill="url(#0)" d="m 5.871005 8.999999 c 6.06574 0.10737 0.10546 -0.107369 6.171196 0 l -0.0844 9.985704 l 8.05107 0.02859 l -0.01773 -10.0143 h 6.13786 L 15.980135 0 z" id="path42"/>
+ <g id="g44" fill="none">
+  <path d="M 15.96875,0.6875 7.1875,8.5 c 0.43582,0.00474 1.153435,0.032898 1.34375,0.03125 0.150461,-0.0013 0.211807,0.00225 0.25,0 C 8.8632,8.501154 8.923364,8.504696 8.96875,8.5 9.05952,8.49061 9.144233,8.470477 9.34375,8.46875 9.742785,8.4653 10.513322,8.47313 12.03125,8.5 a 0.499347,0.499347 0 0 1 0.5,0.5 l -0.0625,9.5 7.03125,0 0,-9.5 A 0.499347,0.499347 0 0 1 20,8.5 l 4.78125,0 -8.8125,-7.8125 z" id="path46" opacity="0.4" stroke="#000"/>
+  <path d="m 15.96875,2 -6.125,5.46875 C 10.302501,7.469248 10.821223,7.47803 12.0625,7.5 A 1.511021,1.511021 0 0 1 13.53125,9 l -0.0625,8.5 5.03125,0 0,-8.5 A 1.511021,1.511021 0 0 1 20,7.5 l 2.15625,0 -6.1875,-5.5 z" id="path48" opacity="0.4" stroke="url(#2)"/>
+ </g>
+ <g id="g50" color="#000">
+  <path d="m 17.5719,11 c -0.27423,0 -0.437851,0.143531 -0.556875,0.330515 -0.03967,0.06233 -0.06918,0.130306 -0.103125,0.198311 l -0.5156,1.057656 -0.5362,0.939102 c -0.03395,0.06801 -0.06345,0.13598 -0.103125,0.198309 -0.119024,0.186984 -0.28892,0.37725 -0.556875,0.330516 l -6.06375,0 -3.17625,0 -4.9601,0 1.0001,14.347353 c 0.020372,0.29226 0.29436,0.528826 0.66,0.528826 l 27.72,0 c 0.36564,0 0.642669,-0.23637 0.66,-0.528826 L 32.04,11.528825 C 32.05733,11.236369 31.722929,11.10164 31.38,11 l -4.56802,0 -5.6719,0 z" id="path52" fill="url(#3)" fill-rule="evenodd"/>
+  <g id="g54" fill="none">
+   <path d="m 17.5625,11.5625 c -0.283311,0.466785 -0.546321,0.96349 -0.838384,1.5335 -0.325293,0.711988 -0.731275,1.591365 -1.701755,1.416 l -13.428611,0 0.96875,13.863 27.8125,0 c 0.234359,-0.186971 0.07853,-0.842609 0.166076,-1.211452 L 31.46875,11.625 c -1.163375,-0.139322 -2.357901,-0.0256 -3.533884,-0.0625 z" id="path56" opacity="0.4" stroke="#000"/>
+   <path d="m 18.15625,12.5625 c -0.561994,1.119628 -0.875139,2.214605 -2.093549,2.800887 -0.876294,0.296835 -1.82103,0.08952 -2.7329,0.149225 l -10.642301,0 L 3.5,27.375 l 26.03125,0 0.875,-14.8125 z" id="path58" opacity="0.4" stroke="url(#1)"/>
+  </g>
+ </g>
+ <metadata id="metadata9999">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Ivy icon theme</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:source>https://github.com/sixsixfive</dc:source>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>ivy</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>ssf</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+    <dc:identifier>SSF</dc:identifier>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+</svg>

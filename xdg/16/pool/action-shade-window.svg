@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16" id="svg2" version="1.1">
+ <defs id="defs4"/>
+ <path fill="#5288d1" d="M 0,0 H16 V5 H0 z" id="path6"/>
+ <g id="g8" fill="#fff">
+  <path d="M 1,1 15,1 15,2 1,2 Z" id="path10" opacity="0.47"/>
+  <path d="M 2,2 3,2 3,3 2,3 Z" id="path12"/>
+  <path d="M 4,2 5,2 5,3 4,3 Z" id="path14"/>
+  <path d="M 6,2 7,2 7,3 6,3 Z" id="path16"/>
+ </g>
+ <path opacity="0.266" d="M 2,3 H3 V4 H2 z" id="path18"/>
+ <path opacity="0.266" d="M 4,3 H5 V4 H4 z" id="path20"/>
+ <path opacity="0.266" d="M 6,3 H7 V4 H6 z" id="path22"/>
+ <path opacity="0.266" d="M 1,2 H2 V3 H1 z" id="path24"/>
+ <path opacity="0.266" id="0" d="M 3,2 H4 V3 H3 z"/>
+ <path opacity="0.266" id="1" d="M 5,2 H6 V3 H5 z"/>
+ <path opacity="0.266" d="M 2,1 H3 V2 H2 z" id="path28"/>
+ <path opacity="0.266" d="M 4,1 H5 V2 H4 z" id="path30"/>
+ <path opacity="0.266" d="M 6,1 H7 V2 H6 z" id="path32"/>
+ <use xlink:href="#0" id="use34"/>
+ <use xlink:href="#1" id="use36"/>
+ <path opacity="0.266" d="M 7,2 H8 V3 H7 z" id="path38"/>
+ <path opacity="0.4" fill="none" stroke="#000" d="m 0.46875 0.46875 v 4.0625 h 15.0625 v -4.0625 h -15.0625 z" id="path40"/>
+ <metadata id="metadata9999">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Ivy icon theme</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:source>https://github.com/sixsixfive</dc:source>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>ivy</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>ssf</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+    <dc:identifier>SSF</dc:identifier>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+</svg>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg2" viewBox="0 0 48 48">
+ <defs id="defs4">
+  <linearGradient id="linearGradient4240">
+   <stop id="stop4242" stop-color="#fff" stop-opacity="1"/>
+   <stop offset="0.918432" id="stop4248" stop-color="#fff" stop-opacity="1"/>
+   <stop id="stop4244" offset="1" stop-color="#000" stop-opacity="1"/>
+  </linearGradient>
+  <radialGradient gradientTransform="matrix(2.4744752,-0.94727937,0.94799305,2.4763464,81.531561,-65.984559)" gradientUnits="userSpaceOnUse" id="5" r="5.533" cy="26.712" cx="-36.514">
+   <stop id="stop24" stop-color="#f1d6a5"/>
+   <stop id="stop26" stop-color="#d49320" offset="1"/>
+  </radialGradient>
+  <linearGradient y2="0" x2="46" y1="48" x1="46" gradientUnits="userSpaceOnUse" id="linearGradient4266" xlink:href="#linearGradient4240"/>
+  <mask id="mask4262" maskUnits="userSpaceOnUse">
+   <rect y="0" x="0" height="48" width="48" id="rect4264" opacity="1" stroke-dasharray="none" stroke-opacity="1" fill="url(#linearGradient4266)" stroke="none" stroke-linejoin="miter" fill-opacity="1" stroke-linecap="round" stroke-width="1" stroke-dashoffset="0" stroke-miterlimit="4.5"/>
+  </mask>
+ </defs>
+ <metadata id="metadata9999">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:source>https://github.com/sixsixfive</dc:source>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>ivy</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>ssf</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+    <dc:identifier>SSF</dc:identifier>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+ <g mask="url(#mask4262)" id="g4250">
+  <path d="M 44.142578,-30.88875 14.173828,21.019453 14.064453,21.074141 11.015625,39.17375 10,45.08 16.423828,39.968672 29,29.999922 58.494141,-22.60164 54.90625,-24.673906 49.525391,-27.781328 44.142578,-30.88875 Z" id="path4227" opacity="0.15" fill="#000"/>
+  <path id="path91" d="m 19,23.999999 30.524662,-52.780555 5.381983,3.107289 L 24.000001,27 Z" fill="#e4ae4e"/>
+  <path id="path93" d="m 14.105549,20.137992 30.03713,-52.025837 5.381983,3.107289 -30.524655,52.780559 z" fill="#eecd92"/>
+  <path id="path89" d="M 24.000001,27 54.906645,-25.673267 58.494634,-23.60174 29,29 Z" fill="#a07018"/>
+  <path d="M 14.173757,20.019023 29,29 10.027551,44.040534 14.064876,20.07352 Z" id="path85" fill="url(#5)"/>
+  <path d="M 11.871048,33.199621 10,44.079333 18.9,37 Z" id="path97" fill="#6a6a6a"/>
+  <path d="m 44.326172,-31.205078 c -9.943458,17.192861 -19.838227,34.4205314 -29.812101,51.591647 -0.09401,0.431952 -0.285803,1.852419 -0.44742,2.687765 -1.116368,6.598311 -2.209383,13.200597 -3.349854,19.794807 5.954988,-4.746091 11.928693,-9.468108 17.894531,-14.201172 9.734375,-17.361328 19.46875,-34.7226567 29.203125,-52.083985 -4.495755,-2.59694 -8.991872,-5.193254 -13.488281,-7.789062 z" id="path4218" opacity="0.3792" stroke-dasharray="none" fill="none" stroke="#000" stroke-linejoin="miter" stroke-width="1" stroke-miterlimit="4.5"/>
+  <path d="m 12.470171,34.149439 5.299494,2.81924" id="path4221" opacity="0.3968" stroke-opacity="1" fill="none" fill-rule="evenodd" stroke="#000" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="1"/>
+  <path id="path4223" d="m 12.646781,33.062609 5.584787,3.009436" opacity="0.3968" stroke-opacity="1" fill="none" fill-rule="evenodd" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="1"/>
+  <path d="m 14.582088,20.826474 13.201157,8.003777" id="path4225" opacity="0.3968" stroke-opacity="1" fill="none" fill-rule="evenodd" stroke="#000" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="1"/>
+ </g>
+</svg>

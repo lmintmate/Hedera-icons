@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 22 22">
+ <defs>
+  <linearGradient x1="14.969" y1="1.031" x2="15" y2="19" id="5" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient y1="2" x2="0" y2="44" id="4" xlink:href="#3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.45778 0 0 0.47619 3.289 0.073)"/>
+  <linearGradient y1="2" x2="0" y2="44" id="2" xlink:href="#3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.45778 0 0 0.47619 -2.772 -0.984)"/>
+  <linearGradient id="3">
+   <stop stop-color="#dedede"/>
+   <stop offset="1" stop-color="#f4f4f4"/>
+  </linearGradient>
+ </defs>
+ <rect width="16" height="20" rx="0.537" ry="0.576" x="6.03" y="2" opacity="0.1"/>
+ <rect width="16" height="20" rx="0.537" ry="0.576" x="-0.031" y="0.943" opacity="0.1"/>
+ <rect width="16" height="20" rx="0.537" ry="0.576" x="-0.031" y="-0.031" fill="url(#2)"/>
+ <path opacity="0.3" d="M 2.969,1.969 H12.969 V2.969 H2.969 z"/>
+ <path opacity="0.3" d="M 2.969,3.969 H8.802 V4.969 H2.969 z"/>
+ <path opacity="0.3" d="M 2.969,5.969 H10.469 V6.969 H2.969 z"/>
+ <path opacity="0.3" d="M 2.969,7.969 H11.302 V8.969 H2.969 z"/>
+ <path opacity="0.3" d="M 2.969,9.969 H8.802 V10.969 H2.969 z"/>
+ <path opacity="0.3" d="M 2.969,11.969 H10.469 V12.969 H2.969 z"/>
+ <path opacity="0.3" d="M 2.969,13.969 H12.136 V14.969 H2.969 z"/>
+ <path opacity="0.3" d="M 2.969,15.969 H8.802 V16.969 H2.969 z"/>
+ <g fill="#fff">
+  <path opacity="0.3" d="M 2.969,2.969 H12.969 V3.969 H2.969 z"/>
+  <path opacity="0.3" d="M 2.969,4.969 H8.802 V5.969 H2.969 z"/>
+  <path opacity="0.3" d="M 2.969,6.969 H10.469 V7.969 H2.969 z"/>
+  <path opacity="0.3" d="M 2.969,8.969 H11.302 V9.969 H2.969 z"/>
+  <path opacity="0.3" d="M 2.969,10.969 H8.802 V11.969 H2.969 z"/>
+  <path opacity="0.3" d="M 2.969,12.969 H10.469 V13.969 H2.969 z"/>
+  <path opacity="0.3" d="M 2.969,14.969 H12.136 V15.969 H2.969 z"/>
+  <path opacity="0.3" d="M 2.969,16.969 H8.802 V17.969 H2.969 z"/>
+ </g>
+ <path d="m 0.53125,0.53125 c -0.004624,0 0,-0.0253816 0,0.03125 l 0,18.875 c 0,0.05663 -0.004624,0.03125 0,0.03125 l 14.9375,0 c 0.0046,0 0,0.02538 0,-0.03125 l 0,-18.875 c 0,-0.0566317 0.0046,-0.03125 0,-0.03125 l -14.9375,0 z" transform="translate(-0.031 -0.031)" opacity="0.4" fill="none" stroke="#000" id="0"/>
+ <path d="m 1.53125,1.53125 0,16.9375 12.9375,0 0,-16.9375 -12.9375,0 z" transform="translate(-0.031 -0.031)" opacity="0.6" fill="none" stroke="url(#5)" id="1"/>
+ <rect width="16" height="20" rx="0.537" ry="0.576" x="6.03" y="1.026" fill="url(#4)"/>
+ <path opacity="0.3" d="M 9.03,3.03 H19.03 V4.03 H9.03 z"/>
+ <path opacity="0.3" d="M 9.03,5.03 H14.863 V6.03 H9.03 z"/>
+ <path opacity="0.3" d="M 9.03,7.03 H16.53 V8.03 H9.03 z"/>
+ <path opacity="0.3" d="M 9.03,9.03 H17.363 V10.03 H9.03 z"/>
+ <path opacity="0.3" d="M 9.03,11.03 H14.863 V12.03 H9.03 z"/>
+ <path opacity="0.3" d="M 9.03,13.03 H16.53 V14.03 H9.03 z"/>
+ <path opacity="0.3" d="M 9.03,15.03 H18.197 V16.03 H9.03 z"/>
+ <path opacity="0.3" d="M 9.03,17.03 H14.863 V18.03 H9.03 z"/>
+ <g fill="#fff">
+  <path opacity="0.3" d="M 9.03,4.03 H19.03 V5.03 H9.03 z"/>
+  <path opacity="0.3" d="M 9.03,6.03 H14.863 V7.03 H9.03 z"/>
+  <path opacity="0.3" d="M 9.03,8.03 H16.53 V9.03 H9.03 z"/>
+  <path opacity="0.3" d="M 9.03,10.03 H17.363 V11.03 H9.03 z"/>
+  <path opacity="0.3" d="M 9.03,12.03 H14.863 V13.03 H9.03 z"/>
+  <path opacity="0.3" d="M 9.03,14.03 H16.53 V15.03 H9.03 z"/>
+  <path opacity="0.3" d="M 9.03,16.03 H18.197 V17.03 H9.03 z"/>
+  <path opacity="0.3" d="M 9.03,18.03 H14.863 V19.03 H9.03 z"/>
+ </g>
+ <g transform="translate(6.06 1.057)">
+  <use xlink:href="#0"/>
+  <use xlink:href="#1"/>
+ </g>
+ <g color="#000">
+  <rect width="10" height="1" rx="0.537" ry="0.5" x="6" y="1" opacity="0.3"/>
+  <rect width="1" height="18" rx="0.5" ry="0.576" x="5" y="1" opacity="0.2"/>
+ </g>
+</svg>

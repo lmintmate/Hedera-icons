@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+ <defs id="defs6">
+  <linearGradient id="linearGradient3940">
+   <stop id="stop3942" stop-color="#fff"/>
+   <stop id="stop3944" offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3867">
+   <stop id="stop3869" stop-color="#ebebeb"/>
+   <stop id="stop3871" offset="1" stop-color="#b4b4b4"/>
+  </linearGradient>
+  <linearGradient y1="5" x2="0" y2="44" id="linearGradient3849" xlink:href="#linearGradient3940" gradientUnits="userSpaceOnUse"/>
+  <linearGradient x1="24" x2="46" id="linearGradient3873" xlink:href="#linearGradient3867" gradientUnits="userSpaceOnUse"/>
+  <linearGradient x1="24" x2="2" id="linearGradient3881" xlink:href="#linearGradient3867" gradientUnits="userSpaceOnUse"/>
+  <linearGradient y1="44" x2="0" y2="6" id="linearGradient3946" xlink:href="#linearGradient3940" gradientUnits="userSpaceOnUse"/>
+ </defs>
+ <path d="M 24,3 2,46 24,46 46,46 24,3 z" id="path3915" opacity="0.1" fill-rule="evenodd"/>
+ <path d="M 24,2 24,45 46,45 24,2 z" id="rect2989" fill="url(#linearGradient3873)" fill-rule="evenodd"/>
+ <path d="m 24,2 0,0 6,43 -12,0 z" id="path2996" opacity="0.33" fill="#6a6a6a" fill-rule="evenodd"/>
+ <path d="M 24,2 24,45 2,45 24,2 z" id="path3819" fill="url(#linearGradient3881)" fill-rule="evenodd"/>
+ <path d="m 24,2 -6,43 6,0 0,-43 z" id="rect3811" opacity="0.4" fill="#6a6a6a" fill-rule="evenodd"/>
+ <path d="m 24,3.15625 -21.125,41.3125 21.125,0 21.125,0 L 24,3.15625 z" id="path3831" opacity="0.3" fill="none" stroke="#000"/>
+ <path d="M 24,5.3125 4.46875,43.5 24,43.5 43.53125,43.5 24,5.3125 z" id="path3833" opacity="0.862" fill="none" stroke="url(#linearGradient3849)"/>
+ <rect width="2" height="39" x="23" y="5" id="rect3930" opacity="0.21" fill="url(#linearGradient3946)" fill-rule="evenodd"/>
+ <path d="m 22.5,5.9375 -5,38 1,0.125 5,-38 -1,-0.125 z" id="path3932" opacity="0.2" color="#000" fill="#fff"/>
+ <path d="m 25.78125,5.9375 -0.96875,0.125 5,38 0.96875,-0.125 -5,-38 z" id="path3934" opacity="0.2" color="#000" fill="#fff"/>
+</svg>

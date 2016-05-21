@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+ <defs>
+  <linearGradient y1="3" x2="0" y2="45" id="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient cx="24" cy="24" r="18" id="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1.22222 0 -5.333)">
+   <stop/>
+   <stop offset="1" stop-color="#727272"/>
+  </radialGradient>
+ </defs>
+ <rect width="36" height="44" x="6" y="3" opacity="0.1" rx="2" ry="2"/>
+ <rect width="36" height="44" x="6" y="2" fill="url(#1)" rx="2" ry="2"/>
+ <rect width="30" height="34" x="9" y="7" opacity="0.1" fill="#fff" rx="0.971" ry="0.971"/>
+ <rect width="30" height="34" x="9" y="6" fill="#171717" rx="0.971" ry="0.971"/>
+ <rect width="4" height="1" x="22" y="4" rx="0.5" ry="0.5"/>
+ <rect width="4" height="1" x="22" y="5" opacity="0.2" fill="#fff" rx="0.5" ry="0.5"/>
+ <g fill="none">
+  <g stroke="#000">
+   <path d="M 9.96875,6.5 C 9.697514,6.5 9.5,6.697514 9.5,6.96875 L 9.5,39.03125 C 9.5,39.302485 9.6975143,39.5 9.96875,39.5 L 38.03125,39.5 C 38.302485,39.5 38.5,39.302485 38.5,39.03125 L 38.5,6.96875 C 38.5,6.6975143 38.302485,6.5 38.03125,6.5 L 9.96875,6.5 z"/>
+   <path d="M 8,2.4375 C 7.1209246,2.4375 6.4375,3.1209246 6.4375,4 L 6.4375,44 C 6.4375,44.879075 7.1209246,45.5625 8,45.5625 L 40,45.5625 C 40.879075,45.5625 41.5625,44.879075 41.5625,44 L 41.5625,4 C 41.5625,3.1209246 40.879075,2.4375 40,2.4375 L 8,2.4375 z" opacity="0.7"/>
+  </g>
+  <path d="M 8,3.46875 C 7.686401,3.46875 7.46875,3.686401 7.46875,4 L 7.46875,44 C 7.46875,44.313599 7.686401,44.53125 8,44.53125 L 40,44.53125 C 40.313599,44.53125 40.53125,44.313599 40.53125,44 L 40.53125,4 C 40.53125,3.686401 40.313599,3.46875 40,3.46875 L 8,3.46875 z" opacity="0.4" stroke="url(#0)"/>
+ </g>
+</svg>

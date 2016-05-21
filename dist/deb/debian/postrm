@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+if [ -d /usr/share/icons/Ivy ]; then
+	rm -rvf /usr/share/icons/Ivy
+fi
+
+if [ -d /usr/share/themes/Ivy ]; then
+	rm -rvf /usr/share/themes/Ivy
+fi
+
+printf '\n==> Done!\n'

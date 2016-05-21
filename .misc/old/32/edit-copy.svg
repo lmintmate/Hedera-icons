@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+ <defs>
+  <linearGradient y1="3" x2="0" y2="44" id="4" xlink:href="#2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.65798 0 0 0.66676 4.063 1.661)"/>
+  <linearGradient y1="1.614" x2="0" y2="27.29" id="5" xlink:href="#0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.99956 0 0 1.01258 -5.03 0.317)"/>
+  <linearGradient y1="1.614" x2="0" y2="27.29" id="3" xlink:href="#0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.99956 0 0 1.01258 2.02 2.366)"/>
+  <linearGradient y1="3" x2="0" y2="44" id="1" xlink:href="#2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.65798 0 0 0.66676 -2.982 -0.388)"/>
+  <linearGradient id="0">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="2">
+   <stop stop-color="#dedede"/>
+   <stop offset="1" stop-color="#f4f4f4"/>
+  </linearGradient>
+ </defs>
+ <rect width="22.997" height="28" rx="0.806" x="0.957" y="1.946" opacity="0.06" ry="0.806"/>
+ <rect width="22.997" height="28" rx="0.806" x="0.957" y="0.946" fill="url(#1)" ry="0.806"/>
+ <g fill="none">
+  <path d="m 1.7503,1.4874 c -0.142802,0 -0.249889,0.114013 -0.249889,0.284789 v 26.4221 c 0,0.170776 0.08981,0.253147 0.249889,0.253147 h 21.4592 c 0.154559,0 0.249889,-0.09657 0.249889,-0.253147 V 1.772189 C 23.459389,1.615617 23.346782,1.4874 23.2095,1.4874 l -21.4592,0 z" opacity="0.4" stroke="#000"/>
+  <path d="m 2.5,2.5 0,24.9349 19.9599,0 0,-24.9349 H 2.5 z" opacity="0.7" stroke="url(#5)"/>
+ </g>
+ <path opacity="0.3" d="M 3.956,3.951 H20.956 V4.951 H3.956 z"/>
+ <path opacity="0.3" d="M 3.956,6.951 H14.016 V7.951 H3.956 z"/>
+ <path opacity="0.3" d="M 3.956,9.951 H16.956 V10.951 H3.956 z"/>
+ <path opacity="0.3" d="M 4.03,12.951 H17.96 V13.951 H4.03 z"/>
+ <path opacity="0.3" d="M 3.956,15.951 H15.956 V16.951 H3.956 z"/>
+ <path opacity="0.3" d="M 3.956,18.951 H18.956 V19.951 H3.956 z"/>
+ <path opacity="0.3" d="M 3.956,21.951 H16.956 V22.951 H3.956 z"/>
+ <path opacity="0.3" d="M 3.956,24.951 H14.956 V25.951 H3.956 z"/>
+ <g fill="#fff">
+  <rect width="22.997" height="28" rx="0.806" x="7" y="3" opacity="0.4" ry="0.806"/>
+  <path opacity="0.3" d="M 3.956,4.951 H20.956 V5.951 H3.956 z"/>
+  <path opacity="0.3" d="M 3.956,7.951 H14.016 V8.951 H3.956 z"/>
+  <path opacity="0.3" d="M 3.956,10.951 H16.956 V11.951 H3.956 z"/>
+  <path opacity="0.3" d="M 4.03,13.951 H17.96 V14.951 H4.03 z"/>
+  <path opacity="0.3" d="M 3.956,16.951 H15.956 V17.951 H3.956 z"/>
+  <path opacity="0.3" d="M 3.956,19.951 H18.956 V20.951 H3.956 z"/>
+  <path opacity="0.3" d="M 3.956,22.951 H16.956 V23.951 H3.956 z"/>
+  <path opacity="0.3" d="M 3.956,25.951 H14.956 V26.951 H3.956 z"/>
+ </g>
+ <rect width="22.997" height="28" rx="0.806" x="8" y="3.995" opacity="0.06" ry="0.806"/>
+ <rect width="22.997" height="28" rx="0.806" x="8" y="2.995" fill="url(#4)" ry="0.806"/>
+ <g fill="none">
+  <path d="m 8.7948,3.5366 c -0.142802,0 -0.249889,0.114013 -0.249889,0.284789 v 26.4221 c 0,0.170776 0.08981,0.253147 0.249889,0.253147 H 30.254 c 0.154559,0 0.249889,-0.09657 0.249889,-0.253147 V 3.821389 C 30.503889,3.664817 30.391282,3.5366 30.254,3.5366 H 8.7948 z" opacity="0.4" stroke="#000"/>
+  <path d="m 9.5444,4.5492 0,24.9349 19.9599,0 0,-24.9349 -19.9599,0 z" opacity="0.7" stroke="url(#3)"/>
+ </g>
+ <path opacity="0.3" d="M 11,6 H28 V7 H11 z"/>
+ <path opacity="0.3" d="M 11,9 H21.06 V10 H11 z"/>
+ <path opacity="0.3" d="M 11,12 H24 V13 H11 z"/>
+ <path opacity="0.3" d="M 11.07,15 H25 V16 H11.07 z"/>
+ <path opacity="0.3" d="M 11,18 H23 V19 H11 z"/>
+ <path opacity="0.3" d="M 11,21 H26 V22 H11 z"/>
+ <path opacity="0.3" d="M 11,24 H24 V25 H11 z"/>
+ <path opacity="0.3" d="M 11,27 H22 V28 H11 z"/>
+ <g fill="#fff">
+  <path opacity="0.3" d="M 11,7 H28 V8 H11 z"/>
+  <path opacity="0.3" d="M 11,10 H21.06 V11 H11 z"/>
+  <path opacity="0.3" d="M 11,13 H24 V14 H11 z"/>
+  <path opacity="0.3" d="M 11.07,16 H25 V17 H11.07 z"/>
+  <path opacity="0.3" d="M 11,19 H23 V20 H11 z"/>
+  <path opacity="0.3" d="M 11,22 H26 V23 H11 z"/>
+  <path opacity="0.3" d="M 11,25 H24 V26 H11 z"/>
+  <path opacity="0.3" d="M 11,28 H22 V29 H11 z"/>
+ </g>
+</svg>

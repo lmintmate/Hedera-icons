@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+ <defs>
+  <linearGradient x1="27.969" y1="5.03" x2="28" y2="28" id="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+ </defs>
+ <path opacity="0.1" d="M 3,5 H29 V30 H3 z"/>
+ <path fill="#171717" d="M 3,4 H29 V29 H3 z"/>
+ <path fill="#d02604" d="M 3,4 H29 V11 H3 z"/>
+ <path fill="#fff" fill-rule="evenodd" color="#000" d="M 6,6 H7 V7 H6 z"/>
+ <g fill="none">
+  <path d="m 3.5,4.5 0,24 25,0 0,-24 h -25 z" opacity="0.4" stroke="#000"/>
+  <path d="m 4.5312,5.5312 0,21.9375 22.9375,0 0,-21.9375 H 4.5312 z" opacity="0.4" stroke="url(#0)"/>
+ </g>
+ <path opacity="0.4" d="M 4,10 H28 V11 H4 z"/>
+ <g fill="#fff">
+  <g fill-rule="evenodd" color="#000">
+   <path d="M 7,7 H8 V8 H7 z"/>
+   <path d="M 8,8 H9 V9 H8 z"/>
+   <g transform="scale(-1 1)">
+    <path d="M -9,6 H-8 V7 H-9 z"/>
+    <path d="M -8,7 H-7 V8 H-8 z"/>
+    <path d="M -7,8 H-6 V9 H-7 z"/>
+   </g>
+  </g>
+  <path d="M 10,6 H11 V9 H10 z"/>
+  <path d="M 10,8 H13 V9 H10 z"/>
+  <path d="M 12,6 H13 V8 H12 z"/>
+  <path d="M 10,6 H13 V7 H10 z"/>
+  <path d="M 14,8 H17 V9 H14 z"/>
+  <path d="M 6,16 H7 V17 H6 z"/>
+  <path d="M 7,15 H8 V16 H7 z"/>
+  <path d="M 8,16 H9 V17 H8 z"/>
+  <path d="M 9,15 H10 V16 H9 z"/>
+  <path d="M 13,13 H14 V19 H13 z"/>
+  <path d="M 14,14 H15 V15 H14 z"/>
+  <path d="M 12,15 H13 V16 H12 z"/>
+  <path d="M 14,16 H15 V17 H14 z"/>
+  <path d="M 12,17 H13 V18 H12 z"/>
+  <path d="M 17,18 H20 V19 H17 z"/>
+ </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 48 48">
+ <defs id="defs4">
+  <linearGradient y1="10.765" x2="0" y2="40.485" id="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-1.18474,0,0,1.27706,57,-8.727)">
+   <stop id="stop7" stop-color="#fff"/>
+   <stop id="stop9" offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <mask id="mask3084">
+   <path d="m 3.9828,24 a 20,20 0 0 0 40,0 20,20 0 1 0 -40,0 z" id="path3086" fill="#fff"/>
+  </mask>
+  <mask id="mask3088">
+   <path d="m 3.9828,24 a 20,20 0 0 0 40,0 20,20 0 1 0 -40,0 z" id="path3090" fill="#fff"/>
+  </mask>
+  <mask id="mask3092">
+   <path d="m 3.9828,24 a 20,20 0 0 0 40,0 20,20 0 1 0 -40,0 z" id="path3094" fill="#fff"/>
+  </mask>
+  <mask id="mask3096">
+   <path d="m 3.9828,24 a 20,20 0 0 0 40,0 20,20 0 1 0 -40,0 z" id="path3098" fill="#fff"/>
+  </mask>
+  <mask id="mask3100">
+   <path d="m 3.9828,24 a 20,20 0 0 0 40,0 20,20 0 1 0 -40,0 z" id="path3102" fill="#fff"/>
+  </mask>
+  <mask id="mask3104">
+   <path d="m 3.9828,24 a 20,20 0 0 0 40,0 20,20 0 1 0 -40,0 z" id="path3106" fill="#fff"/>
+  </mask>
+  <mask id="mask3108">
+   <path d="m 3.9828,24 a 20,20 0 0 0 40,0 20,20 0 1 0 -40,0 z" id="path3110" fill="#fff"/>
+  </mask>
+  <mask id="mask3112">
+   <path d="m 3.9828,24 a 20,20 0 0 0 40,0 20,20 0 1 0 -40,0 z" id="path3114" fill="#fff"/>
+  </mask>
+  <filter x="-0.515" y="-0.515" width="2.031" height="2.031" color-interpolation-filters="sRGB" id="filter4696">
+   <feGaussianBlur stdDeviation="5.15337" id="feGaussianBlur4698"/>
+  </filter>
+ </defs>
+ <g id="g3811">
+  <path id="path16" d="m 3.9828,25 a 20,20 0 0 0 40,0 20,20 0 1 0 -40,0 z" opacity="0.1"/>
+  <path id="path3012" mask="url(#mask3092)" d="M 24,0 48,0 C 24,24 48,0 24,24 z" fill="#ffd506" filter="url(#filter4696)"/>
+  <path id="path3022" mask="url(#mask3088)" d="M 24,0 0,0 c 24,24 0,0 24,24 z" fill="#66b03e" filter="url(#filter4696)"/>
+  <path id="path3024" mask="url(#mask3104)" d="m 24,48 24,0 C 24,24 48,48 24,24 z" fill="#ee445f" filter="url(#filter4696)"/>
+  <path id="path3026" mask="url(#mask3108)" d="M 24,48 0,48 C 24,24 0,48 24,24 z" fill="#c268d4" filter="url(#filter4696)"/>
+  <path id="path3028" mask="url(#mask3112)" d="M 0,24 0,48 C 24,24 0,48 24,24 z" fill="#52a3d1" filter="url(#filter4696)"/>
+  <path id="path3030" mask="url(#mask3084)" d="M 0,24 0,0 c 24,24 0,0 24,24 z" fill="#3eb084" filter="url(#filter4696)"/>
+  <path id="path3038" mask="url(#mask3100)" d="m 48,24 0,24 C 24,24 48,48 24,24 z" fill="#d02604" filter="url(#filter4696)"/>
+  <path id="path3040" mask="url(#mask3096)" d="M 48,24 48,0 C 24,24 48,0 24,24 z" fill="#ff8b36" filter="url(#filter4696)"/>
+  <g id="g20" fill="none">
+   <path id="path22" d="m 23.9762,4.5222 c 10.7992,0 19.5482,8.7394 19.5482,19.4751 0,10.7357 -8.74902,19.4751 -19.5482,19.4751 -10.7992,0 -19.5112,-8.73812 -19.5112,-19.4751 0,-10.737 8.712,-19.4751 19.5112,-19.4751 z" opacity="0.4" stroke="#000"/>
+   <path id="path24" d="m 23.9762,5.5199 c 10.3443,0 18.6226,8.31366 18.6226,18.4774 0,10.1637 -8.27831,18.4774 -18.6226,18.4774 -10.3443,0 -18.5856,-8.31002 -18.5856,-18.4774 0,-10.1674 8.24128,-18.4774 18.5856,-18.4774 z" opacity="0.6" stroke="url(#0)"/>
+  </g>
+ </g>
+</svg>

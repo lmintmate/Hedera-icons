@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+ <defs>
+  <linearGradient y1="44.01" x2="0" y2="2" id="4" xlink:href="#5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.37235 0 0 0.35857 -18.236 -16.71)"/>
+  <linearGradient id="5">
+   <stop stop-color="#dedede"/>
+   <stop offset="1" stop-color="#f4f4f4"/>
+  </linearGradient>
+  <linearGradient y1="43.997" x2="0" y2="1.99" id="3" xlink:href="#0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.37244 0 0 -0.35665 18.247 16.696)"/>
+  <linearGradient y1="43.997" x2="0" y2="1.99" id="1" xlink:href="#0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.37287 0 0 -0.35754 15.257 15.747)"/>
+  <linearGradient id="0">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient y1="44.01" x2="0" y2="2" id="2" xlink:href="#5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.37287 0 0 0.35754 -15.248 -15.75)"/>
+ </defs>
+ <rect width="13.03" height="15.02" rx="0.432" x="-13.02" y="-15.04" transform="scale(-1 -1)" fill="url(#2)" ry="0.432"/>
+ <g fill="none" stroke-width="0.97">
+  <path d="m 12.4898,0.5155 -11.9673,0 0,14.0219 11.9673,0 0,-14.0219 z" opacity="0.4" stroke="#000"/>
+  <path d="m 11.5187,1.4542 -10.0249,0 0,12.1445 10.0249,0 0,-12.1445 z" opacity="0.81" stroke="url(#1)"/>
+ </g>
+ <rect width="13.01" height="15.06" rx="0.433" x="-16.01" y="-15.993" transform="scale(-1 -1)" fill="url(#4)" ry="0.433"/>
+ <g fill="none">
+  <path d="m 15.4814,1.4319 -11.9504,0 0,14.0623 11.9504,0 0,-14.0623 z" opacity="0.4" stroke="#000" stroke-width="0.971"/>
+  <path d="m 14.5128,2.4398 -10.0133,0 0,12.1141 10.0133,0 0,-12.1141 z" opacity="0.81" stroke="url(#3)" stroke-width="0.968"/>
+ </g>
+ <path opacity="0.3" d="M 6,4 H13.04 V5 H6 z"/>
+ <path opacity="0.3" d="M 5.956,6 H10.996 V7 H5.956 z"/>
+ <path opacity="0.3" d="M 5.956,8 H11.996 V9 H5.956 z"/>
+ <path opacity="0.3" d="M 5.956,10 H9.996 V11 H5.956 z"/>
+ <path opacity="0.3" d="M 5.956,12 H10.996 V13 H5.956 z"/>
+ <g fill="#fff">
+  <path opacity="0.4" d="M 6,5 H13.04 V6 H6 z"/>
+  <path opacity="0.4" d="M 5.956,7 H10.996 V8 H5.956 z"/>
+  <path opacity="0.4" d="M 5.956,9 H11.996 V10 H5.956 z"/>
+  <path opacity="0.4" d="M 5.956,11 H9.996 V12 H5.956 z"/>
+  <path opacity="0.4" d="M 5.956,13 H10.996 V14 H5.956 z"/>
+ </g>
+</svg>

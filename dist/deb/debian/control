@@ -1,0 +1,14 @@
+Source: ivy-icon-theme
+Section: x11
+Priority: optional
+Maintainer: Outis <Outis@Odysseus.gr>
+Build-Depends: debhelper (>= 7) 
+Standards-Version: 3.9.6
+
+Package: ivy-icon-theme
+Architecture: all
+Pre-Depends: curl, tar, xz-utils
+Depends: hicolor-icon-theme
+Replaces: ivy-theme-installer
+Breaks: ivy-theme-installer
+Description: Classic Icon theme

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   viewBox="0 0 16 16"
+   id="svg2">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4154">
+      <stop
+         id="stop4156"
+         stop-color="#5288d1"
+         stop-opacity="1" />
+      <stop
+         id="stop4158"
+         offset="1"
+         stop-color="#83aade"
+         stop-opacity="1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="42.1017"
+       x2="25.694916"
+       y1="6.305085"
+       x1="25.966103"
+       id="linearGradient4160"
+       xlink:href="#linearGradient4154"
+       gradientTransform="matrix(0.4,0,0,0.41176471,-1.6000004,-1.8823529)" />
+    <clipPath
+       id="clipPath4152"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd"
+         id="path4154"
+         d="M 2.3999996,1 13.6,1 C 14.9296,1 16,2.1018824 16,3.4705882 l 0,9.0588238 C 16,13.898118 14.9296,15 13.6,15 L 2.3999996,15 c -1.3296,0 -2.4,-1.101882 -2.4,-2.470588 l 0,-9.0588238 C -4e-7,2.1018824 1.0703996,1 2.3999996,1 Z" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata9999">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:source>https://github.com/sixsixfive</dc:source>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>ivy</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>ssf</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+        <dc:identifier>SSF</dc:identifier>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+  <path
+     id="rect3338"
+     d="M 2.3999996,1 13.6,1 C 14.9296,1 16,2.1018824 16,3.4705882 l 0,9.0588238 C 16,13.898118 14.9296,15 13.6,15 L 2.3999996,15 c -1.3296,0 -2.4,-1.101882 -2.4,-2.470588 l 0,-9.0588238 C -4e-7,2.1018824 1.0703996,1 2.3999996,1 Z"
+     fill="url(#linearGradient4160)"
+     fill-rule="evenodd"
+     fill-opacity="1" />
+  <g
+     clip-path="url(#clipPath4152)"
+     id="g4204"
+     mask="none">
+    <path
+       id="rect4196"
+       d="m 12,0 2,0 0,16 -2,0 z"
+       opacity="1"
+       stroke-dasharray="none"
+       stroke-opacity="1"
+       fill="#ffd506"
+       fill-rule="evenodd"
+       stroke="none"
+       stroke-linejoin="miter"
+       fill-opacity="1"
+       stroke-linecap="round"
+       stroke-width="3"
+       stroke-dashoffset="0"
+       stroke-miterlimit="4" />
+    <path
+       id="rect4198"
+       d="m 9,0 2,0 0,16 -2,0 z"
+       opacity="1"
+       stroke-dasharray="none"
+       stroke-opacity="1"
+       fill="#ffd506"
+       fill-rule="evenodd"
+       stroke="none"
+       stroke-linejoin="miter"
+       fill-opacity="1"
+       stroke-linecap="round"
+       stroke-width="3"
+       stroke-dashoffset="0"
+       stroke-miterlimit="4" />
+  </g>
+  <rect
+     id="rect3432"
+     width="10"
+     height="5"
+     x="3"
+     y="9"
+     opacity="1"
+     stroke-dasharray="none"
+     stroke-opacity="1"
+     fill="#6a6a6a"
+     fill-rule="evenodd"
+     stroke="none"
+     stroke-linejoin="bevel"
+     fill-opacity="1"
+     stroke-linecap="round"
+     stroke-width="1"
+     stroke-dashoffset="0"
+     stroke-miterlimit="0" />
+  <rect
+     y="9"
+     x="3"
+     height="5"
+     width="1"
+     id="rect4188"
+     opacity="1"
+     stroke-dasharray="none"
+     stroke-opacity="1"
+     fill="#000"
+     fill-rule="evenodd"
+     stroke="none"
+     stroke-linejoin="bevel"
+     fill-opacity="1"
+     stroke-linecap="round"
+     stroke-width="1"
+     stroke-dashoffset="0"
+     stroke-miterlimit="0" />
+  <rect
+     id="rect4190"
+     width="1"
+     height="8"
+     x="9"
+     y="-12"
+     transform="matrix(0,1,-1,0,0,0)"
+     opacity="1"
+     stroke-dasharray="none"
+     stroke-opacity="1"
+     fill="#000"
+     fill-rule="evenodd"
+     stroke="none"
+     stroke-linejoin="bevel"
+     fill-opacity="1"
+     stroke-linecap="round"
+     stroke-width="1"
+     stroke-dashoffset="0"
+     stroke-miterlimit="0" />
+  <rect
+     transform="scale(-1,-1)"
+     y="-14"
+     x="-13"
+     height="5"
+     width="1"
+     id="rect4192"
+     opacity="1"
+     stroke-dasharray="none"
+     stroke-opacity="1"
+     fill="#000"
+     fill-rule="evenodd"
+     stroke="none"
+     stroke-linejoin="bevel"
+     fill-opacity="1"
+     stroke-linecap="round"
+     stroke-width="1"
+     stroke-dashoffset="0"
+     stroke-miterlimit="0" />
+  <rect
+     transform="matrix(0,1,-1,0,0,0)"
+     y="-12"
+     x="10"
+     height="8"
+     width="1"
+     id="rect4194"
+     opacity="0.3"
+     stroke-dasharray="none"
+     stroke-opacity="1"
+     fill="#fff"
+     fill-rule="evenodd"
+     stroke="none"
+     stroke-linejoin="bevel"
+     fill-opacity="1"
+     stroke-linecap="round"
+     stroke-width="1"
+     stroke-dashoffset="0"
+     stroke-miterlimit="0" />
+  <rect
+     id="rect4231"
+     width="1"
+     height="7"
+     x="11"
+     y="2"
+     opacity="1"
+     stroke-dasharray="none"
+     stroke-opacity="1"
+     fill="#000"
+     fill-rule="evenodd"
+     stroke="none"
+     stroke-linejoin="miter"
+     fill-opacity="1"
+     stroke-linecap="round"
+     stroke-width="3"
+     stroke-dashoffset="0"
+     stroke-miterlimit="4" />
+  <rect
+     y="2"
+     x="8"
+     height="7"
+     width="1"
+     id="rect4233"
+     opacity="1"
+     stroke-dasharray="none"
+     stroke-opacity="1"
+     fill="#000"
+     fill-rule="evenodd"
+     stroke="none"
+     stroke-linejoin="miter"
+     fill-opacity="1"
+     stroke-linecap="round"
+     stroke-width="3"
+     stroke-dashoffset="0"
+     stroke-miterlimit="4" />
+  <rect
+     y="2"
+     x="0.93220341"
+     height="1"
+     width="14"
+     id="rect4160"
+     style="opacity:0.4;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <path
+     id="path4186"
+     d="m 2.4003906,1.5371094 c -1.03309,0 -1.86328122,0.8447694 -1.86328122,1.9335937 l 0,9.0585939 c 0,1.088824 0.83019112,1.933594 1.86328122,1.933594 l 11.1992184,0 c 1.033091,0 1.863282,-0.84477 1.863282,-1.933594 l 0,-9.0585939 c 0,-1.0888242 -0.830192,-1.9335937 -1.863282,-1.9335937 l -11.1992184,0 z"
+     opacity="0.4"
+     fill="none"
+     fill-rule="evenodd"
+     stroke="#000"
+     fill-opacity="1"
+     style="opacity:0.8" />
+</svg>

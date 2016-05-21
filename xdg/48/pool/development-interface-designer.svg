@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg2" viewBox="0 0 48 48" version="1.1">
+ <defs id="defs4">
+  <linearGradient id="linearGradient4401">
+   <stop stop-color="#fff" id="stop4403"/>
+   <stop stop-opacity="0" stop-color="#fff" offset="1" id="stop4405"/>
+  </linearGradient>
+  <linearGradient id="0" y1="5.957" y2="42.08" x2="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" id="stop7"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0" id="stop9"/>
+  </linearGradient>
+  <linearGradient id="1" y1="43.02" x1="44" y2="-0.997" x2="43.912" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ddd" id="stop12"/>
+   <stop offset="1" stop-color="#fff" id="stop14"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4165">
+   <stop id="stop4167" stop-color="#eed45a"/>
+   <stop id="stop4169" stop-color="#e9c82a" offset="1"/>
+  </linearGradient>
+  <linearGradient xlink:href="#linearGradient4401" id="linearGradient4407" y1="42" x2="0" y2="23" gradientUnits="userSpaceOnUse"/>
+  <linearGradient xlink:href="#linearGradient4165" id="linearGradient4423" y1="46" x2="0" y2="12" gradientUnits="userSpaceOnUse"/>
+ </defs>
+ <path opacity="0.1" d="M 4,6.02 H44 V44.02 H4 z" id="path16"/>
+ <path fill="url(#1)" d="M 4,5.02 H44 V43.02 H4 z" id="path18"/>
+ <path stroke="#000" fill-rule="evenodd" opacity="0.1" d="m 11,19.537109 c -0.266,0 -0.462891,0.196891 -0.462891,0.462891 l 0,5 c 0,0.266 0.196891,0.462891 0.462891,0.462891 l 5,0 c 0.266,0 0.462891,-0.196891 0.462891,-0.462891 l 0,-5 C 16.462891,19.734 16.266,19.537109 16,19.537109 l -5,0 z" id="path4504" transform="translate(0,1.000109)"/>
+ <path fill-rule="evenodd" opacity="0.1" d="M 47 13 L 7 47 L 47 47 L 47 13 z M 41 26 L 41 41 L 23 41 L 41 26 z " id="path3395"/>
+ <path fill="#5288d1" d="M 4,5.02 H44 V15.139 H4 z" id="path20"/>
+ <g id="g22" fill="none">
+  <g id="g24" stroke="#000">
+   <path d="m 4.4688,5.4881 0,37.0625 39.0625,0 0,-37.0625 -39.0625,0 z" id="path26" opacity="0.4"/>
+   <path d="m 4.9369,14.6279 38.1261,4e-4" id="path28" opacity="0.4"/>
+  </g>
+  <path d="m 5.4375,6.4568 0,35.125 37.125,0 0,-35.125 -37.125,0 z" id="path30" opacity="0.4" stroke="url(#0)"/>
+ </g>
+ <path stroke="none" fill-rule="evenodd" fill="url(#linearGradient4423)" d="M 47 12 L 7 46 L 47 46 L 47 12 z M 41 25 L 41 40 L 23 40 L 41 25 z " id="rect3390"/>
+ <g id="g32" fill="#fff" fill-rule="evenodd" color="#000">
+  <path d="m 7.03,9.111 1,0 0,1 -1,0 z" id="path34"/>
+  <path d="m 8.03,10.111 1,0 0,1 -1,0 z" id="path36"/>
+  <path d="m 9.03,11.11 1,0 0,1 -1,0 z" id="path38"/>
+  <path d="m 7.03,11.11 1,0 0,1 -1,0 z" id="path40"/>
+  <path d="m 9.03,9.111 1,0 0,1 -1,0 z" id="path42"/>
+  <path d="m 12.03,9.111 1,0 0,3 -1,0 z" id="path44"/>
+  <path d="m 11.11,-15.03 1,0 0,3 -1,0 z" transform="matrix(0,1,-1,0,0,0)" id="path46"/>
+  <path d="m -15.03,-12.11 1,0 0,3 -1,0 z" transform="scale(-1,-1)" id="path48"/>
+  <g transform="matrix(0,-1,1,0,0,0)" id="g50">
+   <path d="m -10.111,12.03 1,0 0,3 -1,0 z" id="path52"/>
+   <path d="m -12.11,17.03 1,0 0,3 -1,0 z" id="path54"/>
+  </g>
+ </g>
+ <path fill="none" stroke="#fff" d="m 4.9369,15.6276 38.1261,4e-4" id="path56"/>
+ <path stroke="#000" fill-rule="evenodd" fill="none" opacity="0.4" id="path3399" d="m 46.460938,13.166016 -37.9941411,32.294922 37.9941411,0 0,-32.294922 z"/>
+ <path stroke="#fff" fill-rule="evenodd" fill="none" opacity="0.4" d="m 45.458984,15.332031 -34.267578,29.126953 34.267578,0 0,-29.126953 z" id="path3401"/>
+ <rect stroke-width="19.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="39 19.5 9.75 19.5" opacity="0.4" transform="matrix(0,-1,-1,0,0,0)" id="rect4425" height="1" y="-42" x="-45" width="2"/>
+ <rect stroke-width="19.5" stroke-linecap="round" stroke-linejoin="round" fill="#fff" stroke-dasharray="39 19.5 9.75 19.5" opacity="0.2" transform="matrix(0,-1,-1,0,0,0)" id="rect4427" height="1" y="-41" x="-45" width="2"/>
+ <rect stroke-width="19.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="39 19.5 9.75 19.5" opacity="0.4" width="2" x="-45" y="-36" height="1" id="rect4429" transform="matrix(0,-1,-1,0,0,0)"/>
+ <rect stroke-width="19.5" stroke-linecap="round" stroke-linejoin="round" fill="#fff" stroke-dasharray="39 19.5 9.75 19.5" opacity="0.2" width="2" x="-45" y="-35" height="1" id="rect4431" transform="matrix(0,-1,-1,0,0,0)"/>
+ <path stroke-miterlimit="26.1" stroke-linecap="square" stroke="#000" fill-rule="evenodd" fill="none" opacity="0.4" id="path4397" d="m 40.986328,24.542969 a 0.45750227,0.45750227 0 0 0 -0.279297,0.105469 l -18,15 A 0.45750227,0.45750227 0 0 0 23,40.457031 l 18,0 A 0.45750227,0.45750227 0 0 0 41.457031,40 l 0,-15 a 0.45750227,0.45750227 0 0 0 -0.470703,-0.457031 z"/>
+ <path stroke-miterlimit="26.1" stroke-linecap="square" stroke="url(#linearGradient4407)" fill-rule="evenodd" fill="none" opacity="0.4" d="m 40.957031,23.533203 a 1.4680261,1.4680261 0 0 0 -0.896484,0.339844 l -18,15 A 1.4680261,1.4680261 0 0 0 23,41.46875 l 18,0 A 1.4680261,1.4680261 0 0 0 42.46875,40 l 0,-15 a 1.4680261,1.4680261 0 0 0 -1.511719,-1.466797 z" id="path4399"/>
+ <rect stroke-width="19.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="39 19.5 9.75 19.5" opacity="0.4" width="2" x="-45" y="-30" height="1" id="rect4474" transform="matrix(0,-1,-1,0,0,0)"/>
+ <rect stroke-width="19.5" stroke-linecap="round" stroke-linejoin="round" fill="#fff" stroke-dasharray="39 19.5 9.75 19.5" opacity="0.2" width="2" x="-45" y="-29" height="1" id="rect4476" transform="matrix(0,-1,-1,0,0,0)"/>
+ <rect stroke-width="19.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="39 19.5 9.75 19.5" opacity="0.4" transform="matrix(0,-1,-1,0,0,0)" id="rect4478" height="1" y="-24" x="-45" width="2"/>
+ <rect stroke-width="19.5" stroke-linecap="round" stroke-linejoin="round" fill="#fff" stroke-dasharray="39 19.5 9.75 19.5" opacity="0.2" transform="matrix(0,-1,-1,0,0,0)" id="rect4480" height="1" y="-23" x="-45" width="2"/>
+ <rect stroke-width="19.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="39 19.5 9.75 19.5" opacity="0.4" width="2" x="-45" y="-18" height="1" id="rect4482" transform="matrix(0,-1,-1,0,0,0)"/>
+ <rect stroke-width="19.5" stroke-linecap="round" stroke-linejoin="round" fill="#fff" stroke-dasharray="39 19.5 9.75 19.5" opacity="0.2" width="2" x="-45" y="-17" height="1" id="rect4484" transform="matrix(0,-1,-1,0,0,0)"/>
+ <rect ry="1" rx="1" fill-rule="evenodd" fill="#fff" id="rect4490" width="7" height="7" x="10" y="19"/>
+ <path stroke="#000" fill-rule="evenodd" fill="#fff" opacity="0.4" id="path4502" d="m 11,19.537109 c -0.266,0 -0.462891,0.196891 -0.462891,0.462891 l 0,5 c 0,0.266 0.196891,0.462891 0.462891,0.462891 l 5,0 c 0.266,0 0.462891,-0.196891 0.462891,-0.462891 l 0,-5 C 16.462891,19.734 16.266,19.537109 16,19.537109 l -5,0 z"/>
+ <path stroke="#000" fill-rule="evenodd" fill="#000" opacity="0.1" transform="translate(0,12.037109)" id="path4506" d="m 11,19.537109 c -0.266,0 -0.462891,0.196891 -0.462891,0.462891 l 0,5 c 0,0.266 0.196891,0.462891 0.462891,0.462891 l 5,0 c 0.266,0 0.462891,-0.196891 0.462891,-0.462891 l 0,-5 C 16.462891,19.734 16.266,19.537109 16,19.537109 l -5,0 z"/>
+ <rect ry="1" rx="1" fill-rule="evenodd" fill="#fff" y="30.037" x="10" height="7" width="7" id="rect4508"/>
+ <path stroke="#000" fill-rule="evenodd" fill="#fff" opacity="0.4" d="m 11,19.537109 c -0.266,0 -0.462891,0.196891 -0.462891,0.462891 l 0,5 c 0,0.266 0.196891,0.462891 0.462891,0.462891 l 5,0 c 0.266,0 0.462891,-0.196891 0.462891,-0.462891 l 0,-5 C 16.462891,19.734 16.266,19.537109 16,19.537109 l -5,0 z" id="path4510" transform="translate(0,11.037)"/>
+ <path stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round" stroke="#000" fill-rule="evenodd" fill="none" opacity="0.48" d="m 12.5,33 0.5,2 2.4,-3" id="path4512"/>
+ <metadata id="metadata9999">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Ivy icon theme</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:source>https://github.com/sixsixfive</dc:source>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>ivy</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>ssf</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+    <dc:identifier>SSF</dc:identifier>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+</svg>

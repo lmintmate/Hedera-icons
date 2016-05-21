@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="svg2" version="1.1">
+ <defs id="0">
+  <linearGradient id="8" y1="4.271" y2="43.525" x1="47.38" gradientUnits="userSpaceOnUse" x2="46.992" gradientTransform="matrix(0.35105 0 0 0.35 -0.425 -0.4)">
+   <stop stop-color="#ff8b36" id="C"/>
+   <stop offset="1" stop-color="#ffe775" id="D"/>
+  </linearGradient>
+  <linearGradient id="9" y1="2.317" y2="13.7" gradientUnits="userSpaceOnUse" x2="0">
+   <stop stop-color="#fff" id="E"/>
+   <stop offset="1" stop-color="#fff" id="F" stop-opacity="0"/>
+  </linearGradient>
+ </defs>
+ <path fill="url(#8)" id="2" d="M 7.9633,1 C 7.730774,1.00262 7.523804,1.127746 7.407385,1.328444 l -7.3299,12.686196 c -0.114782,0.203217 -0.097253,0.455432 0.020587,0.656893 0.117842,0.201463 0.321997,0.327981 0.555916,0.328445 l 14.6803,-0.0205 c 0.190556,0.0011 0.388758,-0.08325 0.514735,-0.225809 0.125975,-0.142547 0.169227,-0.324862 0.144127,-0.513196 -0.01131,-0.07997 -0.02237,-0.175753 -0.06177,-0.246331 L 8.53978,1.307942 C 8.418776,1.10996 8.195803,0.997366 7.963278,1.00002 z"/>
+ <path opacity="0.4" fill="#fff" id="3" d="m 8,12 c -0.552285,0 -1,0.447715 -1,1 0,0.552284 0.447715,1 1,1 0.552285,0 1,-0.447716 1,-1 0,-0.552285 -0.447715,-1 -1,-1 z"/>
+ <path fill="#171717" id="4" d="m 8,11 c -0.552285,0 -1,0.447715 -1,1 0,0.552284 0.447715,1 1,1 0.552285,0 1,-0.447716 1,-1 0,-0.552285 -0.447715,-1 -1,-1 z"/>
+ <path opacity="0.4" fill="#fff" id="5" d="M 7.9997,6 C 7.595931,6.00205 7.189187,6.294984 7.05818,6.873981 6.796164,8.03198 7.473861,11.00264 7.9997,10.999991 8.525538,10.997391 9.20504,8.01917 8.941221,6.863821 8.80931,6.286149 8.403469,5.997966 7.9997,6 z"/>
+ <g id="6" fill="none" stroke-linecap="round">
+  <path id="A" d="m 7.96875,1.53125 c -0.026509,2.99e-4 -0.094366,0.00969 -0.125,0.0625 L 0.5,14.25 l 0.03125,0 c -0.006314,0.01118 -0.040724,0.08663 0,0.15625 0.035008,0.05985 0.100939,0.06245 0.125,0.0625 l 14.6875,-0.03125 c 0.04782,2.76e-4 0.103302,-0.0067 0.125,-0.03125 0.04078,-0.04614 0.0065,-0.04528 0,-0.09375 l 0.03125,0 C 15.48733,14.22294 15.42822,14.177403 15.46875,14.25 L 15.5,14.25 8.09375,1.59375 C 8.06419,1.545381 8.0228,1.530632 7.96875,1.53125 Z" opacity="0.4" stroke="#000" stroke-linejoin="round"/>
+  <path id="B" d="M 7.9688,3.3125 2.0938,13.4687 13.875,13.4375 Z" opacity="0.6" stroke="url(#9)"/>
+ </g>
+ <path fill="#171717" id="7" d="M 7.9997,5 C 7.595931,5.00205 7.189187,5.294984 7.05818,5.873981 6.796164,7.03198 7.473861,10.00264 7.9997,9.999991 8.525538,9.997361 9.20504,7.01917 8.941221,5.863821 8.80931,5.286149 8.403469,4.997966 7.9997,5 z"/>
+ <metadata id="metadata9999">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Ivy icon theme</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:source>https://github.com/sixsixfive</dc:source>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>ivy</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>ssf</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+    <dc:identifier>SSF</dc:identifier>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+</svg>

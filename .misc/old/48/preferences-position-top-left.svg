@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+ <defs id="defs4">
+  <linearGradient id="linearGradient3765">
+   <stop id="stop3767"/>
+   <stop id="stop3769" offset="1" stop-color="#171717"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3786">
+   <stop id="stop3788" stop-color="#fff"/>
+   <stop id="stop3790" offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient x1="43.917" y1="7.06" x2="43.928" y2="41.3" id="linearGradient3792" xlink:href="#linearGradient3786" gradientUnits="userSpaceOnUse"/>
+  <radialGradient cx="23.797" cy="45.915" r="17" id="radialGradient3771" xlink:href="#linearGradient3765" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.5473239,-1.5738476,1.5425955,1.5165984,-83.853114,6.698588)"/>
+ </defs>
+ <rect width="42" height="36" rx="2" x="3" y="7" id="rect3800" opacity="0.1" ry="2"/>
+ <rect width="42" height="36" rx="2" x="3" y="6" id="rect2999" fill="#ddd" ry="2"/>
+ <path d="M 7,10 7,34 41,34 41,10 7,10 z" id="path3003" fill="url(#radialGradient3771)"/>
+ <path d="M 5,6.5 C 4.161723,6.5 3.5,7.161723 3.5,8 l 0,32 c 0,0.838277 0.661723,1.5 1.5,1.5 l 38,0 c 0.838277,0 1.5,-0.661723 1.5,-1.5 l 0,-32 C 44.5,7.161723 43.838277,6.5 43,6.5 l -38,0 z" id="path3014" opacity="0.4" fill="none" stroke="#000"/>
+ <path d="M 5,7.5 C 4.699797,7.5 4.5,7.699797 4.5,8 l 0,32 c 0,0.300203 0.199797,0.5 0.5,0.5 l 38,0 c 0.300203,0 0.5,-0.199797 0.5,-0.5 l 0,-32 C 43.5,7.699797 43.300203,7.5 43,7.5 l -38,0 z" id="path3016" fill="none" stroke="url(#linearGradient3792)"/>
+ <rect width="34" height="1" x="7" y="34" id="rect3027" opacity="0.8" fill="#fff"/>
+ <rect width="3" height="13" x="11" y="-21" transform="matrix(0,1,-1,0,0,0)" id="rect3775" fill="#ebebeb"/>
+ <path d="m 7.625,10.625 0,22.75 32.75,0 0,-22.75 -32.75,0 z" id="path36" fill="none" stroke="#000"/>
+</svg>

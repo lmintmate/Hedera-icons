@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+ <defs>
+  <linearGradient y1="-0.01424" x2="0" y2="1.01418" id="0">
+   <stop stop-color="#fff" id="stop7"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0" id="stop9"/>
+  </linearGradient>
+  <linearGradient x1="1" y1="1.00001" x2="0.9978" y2="-0.15833" id="1">
+   <stop stop-color="#549133" id="stop12"/>
+   <stop offset="1" stop-color="#66b03e" id="stop14"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <path id="path4193" d="m4,6.02l40,0l0,38l-40,0l0,-38z" opacity="0.1"/>
+  <path fill="url(#1)" d="m4,5.02l40,0l0,38l-40,0l0,-38z" id="path23"/>
+  <path fill="#5288d1" d="m4,5.02l40,0l0,10.119l-40,0l0,-10.119z" id="path25"/>
+  <g fill="none" id="g27">
+   <g stroke="#000" id="g29">
+    <path d="m4.4688,5.4881l0,37.062498l39.0625,0l0,-37.062498l-39.0625,0z" opacity="0.4" id="path31"/>
+    <path d="m4.9369,14.6279l38.1261,0.0004" opacity="0.4" id="path33"/>
+   </g>
+   <path d="m5.4375,6.4568l0,35.124999l37.125,0l0,-35.124999l-37.125,0z" opacity="0.4" stroke="url(#0)" id="path35"/>
+  </g>
+  <g fill="#fff" fill-rule="evenodd" id="g37">
+   <path d="m7.03,9.111l1,0l0,1l-1,0l0,-1z" id="path39"/>
+   <path d="m8.03,10.111l1,0l0,1l-1,0l0,-1z" id="path41"/>
+   <path d="m9.03,11.11l1,0l0,1l-1,0l0,-1z" id="path43"/>
+   <path d="m7.03,11.11l1,0l0,1l-1,0l0,-1z" id="path45"/>
+   <path d="m9.03,9.111l1,0l0,1l-1,0l0,-1z" id="path47"/>
+   <path d="m12.03,9.111l1,0l0,3l-1,0l0,-3z" id="path49"/>
+   <path d="m15.03,11.11l0,1l-3,0l0,-1l3,0z" id="path51"/>
+   <path transform="scale(-1 -1)" d="m-15.03,-12.11l1,0l0,3l-1,0l0,-3z" id="path53"/>
+   <g transform="matrix(0 -1 1 0 0 0)" id="g55">
+    <path d="m-10.111,12.03l1,0l0,3l-1,0l0,-3z" id="path57"/>
+    <path d="m-12.11,17.030001l1,0l0,3l-1,0l0,-3z" id="path59"/>
+   </g>
+  </g>
+  <path d="m4.9369,15.6276l38.1261,0.000401" fill="none" stroke="#fff" id="path61" opacity="0.2"/>
+  <rect id="rect4197" width="8" height="20" x="20" y="19" stroke-dasharray="39 19.5 9.75 19.5" stroke-linejoin="round" stroke-linecap="round" stroke-width="19.5" fill="#fff"/>
+  <rect y="-34" x="25" height="20" width="8" id="rect4199" transform="matrix(0,1,-1,0,0,0)" stroke-dasharray="39 19.5 9.75 19.5" stroke-linejoin="round" stroke-linecap="round" stroke-width="19.5" fill="#fff"/>
+  <path id="path4206" d="m20,18.556641a0.44266,0.44266 0 0 0 -0.443359,0.443359l0,5.556641l-5.556641,0a0.44266,0.44266 0 0 0 -0.44336,0.443359l0,8a0.44266,0.44266 0 0 0 0.44336,0.443359l5.556641,0l0,5.556641a0.44266,0.44266 0 0 0 0.443359,0.443359l8,0a0.44266,0.44266 0 0 0 0.443359,-0.443359l0,-5.556641l5.556641,0a0.44266,0.44266 0 0 0 0.443359,-0.443359l0,-8a0.44266,0.44266 0 0 0 -0.443359,-0.443359l-5.556641,0l0,-5.556641a0.44266,0.44266 0 0 0 -0.443359,-0.443359l-8,0z" stroke-linejoin="round" stroke-linecap="round" stroke="#000" fill="#fff" opacity="0.4548"/>
+ </g>
+</svg>

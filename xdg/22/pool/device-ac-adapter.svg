@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 22 22" id="svg2" version="1.1">
+ <defs id="defs4">
+  <linearGradient id="1" xlink:href="#4" y1="-17" y2="-11" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.45833 0 0 0.50239 -460.23 0.541)"/>
+  <linearGradient id="2" xlink:href="#4" y1="-17" y2="-11" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.45833 0 0 0.5 -460.25 -7.5)"/>
+  <linearGradient id="3" y1="22" y2="36" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.47222 0 0 0.46811 -0.362 -0.126)">
+   <stop stop-color="#343434" id="stop9"/>
+   <stop offset="1" stop-color="#6a6a6a" id="stop11"/>
+  </linearGradient>
+  <linearGradient id="4">
+   <stop stop-color="#ebebeb" id="stop14"/>
+   <stop offset="1" stop-color="#cbcbcb" id="stop16"/>
+  </linearGradient>
+ </defs>
+ <path opacity="0.1" d="M 5,17.723 H16 V21 H5 z" id="path18"/>
+ <path fill="url(#2)" d="M 1,-16 H8.333 V-13 H1 z" transform="matrix(0 1 -1 0 0 0)" id="path20"/>
+ <path fill="url(#1)" d="M 1.02,-8 H8.353 V-4.99 H1.02 z" transform="matrix(0 1 -1 0 0 0)" id="path22"/>
+ <path opacity="0.6" fill="none" stroke="#000" id="0" d="m 1.53125 -7.5 v 2 h 6.3125 v -2 h -6.3125 z" transform="matrix(0 1 -1 0 0 0)"/>
+ <use xlink:href="#0" transform="matrix(1 0 0 1 8 -0.031)" id="use25"/>
+ <path fill="url(#3)" d="M 1.9989954,5.959283 1.9990447,10 5,17 l 11,0 2.998955,-7 -4.9e-5,-4.040717 z" id="path27"/>
+ <path opacity="0.1" d="M 1.9989954,7.959283 1.9990447,12 5,19 l 11,0 2.998955,-7 -4.9e-5,-4.040717 z" id="path29"/>
+ <path opacity="0.2" fill="#fff" d="M 3.511,10 H17.508 V11 H3.511 z" id="path31"/>
+ <path fill="#6a6a6a" d="M 5,16.726 H16 V20.003 H5 z" id="path33"/>
+ <path opacity="0.5" d="M 3,9 H18 V10 H3 z" id="path35"/>
+ <path opacity="0.5" d="M 6,17 H15 V18 H6 z" id="path37"/>
+ <path opacity="0.8" fill="none" stroke="#000" d="m 2.5 6.46875 v 3.4375 l 2.96875 6.90625 A 0.511021 0.511021 0 0 1 5.5 17 v 2.5 h 10 v -2.5 a 0.511021 0.511021 0 0 1 0.03125 -0.1875 L 18.5 9.90625 v -3.4375 h -16 z" id="path39"/>
+ <metadata id="metadata9999">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Ivy icon theme</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:source>https://github.com/sixsixfive</dc:source>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>ivy</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>ssf</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+    <dc:identifier>SSF</dc:identifier>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+</svg>

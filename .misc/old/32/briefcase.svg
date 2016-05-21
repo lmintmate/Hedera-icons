@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+ <defs>
+  <linearGradient y1="11" x2="0" y2="30" id="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#e4ae4e"/>
+   <stop offset="1" stop-color="#edc786"/>
+  </linearGradient>
+  <linearGradient y1="12" x2="0" y2="29" id="1" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+ </defs>
+ <path d="m 10,6 0,6 -2,0 0,-1 -3,0 0,1 -3,0 0,19 28,0 0,-19 -3,0 0,-1 -3,0 0,1 -2,0 0,-6 -12,0 z m 3,3 6,0 0,3 -6,0 0,-3 z" opacity="0.2"/>
+ <path d="m 10,5 0,11 3,0 0,-8 6,0 0,8 3,0 0,-11 z" fill="#6a6a6a"/>
+ <path d="m 10.46875,5.46875 0,10.0625 2.0625,0 0,-7.53125 A 0.47901762,0.47901762 0 0 1 13,7.53125 l 6,0 A 0.47901762,0.47901762 0 0 1 19.46875,8 l 0,7.53125 2.0625,0 0,-10.0625 -11.0625,0 z" opacity="0.7" fill="none" stroke="#000"/>
+ <path fill="url(#0)" d="M 2,11 H30 V30 H2 z"/>
+ <g fill="none">
+  <path d="m 2.46875,11.46875 0,18.0625 27.0625,0 0,-18.0625 -27.0625,0 z" opacity="0.4" stroke="#000"/>
+  <path d="m 3.53125,12.53125 0,15.9375 24.9375,0 0,-15.9375 -24.9375,0 z" opacity="0.4" stroke="url(#1)"/>
+ </g>
+ <g fill="#5a400d">
+  <path d="M 5,10 H8 V11 H5 z"/>
+  <path d="M 24,10 H27 V11 H24 z"/>
+ </g>
+</svg>

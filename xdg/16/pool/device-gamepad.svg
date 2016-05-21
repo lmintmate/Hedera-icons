@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 16 16" id="svg2">
+ <defs id="defs4">
+  <linearGradient gradientTransform="matrix(0.36363637,0,0,0.4,-0.72727276,-0.60000195)" gradientUnits="userSpaceOnUse" x2="0" y2="34" y1="14" id="1">
+   <stop id="stop7" stop-color="#ebebeb"/>
+   <stop id="stop9" stop-color="#eee" offset="1"/>
+  </linearGradient>
+  <linearGradient gradientUnits="userSpaceOnUse" x2="0" y2="6" y1="19" id="2">
+   <stop id="stop12" stop-color="#fff"/>
+   <stop id="stop14" stop-opacity="0" stop-color="#fff" offset="1"/>
+  </linearGradient>
+  <mask id="3">
+   <rect id="rect17" height="18" rx="1" y="1" x="13" width="15" opacity="0.4" fill="url(#2)" ry="1"/>
+  </mask>
+ </defs>
+ <g transform="matrix(0.44233494,0,0,0.33333333,-2.1809506,0)" id="g21" mask="url(#3)">
+  <path id="path23" d="M 15.53125,1.78125 A 0.859511,0.859511 0 0 0 15,3.03125 c 1.735311,3.119725 4.04498,6.486233 5.25,9.1875 0.60251,1.350634 0.88921,2.519237 0.8125,3.3125 -0.07671,0.793263 -0.344792,1.244167 -1.375,1.65625 A 0.859511,0.859511 0 0 0 20,18.875 l 5,0 A 0.859511,0.859511 0 0 0 25.875,18 c 0,-3.477458 -2.65797,-7.217111 -4.25,-10.15625 C 20.828983,6.37418 20.348198,5.067282 20.375,4.53125 20.388401,4.263234 20.414916,4.241287 20.59375,4.125 20.772584,4.00871 21.21708,3.875 22,3.875 a 0.859943,0.859943 0 0 0 0.0625,-1.71875 l -6.25,-0.375 a 0.859511,0.859511 0 0 0 -0.28125,0 z"/>
+  <path id="path25" d="M 20,18 C 25,16 19.17067,8.74019 15.762895,2.613732 L 22,3 c -7,0 3,9 3,15 z" fill="#6a6a6a"/>
+ </g>
+ <rect id="rect27" height="8" rx="0.363636" y="5" width="16" fill="url(#1)" ry="0.363636"/>
+ <rect id="rect31" height="4" rx="0.3" y="7" x="2" width="12" fill="#171717" ry="0.3"/>
+ <path d="m 10,9.5 a 1.5,1.5 0 0 1 -3,0 1.5,1.5 0 1 1 3,0 z" id="path3476" fill="#ebebeb"/>
+ <g transform="scale(0.33333333,0.33333333)" id="g37" fill="#171717">
+  <path transform="scale(3,3)" d="m 3.4003906,5.9824219 c -0.6554824,0 -1.1398352,0.5093901 -1.2929687,1.125 C 1.491812,7.2605554 0.98242188,7.7449082 0.98242188,8.4003906 l 0,0.1992188 c 0,0.6554824 0.50939012,1.1398352 1.12500002,1.2929687 0.1531335,0.6156099 0.6374863,1.1249999 1.2929687,1.1249999 l 0.1992188,0 c 0.6554824,0 1.1398352,-0.50939 1.2929687,-1.1249999 0.6156099,-0.1531335 1.125,-0.6374863 1.125,-1.2929687 l 0,-0.1992188 c 0,-0.6554824 -0.5093901,-1.1398352 -1.125,-1.2929687 -0.1531335,-0.6156099 -0.6374863,-1.125 -1.2929687,-1.125 l -0.1992188,0 z" id="path3491" opacity="0.8804" fill="#ebebeb"/>
+  <path transform="matrix(0,1,-1,0,0,0)" d="m 25.2,-15 0.6,0 c 0.6648,0 1.2,0.5352 1.2,1.2 l 0,6.6 c 0,0.6648 -0.5352,1.2 -1.2,1.2 l -0.6,0 C 24.5352,-6 24,-6.5352 24,-7.2 l 0,-6.6 c 0,-0.6648 0.5352,-1.2 1.2,-1.2 z" id="rect39"/>
+  <path transform="scale(-1,-1)" d="m -10.8,-30 0.6,0 c 0.6648,0 1.2,0.5352 1.2,1.2 l 0,6.6 c 0,0.6648 -0.5352,1.2 -1.2,1.2 l -0.6,0 c -0.6648,0 -1.2,-0.5352 -1.2,-1.2 l 0,-6.6 c 0,-0.6648 0.5352,-1.2 1.2,-1.2 z" id="rect41"/>
+ </g>
+ <path id="path3478" d="m 8,9.5 a 1.5,1.5 0 0 1 -3,0 1.5,1.5 0 1 1 3,0 z" fill="#ebebeb"/>
+ <rect id="rect45" height="1" rx="0.2" y="9" x="6" width="1" fill="#171717" ry="0.2"/>
+ <rect id="rect49" height="1" rx="0.2" y="9" x="8" width="1" fill="#171717" ry="0.2"/>
+ <path id="path3472" d="M 11.542969 8 A 1.5 1.5 0 0 0 10 9.5 A 1.5 1.5 0 0 0 12.498047 10.617188 A 1.5 1.5 0 0 0 15 9.5 A 1.5 1.5 0 0 0 12.501953 8.3828125 A 1.5 1.5 0 0 0 11.542969 8 z " opacity="0.94" fill="#ebebeb"/>
+ <path d="m 12,9.5 a 0.5,0.5 0 0 1 -1,0 0.5,0.5 0 1 1 1,0 z" id="0" fill="#d02604"/>
+ <use height="16" width="16" id="use78" transform="translate(2,0)" xlink:href="#0"/>
+ <path id="path80" d="m 6,11 3,0 0,0.539468 -3,0 z" opacity="0.4" fill="#fff"/>
+ <rect rx="0.218182" y="7" x="10" height="0.94929" width="4" id="rect3419" opacity="0.635" fill="#d02604" fill-rule="evenodd" ry="0.218182"/>
+ <rect width="1" x="7" y="9" rx="0.2" height="1" id="rect3493" fill="#6a6a6a" ry="0.2"/>
+ <rect rx="0.367365" y="10" x="5" height="1" width="5" id="rect3495" opacity="0.254" fill="#000" fill-rule="evenodd" ry="0.367365"/>
+ <path d="m 0.53320312,5.5332031 0,6.9335939 14.93359388,0 0,-6.9335939 -14.93359388,0 z" id="path3501" opacity="0.6" fill="none" stroke="#000"/>
+ <rect id="rect3497" width="4" height="1" x="6" y="8" rx="0.293892" opacity="0.254" fill="#000" fill-rule="evenodd" ry="0.293892"/>
+ <metadata id="metadata9999">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Ivy icon theme</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:source>https://github.com/sixsixfive</dc:source>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>ivy</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>ssf</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+    <dc:identifier>SSF</dc:identifier>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+</svg>

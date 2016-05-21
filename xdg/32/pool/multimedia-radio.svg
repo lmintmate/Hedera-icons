@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" id="svg2" version="1.1">
+ <defs id="0">
+  <linearGradient id="K">
+   <stop stop-color="#171717" id="10"/>
+   <stop offset="1" stop-color="#313131" id="11"/>
+  </linearGradient>
+  <linearGradient id="L">
+   <stop stop-color="#6a6a6a" id="12"/>
+   <stop offset="1" stop-color="#949494" id="13"/>
+  </linearGradient>
+  <linearGradient id="M">
+   <stop stop-color="#efcf97" id="14"/>
+   <stop offset="1" stop-color="#e9be71" id="15"/>
+  </linearGradient>
+  <radialGradient cx="10" cy="35.5" r="3" id="N" xlink:href="#M" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 0.83333333 0 5.916667)"/>
+  <linearGradient id="O" xlink:href="#L" y1="31" y2="39" x2="0" gradientUnits="userSpaceOnUse"/>
+  <linearGradient id="P" xlink:href="#K" y1="7" y2="26" x2="0" gradientUnits="userSpaceOnUse"/>
+ </defs>
+ <rect width="44" x="2" opacity="0.1" y="5" height="39" fill-rule="evenodd" id="1"/>
+ <rect width="44" x="2" y="4" fill="#e4ae4e" height="39" fill-rule="evenodd" id="2"/>
+ <rect width="36" x="6" opacity="0.2" y="8" fill="#fff" height="20" fill-rule="evenodd" id="3"/>
+ <rect width="36" x="6" y="7" fill="url(#P)" height="20" fill-rule="evenodd" id="4"/>
+ <g id="5" fill="#ebebeb">
+  <path d="m 6,10 6,0 0,1 -6,0 z" id="Q" fill-rule="evenodd"/>
+  <path d="m 15,10 6,0 0,1 -6,0 z" id="R" fill-rule="evenodd"/>
+  <path d="m 24,10 6,0 0,1 -6,0 z" id="S" fill-rule="evenodd"/>
+  <path d="m 33,10 6,0 0,1 -6,0 z" id="T" fill-rule="evenodd"/>
+  <path d="m 8,14 6,0 0,1 -6,0 z" id="U" fill-rule="evenodd"/>
+  <path d="m 17,14 6,0 0,1 -6,0 z" id="V" fill-rule="evenodd"/>
+  <path d="m 26,14 6,0 0,1 -6,0 z" id="W" fill-rule="evenodd"/>
+  <path d="m 35,14 6,0 0,1 -6,0 z" id="X" fill-rule="evenodd"/>
+  <path d="m 10,18 6,0 0,1 -6,0 z" id="Y" fill-rule="evenodd"/>
+  <path d="m 19,18 6,0 0,1 -6,0 z" id="Z" fill-rule="evenodd"/>
+  <path d="m 28,18 6,0 0,1 -6,0 z" id="a" fill-rule="evenodd"/>
+  <path d="m 37,18 5,0 0,1 -5,0 z" id="b" fill-rule="evenodd"/>
+  <path d="m 12,22 6,0 0,1 -6,0 z" id="c" fill-rule="evenodd"/>
+  <path d="m 21,22 6,0 0,1 -6,0 z" id="d" fill-rule="evenodd"/>
+  <path d="m 30,22 6,0 0,1 -6,0 z" id="e" fill-rule="evenodd"/>
+  <path d="m 39,22 3,0 0,1 -3,0 z" id="f" fill-rule="evenodd"/>
+  <path d="m 6,18 1,0 0,1 -1,0 z" id="g" fill-rule="evenodd"/>
+  <path d="m 6,22 3,0 0,1 -3,0 z" id="h" fill-rule="evenodd"/>
+ </g>
+ <path opacity="0.4" fill="none" stroke="#000" id="6" d="m 2.625,4.625 0,37.75 42.75,0 0,-37.75 -42.75,0 z"/>
+ <path opacity="0.1" fill-rule="evenodd" id="7" d="m 13,35.5 a 3,2.5 0 1 1 -6,0 3,2.5 0 1 1 6,0 z" transform="matrix(1.3333333 0 0 1.6 -3.333333 -20.8)"/>
+ <path fill="url(#N)" fill-rule="evenodd" id="8" d="m 13,35.5 a 3,2.5 0 1 1 -6,0 3,2.5 0 1 1 6,0 z" transform="matrix(1.3333333 0 0 1.6 -3.333333 -21.8)"/>
+ <path opacity="0.4" fill="none" stroke="#000" id="9" stroke-width="0.685" d="m 10,33.3125 c -1.5161411,0 -2.6875,1.009415 -2.6875,2.1875 0,1.178085 1.1713589,2.1875 2.6875,2.1875 1.516141,0 2.6875,-1.009415 2.6875,-2.1875 0,-1.178085 -1.171359,-2.1875 -2.6875,-2.1875 z" transform="matrix(1.3333333 0 0 1.6 -3.333333 -21.8)"/>
+ <path opacity="0.1" fill-rule="evenodd" id="A" d="m 13,35.5 a 3,2.5 0 1 1 -6,0 3,2.5 0 1 1 6,0 z" transform="matrix(1.3333333 0 0 1.6 24.75 -20.8)"/>
+ <path fill="url(#N)" fill-rule="evenodd" id="B" d="m 13,35.5 a 3,2.5 0 1 1 -6,0 3,2.5 0 1 1 6,0 z" transform="matrix(1.3333333 0 0 1.6 24.75 -21.8)"/>
+ <path opacity="0.4" fill="none" stroke="#000" id="C" stroke-width="0.685" d="m 10,33.3125 c -1.5161411,0 -2.6875,1.009415 -2.6875,2.1875 0,1.178085 1.1713589,2.1875 2.6875,2.1875 1.516141,0 2.6875,-1.009415 2.6875,-2.1875 0,-1.178085 -1.171359,-2.1875 -2.6875,-2.1875 z" transform="matrix(1.3333333 0 0 1.6 24.75 -21.8)"/>
+ <rect width="14" x="17" opacity="0.2" y="32" fill="#fff" rx="1" height="8" fill-rule="evenodd" id="D" ry="1"/>
+ <rect width="14" x="17" y="31" fill="url(#O)" rx="1" height="8" fill-rule="evenodd" id="E" ry="1"/>
+ <path opacity="0.2" fill="none" stroke="#000" id="F" d="m 18,31.46875 c -0.303439,0 -0.53125,0.227811 -0.53125,0.53125 l 0,6 c 0,0.303439 0.227811,0.53125 0.53125,0.53125 l 12,0 c 0.303439,0 0.53125,-0.227811 0.53125,-0.53125 l 0,-6 c 0,-0.303439 -0.227811,-0.53125 -0.53125,-0.53125 l -12,0 z"/>
+ <g id="G" transform="translate(0,1)" opacity="0.2" fill="#fff">
+  <path d="m 6,10 6,0 0,1 -6,0 z" id="i" fill-rule="evenodd"/>
+  <path d="m 15,10 6,0 0,1 -6,0 z" id="j" fill-rule="evenodd"/>
+  <path d="m 24,10 6,0 0,1 -6,0 z" id="k" fill-rule="evenodd"/>
+  <path d="m 33,10 6,0 0,1 -6,0 z" id="l" fill-rule="evenodd"/>
+  <path d="m 8,14 6,0 0,1 -6,0 z" id="m" fill-rule="evenodd"/>
+  <path d="m 17,14 6,0 0,1 -6,0 z" id="n" fill-rule="evenodd"/>
+  <path d="m 26,14 6,0 0,1 -6,0 z" id="o" fill-rule="evenodd"/>
+  <path d="m 35,14 6,0 0,1 -6,0 z" id="p" fill-rule="evenodd"/>
+  <path d="m 10,18 6,0 0,1 -6,0 z" id="q" fill-rule="evenodd"/>
+  <path d="m 19,18 6,0 0,1 -6,0 z" id="r" fill-rule="evenodd"/>
+  <path d="m 28,18 6,0 0,1 -6,0 z" id="s" fill-rule="evenodd"/>
+  <path d="m 37,18 5,0 0,1 -5,0 z" id="t" fill-rule="evenodd"/>
+  <path d="m 12,22 6,0 0,1 -6,0 z" id="u" fill-rule="evenodd"/>
+  <path d="m 21,22 6,0 0,1 -6,0 z" id="v" fill-rule="evenodd"/>
+  <path d="m 30,22 6,0 0,1 -6,0 z" id="w" fill-rule="evenodd"/>
+  <path d="m 39,22 3,0 0,1 -3,0 z" id="x" fill-rule="evenodd"/>
+  <path d="m 6,18 1,0 0,1 -1,0 z" id="y" fill-rule="evenodd"/>
+  <path d="m 6,22 3,0 0,1 -3,0 z" id="z" fill-rule="evenodd"/>
+ </g>
+ <rect width="4" x="16" opacity="0.1" y="8" height="18" fill-rule="evenodd" id="H"/>
+ <rect width="2" x="17" y="7" fill="#d02604" height="20" fill-rule="evenodd" id="I"/>
+ <path opacity="0.7" fill="none" stroke="#000" id="J" d="m 6.46875,7.46875 0,19.0625 35.0625,0 0,-19.0625 -35.0625,0 z"/>
+ <metadata id="metadata9999">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Ivy icon theme</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:source>https://github.com/sixsixfive</dc:source>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>ivy</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>ssf</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+    <dc:identifier>SSF</dc:identifier>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+</svg>

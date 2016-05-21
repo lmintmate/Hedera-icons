@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+ <defs>
+  <linearGradient y1="3" x2="0" y2="44" id="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.65798 0 0 0.66676 1.063 0.661)">
+   <stop stop-color="#dedede"/>
+   <stop offset="1" stop-color="#f4f4f4"/>
+  </linearGradient>
+  <linearGradient x1="-5.805" y1="22.453" x2="-5.719" y2="27.635" id="2" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ebebeb"/>
+   <stop offset="1" stop-color="#b7b7b7"/>
+  </linearGradient>
+  <linearGradient y1="1.614" x2="0" y2="27.29" id="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient cx="-36.514" cy="26.712" r="5.533" id="3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.6002 -0.62002 0.74037 0.5034 27.535 -8.499)">
+   <stop stop-color="#f1d6a5"/>
+   <stop offset="1" stop-color="#d49320"/>
+  </radialGradient>
+  <radialGradient cx="0.704" cy="16.184" r="14.5" id="4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.36787 -0.33679 0.17529 -0.22669 -4.37 28.598)">
+   <stop stop-color="#f28099"/>
+   <stop offset="1" stop-color="#ed4c70"/>
+  </radialGradient>
+ </defs>
+ <g transform="translate(-2 0.005)">
+  <rect width="22.997" height="28" rx="0.806" x="5" y="2.995" opacity="0.06" ry="0.806"/>
+  <rect width="22.997" height="28" rx="0.806" x="5" y="1.995" fill="url(#1)" ry="0.806"/>
+  <g fill="none" stroke-width="0.994" transform="matrix(0.99956 0 0 1.01258 -0.983 1.366)">
+   <path d="m 6.7812,1.1562 c -0.142866,0 -0.25,0.112596 -0.25,0.28125 v 26.0938 c 0,0.168654 0.08985,0.25 0.25,0.25 H 28.25 c 0.154628,0 0.25,-0.09537 0.25,-0.25 V 1.43745 C 28.5,1.282823 28.387343,1.1562 28.25,1.1562 H 6.7812 z" opacity="0.4" stroke="#000"/>
+   <path d="m 7.5312,2.1562 0,24.625 19.9688,0 0,-24.625 H 7.5312 z" opacity="0.7" stroke="url(#0)"/>
+  </g>
+  <path opacity="0.3" d="M 8,5 H25 V6 H8 z"/>
+  <path opacity="0.3" d="M 8,8 H18.06 V9 H8 z"/>
+  <path opacity="0.3" d="M 8,11 H21 V12 H8 z"/>
+  <path opacity="0.3" d="M 8.07,14 H22 V15 H8.07 z"/>
+  <path opacity="0.3" d="M 8,17 H20 V18 H8 z"/>
+  <path opacity="0.3" d="M 8,20 H23 V21 H8 z"/>
+  <path opacity="0.3" d="M 8,23 H21 V24 H8 z"/>
+  <path opacity="0.3" d="M 8,26 H19 V27 H8 z"/>
+  <g fill="#fff">
+   <path opacity="0.3" d="M 8,6 H25 V7 H8 z"/>
+   <path opacity="0.3" d="M 8,9 H18.06 V10 H8 z"/>
+   <path opacity="0.3" d="M 8,12 H21 V13 H8 z"/>
+   <path opacity="0.3" d="M 8.07,15 H22 V16 H8.07 z"/>
+   <path opacity="0.3" d="M 8,18 H20 V19 H8 z"/>
+   <path opacity="0.3" d="M 8,21 H23 V22 H8 z"/>
+   <path opacity="0.3" d="M 8,24 H21 V25 H8 z"/>
+   <path opacity="0.3" d="M 8,27 H19 V28 H8 z"/>
+  </g>
+ </g>
+ <path d="m 24.15625,1.53125 c -0.832496,0 -1.4375,0.6056435 -1.4375,1.3125 l 0,1.5 a 0.53698467,0.53698467 0 0 1 -0.15625,0.375 l 0,19.1875 1.6875,3.875 a 0.53698467,0.53698467 0 0 1 0,0.0625 0.53698467,0.53698467 0 0 1 0.03125,0.03125 l 0,0.0625 0.75,1.6875 2.40625,-5.71875 0,-5.40625 0,-15.65625 c 0,-0.7068565 -0.605004,-1.3125 -1.4375,-1.3125 l -1.84375,0 z" transform="translate(-1)" opacity="0.1" fill="none" stroke="#000"/>
+ <g transform="matrix(0 -1 1 0 0 0)">
+  <path opacity="0.67" fill="#eed45a" d="M -23.667,22.646 H-4.334 V27.979 H-23.667 z"/>
+  <rect width="19.333" height="5.803" rx="1.829" ry="1.99" x="-20.333" y="22.18" fill="url(#4)"/>
+ </g>
+ <path d="m 22.020626,24.092482 5.958507,0 L 25.057826,31 c -3.037178,-6.907518 0,0 -3.037178,-6.907518 z" fill="url(#3)"/>
+ <g transform="matrix(0 -1 1 0 0 0)">
+  <path fill="#c1871e" d="M -24.07,27.05 H-4.334 V27.981 H-24.07 z"/>
+  <path fill="#e4ae4e" d="M -24.07,24.981 H-4.334 V26.981 H-24.07 z"/>
+  <path fill="#eecd92" d="M -24.07,22.02 H-4.334 V24.914 H-24.07 z"/>
+  <path fill="url(#2)" d="M -7,22.11 H-4.065 V27.98 H-7 z"/>
+ </g>
+ <path d="m 23.731535,28 1.292778,3 1.248889,-3 -2.541667,0 z" fill="#6a6a6a"/>
+ <path d="m 24.15625,1.53125 c -0.832496,0 -1.4375,0.6056435 -1.4375,1.3125 l 0,1.5 a 0.53698467,0.53698467 0 0 1 -0.15625,0.375 l 0,19.1875 1.6875,3.875 a 0.53698467,0.53698467 0 0 1 0,0.0625 0.53698467,0.53698467 0 0 1 0.03125,0.03125 l 0,0.0625 0.75,1.6875 2.40625,-5.71875 0,-5.40625 0,-15.65625 c 0,-0.7068565 -0.605004,-1.3125 -1.4375,-1.3125 l -1.84375,0 z" opacity="0.3" fill="none" stroke="#000"/>
+</svg>

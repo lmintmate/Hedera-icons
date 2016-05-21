@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+ <defs id="defs4">
+  <linearGradient y1="5.158" x2="0" y2="41.28" id="0" gradientUnits="userSpaceOnUse">
+   <stop id="stop7" stop-color="#fff"/>
+   <stop id="stop9" offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient y1="42.22" x2="0" y2="4.22" id="1" gradientUnits="userSpaceOnUse">
+   <stop id="stop12" stop-color="#ddd"/>
+   <stop id="stop14" offset="1" stop-color="#fff"/>
+  </linearGradient>
+  <mask id="2">
+   <path d="M 4.054,14 H 44.014 V 42.21 H 4.054 z" id="path17" fill="#fff" fill-rule="evenodd" color="#000"/>
+  </mask>
+ </defs>
+ <path d="M 4.054,15 H 44.014 V 43.21 H 4.054 z" id="path19" opacity="0.1" fill="#171717" fill-rule="evenodd" color="#000"/>
+ <path d="M 4,4.22 H 44 V 42.22 H 4 z" id="path21" fill="url(#1)"/>
+ <path d="M 4,4.22 H 44 V 14 H 4 z" id="path23" fill="#5288d1"/>
+ <g id="g25" fill="none">
+  <g id="g27" stroke="#000">
+   <path d="M 4.4688,4.6886 4.4688,41.7511 43.5313,41.7511 43.5313,4.6886 4.4688,4.6886 z" id="path29" opacity="0.4"/>
+   <path d="M 4.9369,13.5286 43.063,13.529" id="path31" opacity="0.562"/>
+  </g>
+  <path d="M 5.4375,5.6573 5.4375,40.7823 42.5625,40.7823 42.5625,5.6573 5.4375,5.6573 z" id="path33" opacity="0.5" stroke="url(#0)"/>
+ </g>
+ <path d="M 4.054,14 H 44.014 V 42.21 H 4.054 z" id="path35" fill="#171717" fill-rule="evenodd" color="#000"/>
+ <path d="M 4.4688,4.6886 4.4688,41.7511 43.5313,41.7511 43.5313,4.6886 4.4688,4.6886 z" mask="url(#2)" id="path37" opacity="0.8" fill="none" stroke="#000"/>
+ <path d="M 24,24 H 29 V 25 H 24 z" id="path77" fill="#fff" fill-rule="evenodd" color="#000"/>
+ <path d="M 7,8 H 8 V 9 H 7 z" id="path79" fill="#fff" fill-rule="evenodd" color="#000"/>
+ <path d="M 8,9 H 9 V 10 H 8 z" id="path81" fill="#fff" fill-rule="evenodd" color="#000"/>
+ <path d="M 9,10 H 10 V 11 H 9 z" id="path83" fill="#fff" fill-rule="evenodd" color="#000"/>
+ <path d="M 7,10 H 8 V 11 H 7 z" id="path85" fill="#fff" fill-rule="evenodd" color="#000"/>
+ <path d="M 9,8 H 10 V 9 H 9 z" id="path87" fill="#fff" fill-rule="evenodd" color="#000"/>
+ <path d="M 12,8 H 13 V 11 H 12 z" id="path89" fill="#fff" fill-rule="evenodd" color="#000"/>
+ <path d="M 15,10 15,11 12,11 12,10 z" id="path91" fill="#fff" fill-rule="evenodd" color="#000"/>
+ <path d="M 15,11 H 14 V 8 H 15 z" id="path93" fill="#fff" fill-rule="evenodd" color="#000"/>
+ <g transform="matrix(0,-1,1,0,0,0)" id="g95" fill="#fff" fill-rule="evenodd" color="#000">
+  <path d="M -9,12 H -8 V 15 H -9 z" id="path97"/>
+  <path d="M -11,17 H -10 V 20 H -11 z" id="path99"/>
+ </g>
+ <rect width="1" height="1" x="17" y="16" id="rect3082" fill="#fff"/>
+ <rect width="1" height="1" x="18" y="17" id="rect3095" fill="#fff"/>
+ <rect width="1" height="1" x="19" y="18" id="rect3097" fill="#fff"/>
+ <rect width="1" height="1" x="20" y="19" id="rect3099" fill="#fff"/>
+ <rect width="1" height="1" x="21" y="20" id="rect3101" fill="#fff"/>
+ <rect width="1" height="1" x="20" y="21" id="rect3103" fill="#fff"/>
+ <rect width="1" height="1" x="19" y="22" id="rect3105" fill="#fff"/>
+ <rect width="1" height="1" x="18" y="23" id="rect3107" fill="#fff"/>
+ <rect width="1" height="1" x="17" y="24" id="rect3109" fill="#fff"/>
+ <rect width="1" height="1" x="9" y="19" id="rect3141" fill="#fff"/>
+ <rect width="1" height="1" x="10" y="20" id="rect3143" fill="#fff"/>
+ <rect width="1" height="1" x="11" y="21" id="rect3145" fill="#fff"/>
+ <rect width="1" height="1" x="12" y="22" id="rect3147" fill="#fff"/>
+ <rect width="1" height="1" x="13" y="23" id="rect3149" fill="#fff"/>
+ <rect width="1" height="1" x="8" y="18" id="rect3151" fill="#fff"/>
+ <rect width="1" height="1" x="7" y="17" id="rect3153" fill="#fff"/>
+ <rect width="1" height="1" x="6" y="16" id="rect3155" fill="#fff"/>
+ <g id="g3171" opacity="0.3">
+  <rect width="1" height="1" x="9" y="20" id="rect3157" fill="#fff"/>
+  <rect width="1" height="1" x="10" y="21" id="rect3159" fill="#fff"/>
+  <rect width="1" height="1" x="11" y="22" id="rect3161" fill="#fff"/>
+  <rect width="1" height="1" x="12" y="23" id="rect3163" fill="#fff"/>
+  <rect width="1" height="1" x="8" y="19" id="rect3165" fill="#fff"/>
+  <rect width="1" height="1" x="7" y="18" id="rect3167" fill="#fff"/>
+  <rect width="1" height="1" x="6" y="17" id="rect3169" fill="#fff"/>
+ </g>
+ <rect width="1" height="1" x="13" y="24" id="rect3220" opacity="0.3" fill="#fff"/>
+</svg>

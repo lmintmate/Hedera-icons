@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" id="svg2" version="1.1">
+ <defs id="defs4">
+  <linearGradient id="0" y1="2" y2="44" gradientUnits="userSpaceOnUse" x2="0" gradientTransform="matrix(0.515 0 0 0.5 -0.083 -1)">
+   <stop stop-color="#dedede" id="stop7"/>
+   <stop offset="1" stop-color="#f4f4f4" id="stop9"/>
+  </linearGradient>
+  <linearGradient id="1" y1="1" y2="20" gradientUnits="userSpaceOnUse" x2="0">
+   <stop stop-color="#fff" id="stop12"/>
+   <stop offset="1" stop-color="#fff" id="stop14" stop-opacity="0"/>
+  </linearGradient>
+ </defs>
+ <rect width="18" opacity="0.1" x="3" y="1" rx="0.604" height="21" id="rect16" ry="0.604"/>
+ <rect width="18" x="3" fill="url(#0)" rx="0.604" height="21" id="rect18" ry="0.604"/>
+ <path fill="#5288d1" id="path26" d="M 13.146484 10.853516 C 9.4302303 10.850172 6.1418518 16.156797 3 18.431641 L 3 20.396484 C 3 20.7311 3.2688996 21 3.6035156 21 L 20.396484 21 C 20.7311 21 21 20.7311 21 20.396484 L 21 18.082031 C 11.32483 18.344372 13.457723 12.619501 17.986328 14.171875 C 16.286816 11.764232 14.680577 10.854896 13.146484 10.853516 z "/>
+ <path opacity="0.4" isolation="auto" color-rendering="auto" white-space="normal" solid-opacity="1" shape-rendering="auto" mix-blend-mode="normal" color-interpolation-filters="linearRGB" image-rendering="auto" id="path4231" color-interpolation="sRGB" color="#000" d="M 13.146484 10.841797 C 10.819015 10.839697 8.7051176 12.880005 6.6601562 14.980469 C 5.6396577 16.028665 4.6453615 17.088612 3.6660156 17.914062 C 3.4432202 18.101848 3.2220422 18.273828 3 18.429688 L 3 19.572266 C 3.4523343 19.330497 3.8891685 19.03485 4.3105469 18.679688 C 5.3565018 17.798094 6.3638343 16.718297 7.375 15.679688 C 9.3933676 13.606538 11.450342 11.84027 13.146484 11.841797 C 13.894365 11.842469 14.752282 12.312518 15.695312 13.179688 C 15.325121 13.233038 14.91936 13.183388 14.595703 13.355469 C 13.591939 13.889246 12.938082 15.002201 13.25 16.136719 C 13.554693 17.244958 14.609185 18.074943 16.191406 18.5625 C 17.378447 18.928284 19.007392 19.067393 21 19.007812 L 21 18.033203 C 19.051653 18.088247 17.530882 17.927945 16.484375 17.605469 C 15.085906 17.174534 14.394701 16.525275 14.214844 15.871094 C 14.042212 15.243193 14.397575 14.59291 15.064453 14.238281 C 15.465211 14.025168 16.073848 13.946907 16.773438 13.994141 L 17.962891 14.076172 L 17.185547 13.169922 C 15.801063 11.556813 14.448845 10.842968 13.146484 10.841797 z " solid-color="#000000"/>
+ <path opacity="0.4" fill="#fff" isolation="auto" color-rendering="auto" white-space="normal" solid-opacity="1" shape-rendering="auto" mix-blend-mode="normal" color-interpolation-filters="linearRGB" image-rendering="auto" fill-rule="evenodd" id="path4233" color-interpolation="sRGB" color="#000" d="M 13.605469 11.935547 C 13.448296 11.92389 13.290361 11.926149 13.132812 11.941406 C 12.502619 12.002436 11.876724 12.250588 11.246094 12.603516 C 9.9848323 13.309371 8.6893449 14.450068 7.4316406 15.621094 C 6.1739364 16.79212 4.955806 17.994977 3.9316406 18.800781 C 3.5899282 19.069637 3.2833927 19.270193 3 19.433594 L 3 20.396484 C 3 20.450913 3.0178737 20.49873 3.03125 20.548828 C 3.5225969 20.33624 4.0217829 20.004102 4.5507812 19.587891 C 5.6504407 18.722689 6.8705878 17.510565 8.1132812 16.353516 C 9.3559748 15.196466 10.624075 14.09598 11.734375 13.474609 C 12.289525 13.163924 12.801856 12.977056 13.230469 12.935547 C 13.3904 12.920057 13.501381 13.025517 13.640625 13.046875 C 12.739628 13.79855 12.137106 14.589479 12.099609 15.421875 C 12.051599 16.487604 12.722063 17.419315 13.695312 18.134766 C 15.413304 19.397685 18.19905 20.163774 21 20.103516 L 21 19.099609 C 18.390942 19.147226 15.737356 18.394222 14.287109 17.328125 C 13.467758 16.725808 13.071845 16.083149 13.099609 15.466797 C 13.127379 14.850445 13.586993 14.083931 14.900391 13.257812 L 15.509766 12.875 L 14.939453 12.4375 C 14.538745 12.130382 14.076987 11.970516 13.605469 11.935547 z " solid-color="#000000"/>
+ <g id="g20" fill="none">
+  <path id="path22" d="m 3.5938,0.5312 c -0.058216,0 -0.0625,0.00428 -0.0625,0.0625 l 0,19.8125 c 0,0.05822 0.00428,0.0625 0.0625,0.0625 l 16.8125,0 c 0.05822,0 0.0625,-0.0043 0.0625,-0.0625 l 0,-19.8125 c 0,-0.058217 -0.0043,-0.0625 -0.0625,-0.0625 l -16.8125,0 z" opacity="0.4" stroke="#000"/>
+  <path id="path24" d="m 4.5312,1.5312 0,17.9375 14.9375,0 0,-17.9375 -14.9375,0 z" opacity="0.8" stroke="url(#1)"/>
+ </g>
+ <metadata id="metadata9999">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Ivy icon theme</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:source>https://github.com/sixsixfive</dc:source>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>ivy</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>ssf</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+    <dc:identifier>SSF</dc:identifier>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+</svg>

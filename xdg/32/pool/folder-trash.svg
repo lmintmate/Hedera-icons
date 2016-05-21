@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" id="svg2" version="1.1">
+ <defs id="defs4">
+  <linearGradient id="e" y1="77.14" y2="0.363" x1="66.872" gradientUnits="userSpaceOnUse" x2="63.03">
+   <stop stop-color="#fff" id="stop23"/>
+   <stop offset="1" stop-color="#ebebeb" id="stop25"/>
+  </linearGradient>
+  <linearGradient id="d" y1="8.766" y2="17" gradientUnits="userSpaceOnUse" x2="0" gradientTransform="matrix(0.71763 0 0 0.74763 -1.2047 -0.70974)">
+   <stop stop-color="#171717" id="stop28"/>
+   <stop offset="1" stop-color="#6a6a6a" id="stop30"/>
+  </linearGradient>
+  <linearGradient id="c" y1="5" y2="46" gradientUnits="userSpaceOnUse" x2="0" gradientTransform="matrix(0.7 0 0 0.68293 -0.8 -0.41463)">
+   <stop stop-color="#5288d1" id="stop39"/>
+   <stop offset="1" stop-color="#8aafe0" id="stop41"/>
+  </linearGradient>
+  <linearGradient id="a" xlink:href="#e" y1="77.14" y2="0.363" x1="66.872" gradientUnits="userSpaceOnUse" x2="63.03"/>
+  <linearGradient id="b" y1="3.973" y2="30.03" gradientUnits="userSpaceOnUse" x2="0">
+   <stop stop-color="#fff" id="stop4312"/>
+   <stop offset="1" stop-color="#fff" id="stop4314" stop-opacity="0"/>
+  </linearGradient>
+ </defs>
+ <rect width="28" opacity="0.1" x="2" y="4" rx="1.446" height="28" id="rect4318" ry="1.446"/>
+ <rect width="28" x="2" y="3" fill="url(#c)" rx="1.446" height="28" id="rect63" ry="1.446"/>
+ <g id="g4290" transform="matrix(0.175,0,0,0.17839,9,14.729)" opacity="0.4" fill="url(#a)" fill-rule="evenodd" stroke="#0b192b" stroke-linejoin="round" stroke-linecap="round" stroke-width="8.49">
+  <path id="path4292" d="M 54.962,37.281 72.1,27.019 79.778,41.854 c 1.8547,8.1052 -8.3091,11.08 -16.47,10.596 L 54.962,37.281 Z"/>
+  <path id="path4294" d="m 51.068,47.877 -9.014,15.95 9.014,16.173 0.2226,-6.4693 8.2349,0 c 3.0046,0.26025 6.8995,-1.7103 8.3462,-4.5731 l 10.572,-19.408 c -3.4868,3.4577 -7.9704,4.35 -13.131,4.35 l -13.91,0 -0.3338,-6.0231 z"/>
+  <path id="path4296" d="M 30.928,28.212 13.659,18.175 22.872,4.245 c 6.1698,-5.5594 13.698,1.9035 17.237,9.2895 l -9.1809,14.677 z"/>
+  <path id="path4298" d="M 42.062,26.482 60.35,26.639 70.082,10.89 64.331,13.835 60.334,6.6183 C 59.103,3.859 55.493,1.4023 52.294,1.5241 l -22.061,0.156 c 4.7086,1.3772 7.6632,4.8732 10.168,9.3957 l 6.7518,12.19 -5.0918,3.2161 z"/>
+  <path id="path4300" d="m 0.444,27.381 5.3508,4.1012 -5.0361,9.4644 c -2.518,4.3641 1.8078,8.6156 4.5639,10.095 2.7133,1.4568 6.9246,1.63 10.859,1.5774 l 7.0819,-11.357 5.3508,2.8393 -9.2852,-16.878 -18.885,0.1577 z"/>
+  <path id="path4302" d="m 1.2309,49.307 11.488,20.822 c 2.3082,2.8919 6.6623,3.5754 11.174,3.4703 l 12.118,0 0,-19.718 -22.977,-0.1577 c -3.5671,0.211 -8.2359,-0.525 -11.803,-4.416 z"/>
+ </g>
+ <g id="g69" transform="matrix(0.175,0,0,0.17839,9,14.729)" fill="url(#a)" fill-rule="evenodd">
+  <path id="path71" d="M 54.962,37.281 72.1,27.019 79.778,41.854 c 1.8547,8.1052 -8.3091,11.08 -16.47,10.596 L 54.962,37.281 Z"/>
+  <path id="path73" d="m 51.068,47.877 -9.014,15.95 9.014,16.173 0.2226,-6.4693 8.2349,0 c 3.0046,0.26025 6.8995,-1.7103 8.3462,-4.5731 l 10.572,-19.408 c -3.4868,3.4577 -7.9704,4.35 -13.131,4.35 l -13.91,0 -0.3338,-6.0231 z"/>
+  <path id="path75" d="M 30.928,28.212 13.659,18.175 22.872,4.245 c 6.1698,-5.5594 13.698,1.9035 17.237,9.2895 l -9.1809,14.677 z"/>
+  <path id="path77" d="M 42.062,26.482 60.35,26.639 70.082,10.89 64.331,13.835 60.334,6.6183 C 59.103,3.859 55.493,1.4023 52.294,1.5241 l -22.061,0.156 c 4.7086,1.3772 7.6632,4.8732 10.168,9.3957 l 6.7518,12.19 -5.0918,3.2161 z"/>
+  <path id="path79" d="m 0.444,27.381 5.3508,4.1012 -5.0361,9.4644 c -2.518,4.3641 1.8078,8.6156 4.5639,10.095 2.7133,1.4568 6.9246,1.63 10.859,1.5774 l 7.0819,-11.357 5.3508,2.8393 -9.2852,-16.878 -18.885,0.1577 z"/>
+  <path id="path81" d="m 1.2309,49.307 11.488,20.822 c 2.3082,2.8919 6.6623,3.5754 11.174,3.4703 l 12.118,0 0,-19.718 -22.977,-0.1577 c -3.5671,0.211 -8.2359,-0.525 -11.803,-4.416 z"/>
+ </g>
+ <rect width="21.529" x="5.254" y="5.844" fill="url(#d)" rx="1.158" height="6.156" id="rect83" ry="1.158"/>
+ <rect width="20" opacity="0.21" x="6" y="12" fill="#fff" rx="0.357" height="1" id="rect91" ry="0.357"/>
+ <path opacity="0.4" fill="none" stroke="#000" id="path4306" d="m3.4453 3.457c-0.55554 0-0.98828 0.43274-0.98828 0.98828v25.109c0 0.55554 0.43274 0.98828 0.98828 0.98828h25.109c0.55554 0 0.98828-0.43274 0.98828-0.98828v-25.109c0-0.55554-0.43274-0.98828-0.98828-0.98828h-25.109z"/>
+ <path opacity="0.4" fill="none" stroke="url(#b)" id="path4308" d="m3.4727 4.4727v25.055h25.055v-25.055h-25.055z"/>
+ <metadata id="metadata9999">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Ivy icon theme</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:source>https://github.com/sixsixfive</dc:source>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>ivy</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>ssf</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+    <dc:identifier>SSF</dc:identifier>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+</svg>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" id="svg2" version="1.1">
+ <defs id="defs4">
+  <linearGradient id="0" xlink:href="#4" y1="2" y2="11" x2="0" gradientUnits="userSpaceOnUse"/>
+  <linearGradient id="1" y1="5" y2="15" x2="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#d02604" id="stop8"/>
+   <stop offset="1" stop-color="#fc775d" id="stop10"/>
+  </linearGradient>
+  <linearGradient id="2" y1="2" y2="11" x2="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" id="stop13"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0.167" id="stop15"/>
+  </linearGradient>
+  <linearGradient id="3" y1="5" y2="43" x2="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ebebeb" id="stop18"/>
+   <stop offset="1" stop-color="#f3f3f3" id="stop20"/>
+  </linearGradient>
+  <linearGradient id="4">
+   <stop stop-color="#fff" id="stop23"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0" id="stop25"/>
+  </linearGradient>
+  <linearGradient id="5" xlink:href="#4" y1="5.938" y2="42.06" x2="0" gradientUnits="userSpaceOnUse"/>
+ </defs>
+ <path opacity="0.1" d="M 4,6 H44 V44 H4 z" id="path28"/>
+ <path fill="url(#3)" d="M 4,5 H44 V43 H4 z" id="path30"/>
+ <path fill="url(#1)" d="M 4,5 H44 V15.119 H4 z" id="path32"/>
+ <g id="g34" fill="none">
+  <g id="g36" stroke="#000">
+   <path d="m 4.4688,5.4688 0,37.0625 39.0625,0 0,-37.0625 -39.0625,0 z" id="path38" opacity="0.4"/>
+   <path d="m 4.9369,14.6086 38.1261,4e-4" id="path40" opacity="0.4"/>
+  </g>
+  <path d="m 5.4375,6.4375 0,35.125 37.125,0 0,-35.125 -37.125,0 z" id="path42" opacity="0.37" stroke="url(#5)"/>
+ </g>
+ <g id="g44" fill="#ddd">
+  <path d="m 15.9688,2.5242 c -1.39654,0 -2.5625,1.26573 -2.5625,2.87819 l 0,4.1254 c 0,1.61246 1.16596,2.87819 2.5625,2.87819 1.39654,0 2.53125,-1.25984 2.53125,-2.87819 l 0,-4.1254 c 0,-1.61835 -1.13471,-2.87819 -2.53125,-2.87819 z" id="path46" opacity="0.1" stroke="#000" stroke-width="1.012"/>
+  <path d="m 15.958,1 10e-4,0 c 1.691917,0 3.054,1.506142 3.054,3.3770001 l 0,4.138 C 19.013,10.385858 17.650917,11.892 15.959001,11.892 l -0.001,0 c -1.691916,0 -3.054,-1.506142 -3.054,-3.3769999 l 0,-4.138 C 12.904,2.506142 14.266084,1 15.958,1 Z" id="rect48"/>
+ </g>
+ <path opacity="0.1" fill="none" stroke="#000" stroke-width="1.012" d="m 32.0312 2.5242 c -1.39654 0 -2.53125 1.25984 -2.53125 2.87819 v 4.1254 c 0 1.61835 1.13471 2.87819 2.53125 2.87819 1.39654 0 2.5625 -1.26573 2.5625 -2.87819 v -4.1254 c 0 -1.61246 -1.16596 -2.87819 -2.5625 -2.87819 z" id="path50"/>
+ <g id="g52" fill="#ddd">
+  <path d="m 32.042001,1 10e-4,0 c 1.691916,0 3.054,1.506142 3.054,3.3770001 l 0,4.138 c 0,1.8708579 -1.362084,3.3769999 -3.054,3.3769999 l -10e-4,0 c -1.691916,0 -3.054,-1.506142 -3.054,-3.3769999 l 0,-4.138 C 28.988001,2.506142 30.350085,1 32.042001,1 Z" id="rect54"/>
+  <path d="m 15.9688,1.5011 c -1.39654,0 -2.5625,1.26573 -2.5625,2.87819 l 0,4.1254 c 0,1.61246 1.16596,2.87819 2.5625,2.87819 1.39654,0 2.53125,-1.25984 2.53125,-2.87819 l 0,-4.1254 c 0,-1.61835 -1.13471,-2.87819 -2.53125,-2.87819 z" id="path56" opacity="0.6" stroke="#000" stroke-width="1.012"/>
+ </g>
+ <g id="g58" stroke-width="1.012">
+  <g id="g60" fill="none">
+   <path d="m 32.0312,1.5011 c -1.39654,0 -2.53125,1.25984 -2.53125,2.87819 l 0,4.1254 c 0,1.61835 1.13471,2.87819 2.53125,2.87819 1.39654,0 2.5625,-1.26573 2.5625,-2.87819 l 0,-4.1254 c 0,-1.61246 -1.16596,-2.87819 -2.5625,-2.87819 z" id="path62" opacity="0.6" stroke="#000"/>
+   <path d="m 32.0312,2.4925 c -0.829337,0 -1.5625,0.740923 -1.5625,1.88681 l 0,4.1254 c 0,1.14589 0.733163,1.88681 1.5625,1.88681 0.826684,0 1.59375,-0.761603 1.59375,-1.88681 l 0,-4.1254 c 0,-1.12521 -0.767066,-1.88681 -1.59375,-1.88681 z" id="path64" opacity="0.4" stroke="url(#2)"/>
+  </g>
+  <path d="m 15.9688,2.5245 c -0.820384,0 -1.5625,0.746215 -1.5625,1.85483 l 0,4.1254 c 0,1.10862 0.742116,1.85483 1.5625,1.85483 0.820384,0 1.53125,-0.728833 1.53125,-1.85483 l 0,-4.1254 c 0,-1.126 -0.710866,-1.85483 -1.53125,-1.85483 z" id="path66" opacity="0.4" fill="#ddd" stroke="url(#0)"/>
+ </g>
+ <g id="g68" fill="#fff">
+  <path d="m 4.9369,15.6086 38.1261,4e-4" id="path70" stroke="#fff"/>
+  <path d="m 27,20 0,3 0,3 3,0 0,-3 2,0 0,13 -5,0 0,3 7,0 4,0 2,0 0,-3 -2,0 -3,0 0,-13 0,-3 -3,0 -5,0 z" id="path72" opacity="0.8"/>
+ </g>
+ <path fill="#6a6a6a" d="m 27 19 v 3 v 3 h 3 v -3 h 2 v 13 h -5 v 3 h 7 h 4 h 2 v -3 h -2 h -3 v -13 v -3 h -3 h -5 z" id="path74"/>
+ <path opacity="0.8" fill="#fff" d="m 10 20 v 3 v 3 h 3 v -3 h 6 v 5 h -4 v 3 h 4 v 5 h -6 v -3 h -3 v 3 v 3 h 12 v -3 v -13 v -3 h -3 h -6 h -3 z" id="path76"/>
+ <path fill="#6a6a6a" d="m 10 19 v 3 v 3 h 3 v -3 h 6 v 5 h -4 v 3 h 4 v 5 h -6 v -3 h -3 v 3 v 3 h 12 v -3 v -13 v -3 h -3 h -6 h -3 z" id="path78"/>
+ <metadata id="metadata9999">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Ivy icon theme</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:source>https://github.com/sixsixfive</dc:source>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>ivy</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>ssf</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+    <dc:identifier>SSF</dc:identifier>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+</svg>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   viewBox="0 0 48 48"
+   id="svg2">
+  <defs
+     id="defs4">
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       x2="39.906"
+       y2="42.969"
+       x1="40"
+       y1="3"
+       xlink:href="#5"
+       id="4" />
+    <linearGradient
+       id="5">
+      <stop
+         id="stop16"
+         stop-color="#fff" />
+      <stop
+         id="stop18"
+         stop-opacity="0"
+         stop-color="#fff"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       x2="0"
+       y2="44"
+       y1="3"
+       id="7">
+      <stop
+         id="stop22"
+         stop-color="#dedede" />
+      <stop
+         id="stop24"
+         stop-color="#f4f4f4"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       x2="0"
+       y2="42.08"
+       y1="5.957"
+       id="0-1">
+      <stop
+         id="stop7"
+         stop-color="#fff" />
+      <stop
+         id="stop9"
+         stop-opacity="0"
+         stop-color="#fff"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(16,3.98)"
+       gradientUnits="userSpaceOnUse"
+       x2="43.912"
+       y2="-0.997"
+       x1="44"
+       y1="43.02"
+       id="1-9">
+      <stop
+         id="stop12"
+         stop-color="#ddd" />
+      <stop
+         id="stop14"
+         stop-color="#fff"
+         offset="1" />
+    </linearGradient>
+    <clipPath
+       id="clipPath4211"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         style="fill:#ffffff"
+         ry="1.209"
+         id="rect4213"
+         height="42"
+         rx="1.209"
+         y="2"
+         x="5.9860001"
+         width="34.951" />
+    </clipPath>
+  </defs>
+  <rect
+     id="rect32"
+     height="42"
+     rx="1.209"
+     y="3"
+     opacity="0.1"
+     x="6"
+     width="34.951"
+     ry="1.209" />
+  <rect
+     id="rect54"
+     height="42"
+     rx="1.209"
+     fill="url(#7)"
+     y="2"
+     x="5.986"
+     width="34.951"
+     ry="1.209" />
+  <g
+     clip-path="url(#clipPath4211)"
+     mask="none"
+     id="g3940">
+    <path
+       opacity="0.1"
+       id="path16"
+       d="m 20,10 40,0 0,38 -40,0 z" />
+    <path
+       fill="url(#1-9)"
+       id="path18"
+       d="m 20,9 40,0 0,38 -40,0 z" />
+    <path
+       opacity="0.1"
+       fill-rule="evenodd"
+       stroke="#000"
+       id="path4504"
+       d="m 27,24.517218 c -0.266,0 -0.462891,0.196891 -0.462891,0.462891 l 0,5 c 0,0.266 0.196891,0.462891 0.462891,0.462891 l 5,0 c 0.266,0 0.462891,-0.196891 0.462891,-0.462891 l 0,-5 c 0,-0.266 -0.196891,-0.462891 -0.462891,-0.462891 l -5,0 z" />
+    <path
+       fill="#5288d1"
+       id="path20"
+       d="m 20,9 40,0 0,10.119 -40,0 z" />
+    <g
+       fill="none"
+       id="g22"
+       transform="translate(16,3.98)">
+      <g
+         stroke="#000"
+         id="g24">
+        <path
+           opacity="0.4"
+           id="path26"
+           d="m 4.4688,5.4881 0,37.0625 39.0625,0 0,-37.0625 -39.0625,0 z" />
+        <path
+           opacity="0.4"
+           id="path28"
+           d="m 4.9369,14.6279 38.1261,4e-4" />
+      </g>
+      <path
+         opacity="0.4"
+         stroke="url(#0-1)"
+         id="path30"
+         d="m 5.4375,6.4568 0,35.125 37.125,0 0,-35.125 -37.125,0 z" />
+    </g>
+    <g
+       color="#000"
+       fill="#fff"
+       fill-rule="evenodd"
+       id="g32"
+       transform="translate(16,3.98)">
+      <path
+         id="path34"
+         d="m 7.03,9.111 1,0 0,1 -1,0 z" />
+      <path
+         id="path36"
+         d="m 8.03,10.111 1,0 0,1 -1,0 z" />
+      <path
+         id="path38"
+         d="m 9.03,11.11 1,0 0,1 -1,0 z" />
+      <path
+         id="path40-3"
+         d="m 7.03,11.11 1,0 0,1 -1,0 z" />
+      <path
+         id="path42"
+         d="m 9.03,9.111 1,0 0,1 -1,0 z" />
+      <path
+         id="path44-4"
+         d="m 12.03,9.111 1,0 0,3 -1,0 z" />
+      <path
+         id="path46-5"
+         transform="matrix(0,1,-1,0,0,0)"
+         d="m 11.11,-15.03 1,0 0,3 -1,0 z" />
+      <path
+         id="path48"
+         transform="scale(-1,-1)"
+         d="m -15.03,-12.11 1,0 0,3 -1,0 z" />
+      <g
+         id="g50"
+         transform="matrix(0,-1,1,0,0,0)">
+        <path
+           id="path52-5"
+           d="m -10.111,12.03 1,0 0,3 -1,0 z" />
+        <path
+           id="path54"
+           d="m -12.11,17.03 1,0 0,3 -1,0 z" />
+      </g>
+    </g>
+    <path
+       fill="none"
+       stroke="#fff"
+       id="path56"
+       d="m 20.9369,19.6076 38.1261,4e-4" />
+    <path
+       fill="#fff"
+       fill-rule="evenodd"
+       d="m 27,22.98 5,0 c 0.554,0 1,0.446 1,1 l 0,5 c 0,0.554 -0.446,1 -1,1 l -5,0 c -0.554,0 -1,-0.446 -1,-1 l 0,-5 c 0,-0.554 0.446,-1 1,-1 z"
+       id="rect4490" />
+    <path
+       opacity="0.4"
+       fill="#fff"
+       fill-rule="evenodd"
+       stroke="#000"
+       d="m 27,23.517109 c -0.266,0 -0.462891,0.196891 -0.462891,0.462891 l 0,5 c 0,0.266 0.196891,0.462891 0.462891,0.462891 l 5,0 c 0.266,0 0.462891,-0.196891 0.462891,-0.462891 l 0,-5 C 32.462891,23.714 32.266,23.517109 32,23.517109 l -5,0 z"
+       id="path4502" />
+    <path
+       opacity="0.1"
+       fill="#000"
+       fill-rule="evenodd"
+       stroke="#000"
+       d="m 27,35.554218 c -0.266,0 -0.462891,0.196891 -0.462891,0.462891 l 0,5 C 26.537109,41.283109 26.734,41.48 27,41.48 l 5,0 c 0.266,0 0.462891,-0.196891 0.462891,-0.462891 l 0,-5 c 0,-0.266 -0.196891,-0.462891 -0.462891,-0.462891 l -5,0 z"
+       id="path4506" />
+    <path
+       fill="#fff"
+       fill-rule="evenodd"
+       d="m 27,34.016998 5,0 c 0.554,0 1,0.446 1,1 l 0,5 c 0,0.554 -0.446,1 -1,1 l -5,0 c -0.554,0 -1,-0.446 -1,-1 l 0,-5 c 0,-0.554 0.446,-1 1,-1 z"
+       id="rect4508" />
+    <path
+       opacity="0.4"
+       fill="#fff"
+       fill-rule="evenodd"
+       stroke="#000"
+       id="path4510"
+       d="m 27,34.554109 c -0.266,0 -0.462891,0.196891 -0.462891,0.462891 l 0,5 c 0,0.266 0.196891,0.462891 0.462891,0.462891 l 5,0 c 0.266,0 0.462891,-0.196891 0.462891,-0.462891 l 0,-5 C 32.462891,34.751 32.266,34.554109 32,34.554109 l -5,0 z" />
+    <path
+       opacity="0.48"
+       fill="none"
+       fill-rule="evenodd"
+       stroke="#000"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path4512"
+       d="m 28.5,36.98 0.5,2 2.4,-3"
+       stroke-miterlimit="2" />
+  </g>
+  <g
+     fill="none"
+     id="g78">
+    <path
+       stroke="#000"
+       opacity="0.4"
+       id="path80"
+       d="M 7.1875,2.5 C 6.783721,2.5 6.5,2.799839 6.5,3.21875 l 0,39.5625 C 6.5,43.20016 6.783721,43.5 7.1875,43.5 l 32.53125,0 c 0.40378,0 0.71875,-0.31497 0.71875,-0.71875 l 0,-39.5625 C 40.4375,2.814971 40.12253,2.5 39.71875,2.5 L 7.1875,2.5 Z" />
+    <path
+       stroke="url(#4)"
+       opacity="0.78"
+       id="path82"
+       d="m 7.5312,3.5312 0,38.9375 31.875,0 0,-38.9375 -31.875,0 z" />
+  </g>
+  <metadata
+     id="metadata9999">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:source>https://github.com/sixsixfive</dc:source>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>ivy</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>ssf</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+        <dc:identifier>SSF</dc:identifier>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+</svg>

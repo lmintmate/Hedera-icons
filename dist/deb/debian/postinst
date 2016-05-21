@@ -1,0 +1,34 @@
+#!/bin/sh
+set -e
+
+_tmpdir=/tmp
+
+#FIXME add loop/integrity checks
+printf '\n==> Downloading the latest release from GitHub!\n'
+curl -L https://github.com/sixsixfive/Ivy/releases/download/pre/ivy-icon-theme.txz > "${_tmpdir}"/icons.src --progress-bar
+
+printf '\n==> Extracting...\n'
+if [ ! -d /usr/share/icons ]; then
+    mkdir -p /usr/share/icons
+fi
+tar -xvf "${_tmpdir}"/icons.src -C /usr/share/icons &&
+rm -f "${_tmpdir}"/icons.src
+
+
+###dpkg
+##add a filelist ###we need md5sums
+#if [ -f /var/lib/dpkg/info/ivy-icon-theme.list ];then
+    #if type find &>/dev/null; then
+        #find /usr/share/icons/Ivy >> /var/lib/dpkg/info/ivy-icon-theme.list
+    #fi
+#fi
+##add correct version number
+#if type sed &>/dev/null; then
+    #if type grep &>/dev/null; then
+        #ivy_icons="$(curl https://github.com/sixsixfive/Ivy/releases|grep -oP "<h5>(.*)</h5>"|cut -d ">" -f 2|cut -d "<" -f 1|head -n 1|tr - .)"
+        #cp /var/lib/dpkg/status /var/lib/dpkg/status.$(date -u +%Y.%m.%d.%H%M)
+        #sed "s/1.0-ivyiconsrelease/$ivy_icons-1/" -i /var/lib/dpkg/status
+    #fi
+#fi
+
+printf '\n==> Done!\n'

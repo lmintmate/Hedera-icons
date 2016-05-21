@@ -1,0 +1,19 @@
+GIMP Palette
+Name: Ivy (base colors)
+Columns: 1
+#
+208  38   4	red
+255 139  54	orange
+238 212  90	beige
+255 213   6	yellow
+102 176  62	green
+  0 212 255 cyan (not used)
+ 82 136 209	blue
+168 104 212	purple
+237  76 112	pink
+228 174  78	brown
+255 255 255	white (only inlines)
+235 235 235	darker white(white stuff)
+106 106 106	grey
+ 23  23  23	darker grey (black stuff)
+  0   0   0	black(only shadows)

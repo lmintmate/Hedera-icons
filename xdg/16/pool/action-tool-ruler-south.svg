@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 16 16" id="svg2">
+ <defs id="0">
+  <linearGradient id="linearGradient4165">
+   <stop stop-color="#eed45a" id="stop4167"/>
+   <stop offset="1" stop-color="#e9c82a" id="stop4169"/>
+  </linearGradient>
+  <linearGradient xlink:href="#linearGradient4165" id="linearGradient4171" x1="3" x2="45" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-0.35714285,-0.375,0,17.25,16.07143)"/>
+ </defs>
+ <path id="path4189" d="m 15,13 0,-9 -15,0 0,9 15,0 0,0 z" opacity="0.08"/>
+ <g transform="matrix(0,1,-1,0,15,0)" id="g3355">
+  <path d="m 12,15 -9,0 0,-15 9,0 0,15 0,0 z" id="2" fill="url(#linearGradient4171)"/>
+  <path transform="scale(-1,1)" d="m -11,2 2,0 0,1 -2,0 z" id="rect4151" opacity="0.4" stroke-dasharray="39 19.5 9.75 19.5" stroke-linejoin="round" stroke-linecap="round" stroke-width="19.5"/>
+  <path transform="scale(-1,1)" d="m -11,4 4,0 0,1 -4,0 z" id="rect4153" opacity="0.4" stroke-dasharray="39 19.5 9.75 19.5" stroke-linejoin="round" stroke-linecap="round" stroke-width="19.5"/>
+  <path transform="scale(-1,1)" d="m -11,6 2,0 0,1 -2,0 z" id="rect4155" opacity="0.4" stroke-dasharray="39 19.5 9.75 19.5" stroke-linejoin="round" stroke-linecap="round" stroke-width="19.5"/>
+  <path transform="scale(-1,1)" d="m -11,8 4,0 0,1 -4,0 z" id="rect4157" opacity="0.4" stroke-dasharray="39 19.5 9.75 19.5" stroke-linejoin="round" stroke-linecap="round" stroke-width="19.5"/>
+  <path transform="scale(-1,1)" d="m -11,12 4,0 0,1 -4,0 z" id="rect4161" opacity="0.4" stroke-dasharray="39 19.5 9.75 19.5" stroke-linejoin="round" stroke-linecap="round" stroke-width="19.5"/>
+  <path transform="scale(-1,1)" d="m -11,10 2,0 0,1 -2,0 z" id="rect4183" opacity="0.4" stroke-dasharray="39 19.5 9.75 19.5" stroke-linejoin="round" stroke-linecap="round" stroke-width="19.5"/>
+  <path transform="matrix(-1,0,0,1,15,0)" d="m 3.5,0.5 0,14 8,0 0,-14 -8,0 z" id="path4187" opacity="0.4" fill="none" stroke="#000"/>
+  <path transform="scale(-1,1)" d="m -11,2.999999 2,0 0,1 -2,0 z" id="rect4193" opacity="0.2" stroke-dasharray="39 19.5 9.75 19.5" fill="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-width="19.5"/>
+  <path transform="scale(-1,1)" d="m -11,5 4,0 0,1 -4,0 z" id="rect4195" opacity="0.2" stroke-dasharray="39 19.5 9.75 19.5" fill="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-width="19.5"/>
+  <path transform="scale(-1,1)" d="m -11,7 2,0 0,1 -2,0 z" id="rect4197" opacity="0.2" stroke-dasharray="39 19.5 9.75 19.5" fill="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-width="19.5"/>
+  <path transform="scale(-1,1)" d="m -11,9 4,0 0,1 -4,0 z" id="rect4199" opacity="0.2" stroke-dasharray="39 19.5 9.75 19.5" fill="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-width="19.5"/>
+  <path transform="scale(-1,1)" d="m -11,13 4,0 0,1 -4,0 z" id="rect4201" opacity="0.2" stroke-dasharray="39 19.5 9.75 19.5" fill="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-width="19.5"/>
+  <path transform="scale(-1,1)" d="m -11,11 2,0 0,1 -2,0 z" id="rect4203" opacity="0.2" stroke-dasharray="39 19.5 9.75 19.5" fill="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-width="19.5"/>
+  <path transform="scale(-1,1)" d="m -11,1 7,0 0,1 -7,0 z" id="rect4205" opacity="0.2" fill="#fff" stroke-linejoin="bevel" stroke-linecap="square"/>
+ </g>
+ <rect y="4" x="1" height="1" width="12" id="rect3410" opacity="0.28" fill="#fff" fill-rule="evenodd"/>
+ <metadata id="metadata9999">
+  <rdf:RDF>
+   <cc:Work>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Ivy icon theme</dc:title>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:source>https://github.com/sixsixfive</dc:source>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>ivy</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>ssf</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+    <dc:identifier>SSF</dc:identifier>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+</svg>

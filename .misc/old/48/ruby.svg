@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+ <defs>
+  <linearGradient y1="6" x2="0" y2="18" id="6" xlink:href="#0" gradientUnits="userSpaceOnUse"/>
+  <linearGradient x1="14.9" y1="18" x2="22.4" y2="40" id="5" xlink:href="#1" gradientUnits="userSpaceOnUse"/>
+  <linearGradient y1="6" x2="0" y2="34" id="7" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#d02604"/>
+   <stop offset="1" stop-color="#ed4c70"/>
+  </linearGradient>
+  <linearGradient x1="13" x2="41" id="4" xlink:href="#0" gradientUnits="userSpaceOnUse"/>
+  <linearGradient x1="24.709" y1="18.928" x2="32.39" y2="33.92" id="3" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" stop-opacity="0.639"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="0">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0.4"/>
+  </linearGradient>
+  <linearGradient y1="7.094" x2="0" y2="38.719" id="2" xlink:href="#1" gradientUnits="userSpaceOnUse"/>
+  <linearGradient id="1">
+   <stop stop-color="#fff"/>
+   <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+ </defs>
+ <path d="M 13,7 2,19 23,41 24,41 45,19 34,7 z" opacity="0.15"/>
+ <path d="M 13,6 2,18 23,40 24,40 45,18 34,6 z" fill="url(#7)"/>
+ <path d="m 13.65625,7.59375 -9.5,10.375 19.34375,20.25 19.34375,-20.25 -9.5,-10.375 -19.6875,0 z" opacity="0.4" fill="none" stroke="url(#2)"/>
+ <path d="m 27.896973,36.052357 -11.641067,-12.966506 8.43085,-4.284526 3.611686,17.047007 z" transform="matrix(1.97959 0.5921 -1.006 1.1651 4.045 -18.523)" opacity="0.283" fill="url(#3)"/>
+ <path d="m 20,6 7,0 7,12 -21,0 z" opacity="0.4" fill="url(#6)"/>
+ <g fill="#fff">
+  <path d="M 27.896973,36.052357 11.839745,25.330127 16.255906,23.085851 z" transform="matrix(1.97959 0.5921 -1.006 1.1651 4.045 -18.523)" opacity="0.2"/>
+  <path d="M 13,6 20,6 13,18 2,18 z" fill-opacity="0.301"/>
+ </g>
+ <path d="M 24,40 45.000001,18 33.999999,18 z" opacity="0.2"/>
+ <path d="m 34,6 -7,0 7,12 11,0 z" opacity="0.15"/>
+ <g fill="none">
+  <path d="M 13.25,6.5625 2.75,18 l 20.46875,21.4375 0.5625,0 L 44.25,18 33.75,6.5625 l -20.5,0 z" opacity="0.4" stroke="#000"/>
+  <path d="m 19.4,6 -7,12 9,20" opacity="0.3" stroke="url(#5)"/>
+  <path d="m 27.5,6 7,12 -9,20" opacity="0.2" stroke="#fff"/>
+ </g>
+ <path opacity="0.5" fill="url(#4)" d="M 5,18 H42 V19 H5 z"/>
+</svg>
