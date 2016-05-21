@@ -2,7 +2,7 @@
 set -e
 export _parallelyn=y
 #number of jobs for parallel
-export _inputthreads=$(expr $(nproc) \* 4)
+export _inputthreads=$(expr $(nproc) \* 2)
 export LANG=C
 _basedir="$(dirname "$(readlink -f "${0}")")"
 _basesizes="16 22 32 48"
@@ -654,7 +654,6 @@ fi
 cp "$_basedir"/.misc/COPYING $_tmpdir/Ivy/COPYING
 ln -s COPYING $_tmpdir/Ivy/LICENSE
 ##FIXME readd symbolic stuff, dfsg, distributor icon, allow to disable qt-hack
-cp "$_basedir"/.misc/config.sh $_tmpdir/Ivy/config.sh
 #FIXME RE-ADD TEXT (embeddedtextrectangles)
 cd $_tmpdir
 env XZ_OPT=-5 tar -cJvf $HOME/ivy-icon-theme.txz Ivy
