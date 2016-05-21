@@ -648,13 +648,13 @@ for _symlink in $(find . -maxdepth 1 -mindepth 1 -wholename "./flag-*.icon"|cut 
     ln -s ../misc-icondata/$_symlink ../international/$_symlink
 done
 if [ -d "$_tmpdir/Ivy" ];then
-	rm $_tmpdir/Ivy/*.sh
+	rm $_tmpdir/Ivy/updatesymlinks.sh
 	find $_tmpdir/Ivy -mindepth 1 -name "*.svg" -exec rm -rf {} \;
 fi
 cp "$_basedir"/.misc/COPYING $_tmpdir/Ivy/COPYING
-cp "$_basedir"/.misc/LICENSE $_tmpdir/Ivy/LICENSE
-##FIXME readd symbolic stuff etc
-#cp "$_basedir"/.misc/configure.sh $_tmpdir/Ivy/configure.sh
+ln -s COPYING $_tmpdir/Ivy/LICENSE
+##FIXME readd symbolic stuff, dfsg, distributor icon, allow to disable qt-hack
+cp "$_basedir"/.misc/config.sh $_tmpdir/Ivy/config.sh
 #FIXME RE-ADD TEXT (embeddedtextrectangles)
 cd $_tmpdir
 env XZ_OPT=-5 tar -cJvf $HOME/ivy-icon-theme.txz Ivy
