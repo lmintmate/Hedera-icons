@@ -68,6 +68,14 @@ printf "export QT_QPA_PLATFORMTHEME=kde" >>~/.profile
 
 #### Missing icons
 
+##### Missing symbolic icons
+
+There is an experimental config script included that will create fake symboic icons to workaround this issue.
+
+This works only if the GTK3 theme doesn't modify the icon design!
+
+##### Inherit other themnes
+
 Since the icon theme is not yet complete you might need to let it inherit some desktop specifc themes.
 
 generally the Tango icon theme is recommended due its similiar icon style and some missing device/weather & mail icons.
@@ -83,20 +91,19 @@ to:
 ```
 Inherits=hicolor,oxygen
 ```
-
-##### Xfce, LXDE/LXQt, Enlightenment
+###### Xfce, LXDE/LXQt, Enlightenment
 
 nothing needed
 
-##### KDE
+###### KDE
 
 Oxygen/maybe breeze for plasma5
 
-##### MATE
+###### MATE
 
 Menta/Mate
 
-##### Cinnamon/GNOME3 etc.
+###### Cinnamon/GNOME3 etc.
 
 Adwaita
 
@@ -109,5 +116,5 @@ Adwaita
 
 * some smaller icons are fuzzy cause they are scaled down from other sizes(sry, but I don't have plenty of time but someday they will be complete I guess ;)
 * some icons are still missing (thats an endless task) 
-* Due Xfce bug [10126](https://bugzilla.xfce.org/show_bug.cgi?id=10126) it's impossible to select symbolic links in the built-in *.desktop editor
-* Due Qt-bug [33123](https://bugreports.qt.io/browse/QTBUG-33123) & [43620](https://bugreports.qt.io/browse/QTBUG-43620) all extra folders are ignored
+* Due Xfce bug [10126](https://bugzilla.xfce.org/show_bug.cgi?id=10126) it's impossible to select symbolic links in the built-in *.desktop editor (a Workaround would be to convert all symlinks to real files - however this would blow the filesize!)
+* Due Qt-bug [33123](https://bugreports.qt.io/browse/QTBUG-33123) & [43620](https://bugreports.qt.io/browse/QTBUG-43620) all extra folders are ignored (Workaround available)
