@@ -120,6 +120,13 @@ Type=Scalable
 MinSize=8
 MaxSize=512
 
+[xdg/48/misc-symbolic]
+Size=48
+Context=Misc
+Type=Scalable
+MinSize=8
+MaxSize=512
+
 [xdg/48/misc]
 Size=48
 Context=Emblems
