@@ -2,9 +2,9 @@
 Name=Ivy-test
 Comment=pure completion test theme
 Example=text-x-script
-Inherits=hicolor
+Inherits=breeze
 
-Directories=48/misc,48/misc-animations,48/misc-mimetypes,48/pool/actions,48/pool/applications,48/pool/animations,48/pool/devices,48/pool/emoticons,48/pool/filesystems,48/pool/folders,48/pool/international,48/pool/logos,48/pool/menus,48/pool/mimetypes,48/pool/status,
+Directories=xdg/48/actions,xdg/48/animations,xdg/48/applications,xdg/48/devices,xdg/48/emoticons,xdg/48/folders,xdg/48/international,xdg/48/logos,xdg/48/menus,xdg/48/mimetypes,xdg/48/misc,xdg/48/misc-animations,xdg/48/misc-filesystems,xdg/48/misc-mimetypes,xdg/48/misc-symbolic,xdg/48/status
 
 #######
 #KDE-STuff
@@ -22,189 +22,189 @@ PanelSizes=16,22,32,48
 DialogDefault=48
 DialogSizes=16,24,32,48
 
-[48/pool/actions]
+[xdg/48/actions]
 Size=48
 Context=Actions
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/pool/animations]
+[xdg/48/animations]
 Size=48
 Context=Animations
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/pool/applications]
+[xdg/48/applications]
 Size=48
 Context=Applications
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/pool/devices]
+[xdg/48/devices]
 Size=48
 Context=Devices
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/pool/emoticons]
+[xdg/48/emoticons]
 Size=48
 Context=Emotes
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/pool/filesystems]
+[xdg/48/misc-filesystems]
 Size=48
 Context=FileSystems
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/pool/logos]
+[xdg/48/logos]
 Size=48
 Context=Emblems
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/pool/mimetypes]
+[xdg/48/mimetypes]
 Size=48
 Context=MimeTypes
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/pool/folders]
+[xdg/48/folders]
 Size=48
 Context=Places
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/pool/status]
+[xdg/48/status]
 Size=48
 Context=Status
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/pool/menus]
+[xdg/48/menus]
 Size=48
 Context=Categories
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/pool/international]
+[xdg/48/international]
 Size=48
 Context=International
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/misc-animations]
+[xdg/48/misc-animations]
 Size=48
 Context=Animations
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/misc-mimetypes]
+[xdg/48/misc-mimetypes]
 Size=48
 Context=MimeTypes
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/misc]
+[xdg/48/misc]
 Size=48
 Context=Emblems
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/misc]
+[xdg/48/misc]
 Size=48
 Context=Misc
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/misc]
+[xdg/48/misc]
 Size=48
 Context=Stock
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/misc]
+[xdg/48/misc]
 Size=48
 Context=Actions
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/misc]
+[xdg/48/misc]
 Size=48
 Context=Applications
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/misc]
+[xdg/48/misc]
 Size=48
 Context=Animations
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/misc]
+[xdg/48/misc]
 Size=48
 Context=Categories
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/misc]
+[xdg/48/misc]
 Size=48
 Context=Devices
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/misc]
+[xdg/48/misc]
 Size=48
 Context=Emotes
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/misc]
+[xdg/48/misc]
 Size=48
 Context=FileSystems
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/misc]
+[xdg/48/misc]
 Size=48
 Context=MimeTypes
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/misc]
+[xdg/48/misc]
 Size=48
 Context=Places
 Type=Scalable
 MinSize=8
 MaxSize=512
 
-[48/misc]
+[xdg/48/misc]
 Size=48
 Context=Status
 Type=Scalable
