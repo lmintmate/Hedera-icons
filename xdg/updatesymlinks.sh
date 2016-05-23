@@ -60,7 +60,7 @@ for _size in $_sizes; do
 		done
 	done
 	#symbolic
-	for _svg in $(echo $(find *.svg -name "*symbolic*"));do
+	for _svg in $(echo $(find *.svg -name "*symbolic.svg"));do
 		ln -sf ../pool/$_svg ../misc-symbolic/$_svg
 	done
 	cd $_basedir
