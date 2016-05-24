@@ -2,7 +2,7 @@
 Name=Ivy-test
 Comment=pure completion test theme
 Example=text-x-script
-Inherits=breeze
+Inherits=oxygen
 
 Directories=xdg/48/actions,xdg/48/animations,xdg/48/applications,xdg/48/devices,xdg/48/emoticons,xdg/48/folders,xdg/48/international,xdg/48/logos,xdg/48/menus,xdg/48/mimetypes,xdg/48/misc,xdg/48/misc-animations,xdg/48/misc-filesystems,xdg/48/misc-mimetypes,xdg/48/misc-symbolic,xdg/48/status
 
