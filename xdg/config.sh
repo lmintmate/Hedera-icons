@@ -140,6 +140,7 @@ removesymbolicsymlinks() {
 		done
 		cd $_basedir
 	done
+	rm -f $_basedir/pre_symbolicicons $_basedir/post_symbolicicons
 }
 
 rebuildgtkiconcache() {
@@ -160,7 +161,7 @@ while [ 1 ];do
 #1: Try to automatically set the distributor icon
 #2: Set a custom distributor icon
 #3: Reset distributor icon
-#4: Create/Update GTK3 fake symbolic icons
+#4: Create/Update GTK3 fake symbolic icons (only GTK3<=3.16) 
 #5: Remove GTK3 fake symbolic icons
 #7: Toggle the Qt-workaround
 #8: Rebuild GTK+ icon cache
