@@ -53,7 +53,7 @@ for _size in $_sizes; do
 		ln -sf ../pool/$_svg ../menus/$_svg
 	done
 	#apps
-	_apps="development game graphics multimedia network office settings system utilities"
+	_apps="development game graphics multimedia network office settings system utilities education"
 	for _app in $_apps;do
 		for _svg in $(echo $(find $_app-*.svg -not -name "*symbolic*"));do
 			ln -sf ../pool/$_svg ../applications/$_svg
