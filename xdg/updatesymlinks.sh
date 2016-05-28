@@ -59,11 +59,6 @@ for _size in $_sizes; do
 			ln -sf ../pool/$_svg ../applications/$_svg
 		done
 	done
-	#symbolic
-	for _svg in $(echo $(find *.svg -name "*symbolic.svg"));do
-		ln -sf ../pool/$_svg ../misc-symbolic/$_svg
-	done
-	cd $_basedir
 done
 ###icon data
 cd 48/pool

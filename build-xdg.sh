@@ -1,15 +1,16 @@
 #!/bin/sh
 set -e
-export _parallelyn=y
+#use parallel?
+_parallelyn=y
 #number of jobs for parallel
-export _inputthreads=$(expr $(nproc) \* 2)
-export LANG=C
+_inputthreads=$(expr $(nproc) \* 2)
+LANG=C
 _basedir="$(dirname "$(readlink -f "${0}")")"
 _basesizes="16 22 32 48"
 _scales48="96 144 192 240"
 _fakescales="24 64 72 80 112 128 160 176 208 224 256"
 _allsizes="$(echo $_basesizes $_scales48 $_fakescales)"
-_symlinkdirs="misc misc-animations misc-mimetypes misc-filesystems misc-symbolic"
+_symlinkdirs="misc misc-animations misc-mimetypes misc-filesystems"
 _categories="actions animations applications emoticons folders logos mimetypes devices international menus status"
 _tmpdir=/tmp
 
@@ -302,7 +303,7 @@ EOF
 	printf "Directories=" >> $_tmpdir/Ivy/index.theme.xdg
 ###dirs!
 	for _allsize in $_allsizes; do
-		printf "$_allsize/actions,$_allsize/applications,$_allsize/animations,$_allsize/devices,$_allsize/emoticons,$_allsize/folders,$_allsize/international,$_allsize/logos,$_allsize/menus,$_allsize/mimetypes,$_allsize/status,$_allsize/misc,$_allsize/misc-animations,$_allsize/misc-mimetypes,$_allsize/misc-filesystems,$_allsize/misc-symbolic," >> $_tmpdir/Ivy/index.theme.xdg
+		printf "$_allsize/actions,$_allsize/applications,$_allsize/animations,$_allsize/devices,$_allsize/emoticons,$_allsize/folders,$_allsize/international,$_allsize/logos,$_allsize/menus,$_allsize/mimetypes,$_allsize/status,$_allsize/misc,$_allsize/misc-animations,$_allsize/misc-mimetypes,$_allsize/misc-filesystems," >> $_tmpdir/Ivy/index.theme.xdg
 	done
 	for _allsize in $(echo $_allsizes); do
 		cat <<EOF >> $_tmpdir/Ivy/index.theme.xdg
@@ -403,12 +404,6 @@ Context=Stock
 Type=Threshold
 Threshold=1
 
-[$_allsize/misc-symbolic]
-Size=$_allsize
-Context=Misc
-Type=Threshold
-Threshold=1
-
 [$_allsize/misc-animations]
 Size=$_allsize
 Context=Animations
@@ -443,24 +438,24 @@ LockOverlay=emblem-nowrite
 ShareOverlay=preferences-system-network-sharing
 ZipOverlay=p7zip
 DesktopDefault=48
-DesktopSizes=48,96,144,176,224
-ToolbarDefault=16
-ToolbarSizes=16,22,24,32,48
+DesktopSizes=16,22,24,32,48,64,72,80,96,112,128,144,160,176,192,208,224,240,256
+ToolbarDefault=22
+ToolbarSizes=16,22,24,32,48,64,72,80,96,112,128,144,160,176,192,208,224,240,256
 MainToolbarDefault=22
-MainToolbarSizes=16,22,24,32,48
+MainToolbarSizes=16,22,24,32,48,64,72,80,96,112,128,144,160,176,192,208,224,240,256
 SmallDefault=16
-SmallSizes=16,22,24,32,48
+SmallSizes=16,22,24,32,48,64,72,80,96,112,128,144,160,176,192,208,224,240,256
 PanelDefault=22
-PanelSizes=16,22,24,32,48,96
+PanelSizes=16,22,24,32,48,64,72,80,96,112,128,144,160,176,192,208,224,240,256
 DialogDefault=48
-DialogSizes=16,22,24,32,48,96
+DialogSizes=16,22,24,32,48,64,72,80,96,112,128,144,160,176,192,208,224,240,256
 
 ##Dirs
 EOF
 	printf "Directories=" >> $_tmpdir/Ivy/index.theme
 ###dirs!
 	for _allsize in $_allsizes; do
-		printf "$_allsize/actions,$_allsize/applications,$_allsize/animations,$_allsize/devices,$_allsize/emoticons,$_allsize/folders,$_allsize/international,$_allsize/logos,$_allsize/menus,$_allsize/mimetypes,$_allsize/status,$_allsize/misc,$_allsize/misc-animations,$_allsize/misc-mimetypes,$_allsize/misc-filesystems,$_allsize/misc-symbolic," >> $_tmpdir/Ivy/index.theme
+		printf "$_allsize/actions,$_allsize/applications,$_allsize/animations,$_allsize/devices,$_allsize/emoticons,$_allsize/folders,$_allsize/international,$_allsize/logos,$_allsize/menus,$_allsize/mimetypes,$_allsize/status,$_allsize/misc,$_allsize/misc-animations,$_allsize/misc-mimetypes,$_allsize/misc-filesystems," >> $_tmpdir/Ivy/index.theme
 	done
 	for _allsize in $(echo $_allsizes); do
 		cat <<EOF >> $_tmpdir/Ivy/index.theme
@@ -565,12 +560,6 @@ Context=Stock
 Type=Threshold
 Threshold=1
 
-[$_allsize/misc-symbolic]
-Size=$_allsize
-Context=Misc
-Type=Threshold
-Threshold=1
-
 [$_allsize/misc-animations]
 Size=$_allsize
 Context=Animations
@@ -668,7 +657,7 @@ for _allsize in in $(echo $_allsizes); do
 		rm -rf $_tmpdir/Ivy/$_allsize/pool
 	fi
 done
-cp "$_basedir"/.misc/COPYING $_tmpdir/Ivy/COPYING
+cp "$_basedir"/COPYING $_tmpdir/Ivy/COPYING
 ln -s COPYING $_tmpdir/Ivy/LICENSE
 #FIXME RE-ADD TEXT (embeddedtextrectangles)
 cd $_tmpdir
