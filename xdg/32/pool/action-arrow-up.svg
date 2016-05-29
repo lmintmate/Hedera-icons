@@ -6,15 +6,24 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="0 0 48 48"
+   viewBox="0 0 32 32"
    id="svg2"
-   version="1.1">
-  <path
-     id="path4211"
-     d="M 3,37 45,37 24,13 Z"
-     style="opacity:0.15;fill:#000000" />
+   version="1.1"
+   width="32"
+   height="32">
   <defs
      id="defs4">
+    <linearGradient
+       id="linearGradient4155">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4157" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4159" />
+    </linearGradient>
     <linearGradient
        id="linearGradient4213">
       <stop
@@ -27,50 +36,41 @@
          style="stop-color:#93b5e2;stop-opacity:1" />
     </linearGradient>
     <linearGradient
-       id="linearGradient4203">
-      <stop
-         id="stop4205"
-         offset="0"
-         style="stop-color:#ffffff;stop-opacity:1;" />
-      <stop
-         id="stop4207"
-         offset="1"
-         style="stop-color:#ffffff;stop-opacity:0;" />
-    </linearGradient>
-    <linearGradient
        gradientUnits="userSpaceOnUse"
-       y2="10.001474"
-       x2="25"
-       y1="35.001472"
-       x1="25"
-       id="linearGradient4209"
-       xlink:href="#linearGradient4203" />
-    <linearGradient
-       gradientTransform="matrix(1,0,0,-1,0,48.001474)"
-       gradientUnits="userSpaceOnUse"
-       y2="12.001474"
-       x2="23"
-       y1="35.248047"
-       x1="24"
+       y2="12"
+       x2="40.5"
+       y1="36"
+       x1="40.5"
        id="linearGradient4219"
-       xlink:href="#linearGradient4213" />
+       xlink:href="#linearGradient4213"
+       gradientTransform="matrix(0.66666667,0,0,-0.66666667,0,31)" />
+    <linearGradient
+       xlink:href="#linearGradient4155"
+       id="linearGradient4161"
+       x1="25"
+       y1="23"
+       x2="25"
+       y2="9"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <path
+     id="path4163"
+     d="M 2,24 30,24 16,8 Z"
+     style="opacity:0.1;fill:#000000;fill-opacity:1" />
+  <path
      style="fill:url(#linearGradient4219);fill-opacity:1"
-     d="m 3,36.001474 42,0 -21,-24 z"
+     d="M 2,23 30,23 16,7 Z"
      id="path23" />
   <path
-     transform="matrix(1,0,0,-1,0,48.001474)"
-     xlink:href="#path4197"
-     style="opacity:0.4;fill:none;stroke:url(#linearGradient4209)"
-     id="path4201"
-     d="M 6.3066406,13.5 24,33.720703 41.693359,13.5 6.3066406,13.5 Z" />
+     style="opacity:0.4;fill:none;fill-opacity:1;stroke:#000000"
+     id="path3351"
+     d="M 3.109375,8.5039062 16,23.234375 28.890625,8.5039062 l -25.78125,0 z"
+     transform="matrix(1,0,0,-1,0,31)" />
   <path
-     transform="matrix(1,0,0,-1,0,48.001474)"
-     d="M 4.0898438,12.494141 24,35.248047 43.910156,12.494141 l -39.8203122,0 z"
-     id="path4199"
-     style="opacity:0.4;fill:none;stroke:#000000"
-     xlink:href="#path4197" />
+     d="M 5.1972656,9.4511719 16,21.796875 26.802734,9.4511719 l -21.6054684,0 z"
+     id="path3353"
+     style="opacity:0.4;fill:none;fill-opacity:1;stroke:url(#linearGradient4161)"
+     transform="matrix(1,0,0,-1,0,31)" />
   <metadata
      id="metadata9999">
     <rdf:RDF>

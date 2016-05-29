@@ -6,11 +6,46 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   height="32"
+   width="32"
    version="1.1"
    id="svg2"
-   viewBox="0 0 48 48">
+   viewBox="0 0 32 32">
+  <path
+     id="path4251"
+     d="m 14.1,2.7944526 0,27.9999994 c 5.333333,-4.666667 9.80329,-8.987983 16,-14 z"
+     style="opacity:0.1;fill:#000000;fill-opacity:1" />
+  <path
+     style="fill:url(#linearGradient4259);fill-opacity:1"
+     d="m 14.1,1.7944526 0,27.9999994 16,-14 z"
+     id="path4253" />
+  <path
+     style="opacity:0.4;fill:none;fill-opacity:1;stroke:#000000"
+     id="path4255"
+     d="M 3.109375,8.5039062 16,23.234375 28.890625,8.5039062 l -25.78125,0 z"
+     transform="matrix(0,1,1,0,6.0960938,-0.19813901)" />
+  <path
+     d="M 5.1972656,9.4511719 16,21.796875 26.802734,9.4511719 l -21.6054684,0 z"
+     id="path4257"
+     style="opacity:0.4;fill:none;fill-opacity:1;stroke:url(#linearGradient4261)"
+     transform="matrix(0,1,1,0,6.0488278,-0.11018192)" />
+  <path
+     style="opacity:0.1;fill:#000000;fill-opacity:1"
+     d="m 3.9999998,2.9851832 0,27.9999998 C 9.3333328,26.318516 13.80329,21.9972 20,16.985183 Z"
+     id="path4163" />
   <defs
      id="defs4">
+    <linearGradient
+       id="linearGradient4155">
+      <stop
+         id="stop4157"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         id="stop4159"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
     <linearGradient
        id="linearGradient4213">
       <stop
@@ -23,107 +58,40 @@
          id="stop4217" />
     </linearGradient>
     <linearGradient
-       id="linearGradient4203">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop4205" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
-         offset="1"
-         id="stop4207" />
-    </linearGradient>
-    <linearGradient
-       xlink:href="#linearGradient4203"
-       id="linearGradient4209"
-       x1="44.001472"
-       y1="10"
-       x2="5.0014739"
-       y2="11"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
+       gradientTransform="matrix(0,0.66666667,0.66666667,0,-4.0000002,-0.01481684)"
        xlink:href="#linearGradient4213"
        id="linearGradient4219"
-       x1="45.001472"
-       y1="11"
-       x2="3.0014739"
-       y2="11"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,-1,0,48.001474)" />
+       x1="3"
+       y1="36"
+       x2="45"
+       y2="36"
+       gradientUnits="userSpaceOnUse" />
     <linearGradient
-       y2="11"
-       x2="3.0014739"
-       y1="11"
-       x1="45.001472"
-       gradientTransform="matrix(1,0,0,-1,0,48.001474)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient3367"
+       y2="17.051172"
+       x2="27.904634"
+       y1="17.051172"
+       x1="3.9046345"
+       id="linearGradient4161"
+       xlink:href="#linearGradient4155" />
+    <linearGradient
+       y2="36"
+       x2="45"
+       y1="36"
+       x1="3"
+       gradientTransform="matrix(0,0.66666667,0.66666667,0,6.0999998,-0.20554743)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4259"
        xlink:href="#linearGradient4213" />
     <linearGradient
-       y2="11"
-       x2="5.0014739"
-       y1="10"
-       x1="44.001472"
+       y2="17.051172"
+       x2="27.904634"
+       y1="17.051172"
+       x1="3.9046345"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient3369"
-       xlink:href="#linearGradient4203" />
+       id="linearGradient4261"
+       xlink:href="#linearGradient4155" />
   </defs>
-  <g
-     transform="matrix(-1,0,0,1,54.005859,0)"
-     id="g3346">
-    <path
-       id="path4211"
-       d="M 36,46 36,4 12,25 Z"
-       style="opacity:0.15;fill:#000000" />
-    <g
-       transform="matrix(0,-1,1,0,-0.001474,48.001474)"
-       id="g4259">
-      <path
-         id="path23"
-         d="m 3,36.001474 42,0 -21,-24 z"
-         style="fill:url(#linearGradient4219);fill-opacity:1" />
-      <path
-         d="M 6.3066406,13.5 24,33.720703 41.693359,13.5 6.3066406,13.5 Z"
-         id="path4201"
-         style="opacity:0.4;fill:none;stroke:url(#linearGradient4209)"
-         xlink:href="#path4197"
-         transform="matrix(1,0,0,-1,0,48.001474)" />
-      <path
-         xlink:href="#path4197"
-         style="opacity:0.4;fill:none;stroke:#000000"
-         id="path4199"
-         d="M 4.0898438,12.494141 24,35.248047 43.910156,12.494141 l -39.8203122,0 z"
-         transform="matrix(1,0,0,-1,0,48.001474)" />
-    </g>
-  </g>
-  <g
-     id="g3355"
-     transform="matrix(-1,0,0,1,42.005859,0)">
-    <path
-       style="opacity:0.15;fill:#000000"
-       d="M 36,46 36,4 12,25 Z"
-       id="path3357" />
-    <g
-       id="g3359"
-       transform="matrix(0,-1,1,0,-0.001474,48.001474)">
-      <path
-         style="fill:url(#linearGradient3367);fill-opacity:1"
-         d="m 3,36.001474 42,0 -21,-24 z"
-         id="path3361" />
-      <path
-         transform="matrix(1,0,0,-1,0,48.001474)"
-         xlink:href="#path4197"
-         style="opacity:0.4;fill:none;stroke:url(#linearGradient3369)"
-         id="path3363"
-         d="M 6.3066406,13.5 24,33.720703 41.693359,13.5 6.3066406,13.5 Z" />
-      <path
-         transform="matrix(1,0,0,-1,0,48.001474)"
-         d="M 4.0898438,12.494141 24,35.248047 43.910156,12.494141 l -39.8203122,0 z"
-         id="path3365"
-         style="opacity:0.4;fill:none;stroke:#000000"
-         xlink:href="#path4197" />
-    </g>
-  </g>
   <metadata
      id="metadata9999">
     <rdf:RDF>
@@ -166,4 +134,18 @@
     </rdf:RDF>
   </metadata>
   <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+  <path
+     id="path23"
+     d="m 3.9999998,1.9851832 0,27.9999998 16.0000002,-14 z"
+     style="fill:url(#linearGradient4219);fill-opacity:1" />
+  <path
+     transform="matrix(0,1,1,0,-4.0039062,-0.00740842)"
+     d="M 3.109375,8.5039062 16,23.234375 28.890625,8.5039062 l -25.78125,0 z"
+     id="path3351"
+     style="opacity:0.4;fill:none;fill-opacity:1;stroke:#000000" />
+  <path
+     transform="matrix(0,1,1,0,-4.0511722,0.08054867)"
+     style="opacity:0.4;fill:none;fill-opacity:1;stroke:url(#linearGradient4161)"
+     id="path3353"
+     d="M 5.1972656,9.4511719 16,21.796875 26.802734,9.4511719 l -21.6054684,0 z" />
 </svg>

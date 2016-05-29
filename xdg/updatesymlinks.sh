@@ -61,7 +61,7 @@ for _size in $_sizes; do
 	done
 done
 ###icon data
-cd 48/pool
+cd $_basedir/48/pool
 for _icon in $(echo $(find *.icon));do
 	ln -sf ../pool/$_icon ../misc-icondata/$_icon
 done
