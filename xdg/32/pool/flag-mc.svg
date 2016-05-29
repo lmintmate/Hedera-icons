@@ -6,11 +6,45 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="32"
+   width="32"
    version="1.1"
    id="svg2"
-   viewBox="0 0 48 48">
+   viewBox="0 0 32 32"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="flag-mc.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview18"
+     showgrid="false"
+     inkscape:zoom="7.375"
+     inkscape:cx="16"
+     inkscape:cy="16"
+     inkscape:current-layer="svg2" />
   <defs
      id="0">
+    <linearGradient
+       id="linearGradient4162">
+      <stop
+         id="stop4164"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         id="stop4166"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
     <linearGradient
        id="linearGradient4159">
       <stop
@@ -23,50 +57,43 @@
          offset="1" />
     </linearGradient>
     <linearGradient
-       gradientTransform="matrix(1 0 0 1 -0.5 0)"
-       x2="45.49"
+       gradientTransform="translate(-0.5,0)"
+       x2="45.490002"
        gradientUnits="userSpaceOnUse"
-       x1="45.561"
+       x1="45.561001"
        y2="37.841"
        y1="10.05"
        xlink:href="#linearGradient4159"
        id="linearGradient4165" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="26"
+       x2="23"
+       y1="5"
+       x1="23"
+       id="linearGradient4168"
+       xlink:href="#linearGradient4162" />
   </defs>
-  <rect
-     id="rect4167"
-     height="30"
-     y="10"
-     opacity="0.1"
-     x="1"
-     width="45" />
-  <rect
-     style="fill:#ebebeb"
+  <path
+     style="fill:#000000;opacity:0.15"
+     id="path4154"
+     d="M 1,6 31,6 31,27 1,27 Z" />
+  <path
+     d="M 1,5 31,5 31,26 1,26 Z"
      id="9"
-     height="30"
-     fill="#d02604"
-     y="9"
-     x="1"
-     width="45" />
-  <rect
-     style="fill:#d02604"
+     style="fill:#ebebeb" />
+  <path
+     d="M 1,5 31,5 31,15 1,15 Z"
      id="A"
-     height="15"
-     fill="#ebebeb"
-     y="9"
-     x="1"
-     width="45" />
+     style="fill:#d02604" />
   <path
-     d="m 1.53125,9.53125 0,28.9375 43.9375,0 0,-28.9375 -43.9375,0 z"
-     id="C"
-     stroke="#000"
-     fill="none"
-     opacity="0.4" />
+     d="m 1.5371094,5.5371094 0,19.9257816 28.9257816,0 0,-19.9257816 -28.9257816,0 z"
+     id="path4158"
+     style="opacity:0.4;fill:none;stroke:#000000" />
   <path
-     d="m 2.5117188,10.511719 0,26.976562 41.9765622,0 0,-26.976562 -41.9765622,0 z"
-     id="path4157"
-     stroke="url(#linearGradient4165)"
-     fill="none"
-     opacity="0.4" />
+     style="opacity:0.4;fill:none;stroke:url(#linearGradient4168)"
+     id="path4160"
+     d="m 2.5195312,6.5195312 0,17.9609378 26.9609378,0 0,-17.9609378 -26.9609378,0 z" />
   <metadata
      id="metadata9999">
     <rdf:RDF>

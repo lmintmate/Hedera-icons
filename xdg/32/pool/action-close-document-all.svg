@@ -1,85 +1,348 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" version="1.1" id="svg2">
- <defs id="defs4">
-  <linearGradient gradientTransform="translate(-3.8999934,0)" id="0" xlink:href="#5" y1="6" y2="47" x2="0" gradientUnits="userSpaceOnUse"/>
-  <linearGradient id="1" xlink:href="#4" y1="2" x1="35" y2="41.969" x2="34.906" gradientUnits="userSpaceOnUse"/>
-  <linearGradient id="2" xlink:href="#4" y1="6" x1="46" y2="45.969" x2="45.906" gradientUnits="userSpaceOnUse"/>
-  <linearGradient id="3" xlink:href="#5" y1="2" y2="43" x2="0" gradientUnits="userSpaceOnUse"/>
-  <linearGradient id="4">
-   <stop stop-color="#fff" id="stop11"/>
-   <stop offset="1" stop-color="#fff" stop-opacity="0" id="stop13"/>
-  </linearGradient>
-  <linearGradient id="5">
-   <stop stop-color="#dedede" id="stop16"/>
-   <stop offset="1" stop-color="#f4f4f4" id="stop18"/>
-  </linearGradient>
-  <linearGradient gradientTransform="matrix(0.7,0,0,0.71429,-0.8,-1.143)" gradientUnits="userSpaceOnUse" x2="0" y2="31" y1="17" id="0-2">
-   <stop id="stop4452" stop-color="#d02604"/>
-   <stop id="stop4454" stop-color="#fc8f7a" offset="1"/>
-  </linearGradient>
-  <linearGradient gradientUnits="userSpaceOnUse" x2="0" y2="20" y1="12" id="1-6">
-   <stop id="stop4457" stop-color="#fff"/>
-   <stop id="stop4459" stop-opacity="0" stop-color="#fff" offset="1"/>
-  </linearGradient>
- </defs>
- <rect width="34.951" x="1" opacity="0.1" y="2" rx="1.209" height="42" id="rect20" ry="1.209"/>
- <rect width="34.951" x="0.986" y="1" fill="url(#3)" rx="1.209" height="42" id="rect22" ry="1.209"/>
- <g id="g24" fill="none">
-  <path d="M 2.1875,1.5 C 1.783721,1.5 1.5,1.799839 1.5,2.21875 l 0,39.5625 C 1.5,42.20016 1.783721,42.5 2.1875,42.5 l 32.5312,0 c 0.40378,0 0.71875,-0.31497 0.71875,-0.71875 l 0,-39.5625 C 35.43745,1.814971 35.12248,1.5 34.7187,1.5 l -32.5312,0 z" id="path26" opacity="0.4" stroke="#000"/>
-  <path d="m 2.5312,2.5312 0,38.9375 31.875,0 0,-38.9375 -31.875,0 z" id="path28" opacity="0.78" stroke="url(#1)"/>
- </g>
- <rect width="34.951" x="7.055" y="3.969" rx="1.209" height="42" id="rect30" opacity="0.4" fill="#fff" ry="1.209"/>
- <rect width="34.951" x="8.099998" y="6" rx="1.209" height="42" id="rect32" opacity="0.1" ry="1.209"/>
- <rect width="34.951" x="8.086" y="5" rx="1.209" height="42" id="rect34" fill="url(#0)" ry="1.209"/>
- <g transform="translate(-3.8999934,0)" id="g36" fill="none">
-  <path d="M 13.1875,5.5 C 12.783721,5.5 12.5,5.799839 12.5,6.21875 l 0,39.5625 c 0,0.418911 0.283721,0.71875 0.6875,0.71875 l 32.5312,0 c 0.40378,0 0.71875,-0.31497 0.71875,-0.71875 l 0,-39.5625 C 46.43745,5.814971 46.12248,5.5 45.7187,5.5 l -32.5312,0 z" id="path38" opacity="0.4" stroke="#000"/>
-  <path d="m 13.5312,6.5312 0,38.9375 31.875,0 0,-38.9375 -31.875,0 z" id="path40" opacity="0.78" stroke="url(#2)"/>
- </g>
- <g id="g4480" transform="translate(18,19)">
-  <path id="path4461" d="m 2,12 28,0 0,10 -28,0 z" opacity="0.15"/>
-  <path id="path4463" d="m 2,11 28,0 0,10 -28,0 z" fill="url(#0-2)"/>
-  <g id="g4465" fill="none">
-   <path id="path4467" d="m 2.5,11.5 0,9 27,0 0,-9 -27,0 z" opacity="0.58" stroke="#000"/>
-   <path id="path4469" d="m 3.5,12.5 0,7 25,0 0,-7 -25,0 z" opacity="0.58" stroke="url(#1-6)"/>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 32 32"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="action-close-document-all.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview26"
+     showgrid="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:zoom="14.76"
+     inkscape:cx="20.783408"
+     inkscape:cy="16"
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid6601" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <linearGradient
+       id="0"
+       xlink:href="#5"
+       y1="3"
+       y2="44"
+       x2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.65798,0,0,0.66676,3.063,1.612)" />
+    <linearGradient
+       id="1"
+       xlink:href="#4"
+       y1="1.614"
+       y2="27.29"
+       x2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99956,0,0,1.01258,-5.03,0.317)" />
+    <linearGradient
+       id="2"
+       xlink:href="#4"
+       y1="1.614"
+       y2="27.29"
+       x2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99956,0,0,1.01258,1.972,2.317)" />
+    <linearGradient
+       id="3"
+       xlink:href="#5"
+       y1="3"
+       y2="44"
+       x2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.65798,0,0,0.66676,-3.939,-0.388)" />
+    <linearGradient
+       id="4">
+      <stop
+         stop-color="#fff"
+         id="stop11" />
+      <stop
+         offset="1"
+         stop-color="#fff"
+         stop-opacity="0"
+         id="stop13" />
+    </linearGradient>
+    <linearGradient
+       id="5">
+      <stop
+         stop-color="#dedede"
+         id="stop16" />
+      <stop
+         offset="1"
+         stop-color="#f4f4f4"
+         id="stop18" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4197">
+      <stop
+         stop-color="#ebebeb"
+         id="stop4199" />
+      <stop
+         offset="1"
+         stop-color="#fff"
+         id="stop4201" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4203"
+       xlink:href="#linearGradient4197"
+       y1="18"
+       y2="48"
+       gradientUnits="userSpaceOnUse"
+       x2="0"
+       gradientTransform="matrix(0.36363635,0,0,0.34965033,-0.72727275,-2.3846135)" />
+    <linearGradient
+       id="0-8"
+       y1="12.397412"
+       y2="18.804628"
+       x2="0"
+       gradientTransform="scale(1.5617033,0.64032648)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#d02604"
+         id="stop7-9-7" />
+      <stop
+         offset="1"
+         stop-color="#fa3711"
+         id="stop9-0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4203-8"
+       xlink:href="#linearGradient4197"
+       y1="18"
+       y2="48"
+       gradientUnits="userSpaceOnUse"
+       x2="0"
+       gradientTransform="matrix(0.6590909,0,0,0.66666667,-43.792444,-6.3338968)" />
+    <linearGradient
+       xlink:href="#4"
+       id="linearGradient4176"
+       y1="12"
+       y2="29"
+       x2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-43.474262,-7.0005648)" />
+    <linearGradient
+       id="0-6"
+       y1="0.937"
+       y2="19.938"
+       x2="0"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#66b03e"
+         id="stop4225" />
+      <stop
+         offset="1"
+         stop-color="#95ce76"
+         id="stop4227" />
+    </linearGradient>
+    <linearGradient
+       id="1-8"
+       y1="1.938"
+       y2="18.938"
+       x2="0"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#fff"
+         id="stop4230" />
+      <stop
+         offset="1"
+         stop-color="#fff"
+         id="stop4232"
+         stop-opacity="0" />
+    </linearGradient>
+    <linearGradient
+       id="0-5"
+       y1="6.994"
+       y2="13.994"
+       x2="0"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#d02604"
+         id="stop7" />
+      <stop
+         offset="1"
+         stop-color="#fd9f8c"
+         id="stop9" />
+    </linearGradient>
+    <linearGradient
+       id="1-4"
+       y1="7.994"
+       y2="12.994"
+       x2="0"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#fff"
+         id="stop12" />
+      <stop
+         offset="1"
+         stop-color="#fff"
+         stop-opacity="0"
+         id="stop14" />
+    </linearGradient>
+  </defs>
+  <rect
+     width="22.997"
+     x="0"
+     y="1.946"
+     rx="0.80599999"
+     height="28"
+     ry="0.80599999"
+     id="rect20"
+     style="opacity:0.06000001" />
+  <rect
+     width="22.997"
+     x="0"
+     y="0.94599998"
+     rx="0.80599999"
+     height="28"
+     ry="0.80599999"
+     id="rect22"
+     style="fill:url(#3)" />
+  <g
+     id="g24"
+     transform="translate(-0.95700002,0)"
+     style="fill:none">
+    <path
+       d="m 1.7503,1.4874 c -0.142802,0 -0.249889,0.114013 -0.249889,0.284789 l 0,26.422101 c 0,0.170775 0.08981,0.253145 0.249889,0.253145 l 21.4592,0 c 0.15456,0 0.249889,-0.09657 0.249889,-0.253145 l 0,-26.422101 C 23.459389,1.615617 23.346782,1.4874 23.2095,1.4874 l -21.4592,0 z"
+       id="path26"
+       inkscape:connector-curvature="0"
+       style="opacity:0.4;stroke:#000000" />
+    <path
+       d="m 2.5,2.5 0,24.9349 19.9599,0 0,-24.9349 L 2.5,2.5 Z"
+       id="path28"
+       style="opacity:0.7;stroke:url(#1)"
+       inkscape:connector-curvature="0" />
   </g>
- </g>
- <metadata id="metadata9999">
-  <rdf:RDF>
-   <cc:Work>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:title>Ivy icon theme</dc:title>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
-     </cc:Agent>
-    </dc:creator>
-    <dc:publisher>
-     <cc:Agent>
-      <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
-     </cc:Agent>
-    </dc:publisher>
-    <dc:source>https://github.com/sixsixfive</dc:source>
-    <dc:subject>
-     <rdf:Bag>
-      <rdf:li>ivy</rdf:li>
-     </rdf:Bag>
-    </dc:subject>
-    <dc:contributor>
-     <cc:Agent>
-      <dc:title>ssf</dc:title>
-     </cc:Agent>
-    </dc:contributor>
-    <dc:rights>
-     <cc:Agent>
-      <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
-     </cc:Agent>
-    </dc:rights>
-    <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
-    <dc:identifier>SSF</dc:identifier>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+  <rect
+     width="22.997"
+     x="6.0430002"
+     y="2.9460001"
+     rx="0.80599999"
+     height="28"
+     ry="0.80599999"
+     id="rect30"
+     style="opacity:0.46600001;fill:#ffffff" />
+  <rect
+     width="22.997"
+     x="7"
+     y="3.9460001"
+     rx="0.80599999"
+     height="28"
+     ry="0.80599999"
+     id="rect32"
+     style="opacity:0.06000001" />
+  <rect
+     width="22.997"
+     x="7"
+     y="2.9460001"
+     rx="0.80599999"
+     height="28"
+     ry="0.80599999"
+     id="rect34"
+     style="fill:url(#0)" />
+  <g
+     id="g36"
+     transform="translate(-0.95700002,0)"
+     style="fill:none">
+    <path
+       d="m 8.7503,3.4874 c -0.142803,0 -0.249889,0.114013 -0.249889,0.284789 l 0,26.422101 c 0,0.170775 0.08981,0.253145 0.249889,0.253145 l 21.4592,0 c 0.15456,0 0.249889,-0.09657 0.249889,-0.253145 l 0,-26.422101 C 30.459389,3.615617 30.346782,3.4874 30.2095,3.4874 l -21.4592,0 z"
+       id="path38"
+       inkscape:connector-curvature="0"
+       style="opacity:0.4;stroke:#000000" />
+    <path
+       d="m 9.5,4.5 0,24.9349 19.9599,0 0,-24.9349 L 9.5,4.5 Z"
+       id="path40"
+       style="opacity:0.7;stroke:url(#2)"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     transform="translate(11,13.006)"
+     id="g4235">
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:0.1"
+       id="path16"
+       d="m 2,8 0,7 c 9,-0.006 8.93369,0 19,0 L 21,8 C 2,7.994 12.06631,8 2,8 Z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path18"
+       d="m 2,6.994 0,7 c 19,0 8.933687,0 19,0 l 0,-7 c -19,0 -8.933687,0 -19,0 z"
+       style="fill:url(#0-5)" />
+    <g
+       style="fill:none"
+       id="g20">
+      <path
+         inkscape:connector-curvature="0"
+         style="opacity:0.4;stroke:#000000"
+         id="path22"
+         d="m 2.5312,7.5252 0,5.9375 17.9375,0 0,-5.9375 -17.9375,0 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path24"
+         d="m 3.5312,8.5252 0,3.9375 15.9375,0 0,-3.9375 -15.9375,0 z"
+         style="opacity:0.4;stroke:url(#1-4)" />
+    </g>
+  </g>
+  <metadata
+     id="metadata9999">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:source>https://github.com/sixsixfive</dc:source>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>ivy</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>ssf</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+        <dc:identifier>SSF</dc:identifier>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
 </svg>

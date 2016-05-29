@@ -6,64 +6,92 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="0 0 48 48"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 32 32"
    id="svg2"
-   version="1.1">
+   version="1.1"
+   width="32"
+   height="32"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="flag-gm.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview19"
+     showgrid="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:zoom="11.992531"
+     inkscape:cx="16"
+     inkscape:cy="16"
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3347" />
+  </sodipodi:namedview>
   <defs
      id="0">
     <linearGradient
-       id="linearGradient4159">
+       id="linearGradient4162">
       <stop
-         stop-color="#fff"
-         id="stop4161" />
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4164" />
       <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
          offset="1"
-         stop-color="#fff"
-         id="stop4163"
-         stop-opacity="0" />
+         id="stop4166" />
     </linearGradient>
     <linearGradient
-       id="linearGradient4165"
-       xlink:href="#linearGradient4159"
-       y1="10.05"
-       y2="37.841"
-       x1="45.561"
-       gradientUnits="userSpaceOnUse"
-       x2="45.49"
-       gradientTransform="translate(-0.5,0)" />
+       xlink:href="#linearGradient4162"
+       id="linearGradient4168"
+       x1="23"
+       y1="5"
+       x2="23"
+       y2="26"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <path
-     style="opacity:0.1"
-     id="rect4167"
-     d="m 1,10 45,0 0,30 -45,0 z" />
+     d="M 1,6 31,6 31,27 1,27 Z"
+     id="path4154"
+     style="fill:#000000;opacity:0.15" />
   <path
-     style="fill:#3876ca;fill-opacity:1"
+     style="fill:#ebebeb"
      id="9"
-     d="M 1,9 46,9 46,39 1,39 Z" />
+     d="M 1,5 31,5 31,26 1,26 Z" />
   <path
-     style="fill:#d02604"
+     style="fill:#5288d1"
      id="A"
-     d="M 1,9 46,9 46,19 1,19 Z" />
+     d="m 1,14 30,0 0,3 -30,0 z"
+     inkscape:connector-curvature="0" />
   <path
-     style="fill:#518c32;fill-opacity:1"
+     style="fill:#66b03e"
      id="B"
-     d="m 1,29 45,0 0,10 -45,0 z" />
+     d="m 1,20 30,0 0,6 -30,0 z"
+     inkscape:connector-curvature="0" />
   <path
-     d="m 1,17 45,0 0,4 -45,0 z"
-     id="path3350"
-     style="fill:#ebebeb" />
-  <path
-     d="m 1,27 45,0 0,4 -45,0 z"
-     id="path3354"
-     style="fill:#ebebeb" />
+     inkscape:connector-curvature="0"
+     d="m 1,5 30,0 0,6 -30,0 z"
+     id="path3349"
+     style="fill:#d02604" />
   <path
      style="opacity:0.4;fill:none;stroke:#000000"
-     d="m 1.53125,9.53125 0,28.9375 43.9375,0 0,-28.9375 -43.9375,0 z"
-     id="C" />
+     id="path4158"
+     d="m 1.5371094,5.5371094 0,19.9257816 28.9257816,0 0,-19.9257816 -28.9257816,0 z" />
   <path
-     style="opacity:0.4;fill:none;stroke:url(#linearGradient4165)"
-     d="m 2.5117188,10.511719 0,26.976562 41.9765622,0 0,-26.976562 -41.9765622,0 z"
-     id="path4157" />
+     d="m 2.5195312,6.5195312 0,17.9609378 26.9609378,0 0,-17.9609378 -26.9609378,0 z"
+     id="path4160"
+     style="opacity:0.4;fill:none;stroke:url(#linearGradient4168)" />
   <metadata
      id="metadata9999">
     <rdf:RDF>
