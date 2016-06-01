@@ -27,6 +27,13 @@ auto_distroicon() {
 		#_distributor="suse"
 		#FIXME add a suse icon
 		printf "\n"
+	elif [ $(cat /etc/os-release|grep "^ID=kaos$") ];then
+		_distributor="kaos"
+	elif [ $(cat /etc/os-release|grep "^ID=chakra$") ];then
+		_distributor="kde"
+	fi
+	if [ -f /etc/manjaro-release ];then
+		_distributor="manjaro"
 	fi
 	for _dir in $(echo $(find -maxdepth 1 -mindepth 1 -type d));do
 		cd $_dir
