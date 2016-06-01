@@ -8,7 +8,7 @@ cd ${basedir}
 git add .
 #srsly git...
 LANG=C
-MESSAGE="cleaning"
+MESSAGE="$(git status)"
 #read MESSAGE
 git commit -m "$MESSAGE"
 git push origin master
