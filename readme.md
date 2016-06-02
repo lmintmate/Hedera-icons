@@ -14,7 +14,8 @@ Goals:
 
 ##### Distro(use at your own risk!) 
 
-* [@DEB](https://raw.githubusercontent.com/sixsixfive/Ivy/master/dist/ivy-icon-theme_1.0-1_all.deb)
+* [@Chakra](https://chakraos.org/ccr/packages.php?ID=7715)
+* [@Debian](https://raw.githubusercontent.com/sixsixfive/Ivy/master/dist/ivy-icon-theme_1.0-1_all.deb)
 * [@KaOS](https://github.com/KaOS-Community-Packages/ivy-icon-theme)
 
 ### See also:

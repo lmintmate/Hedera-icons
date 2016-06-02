@@ -24,13 +24,11 @@ auto_distroicon() {
 			_distributor="debian"
 		fi
 	elif [ $(cat /etc/os-release|grep "^ID=opensuse$") ];then
-		#_distributor="suse"
-		#FIXME add a suse icon
-		printf "\n"
+		_distributor="suse"
 	elif [ $(cat /etc/os-release|grep "^ID=kaos$") ];then
 		_distributor="kaos"
 	elif [ $(cat /etc/os-release|grep "^ID=chakra$") ];then
-		_distributor="kde"
+		_distributor="chakra"
 	fi
 	if [ -f /etc/manjaro-release ];then
 		_distributor="manjaro"
