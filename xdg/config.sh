@@ -33,13 +33,11 @@ auto_distroicon() {
 	if [ -f /etc/manjaro-release ];then
 		_distributor="manjaro"
 	fi
-	if [ ! -f 48/logos/emblem-$_distributor.png ];then
-		for _dir in $(echo $(find -maxdepth 1 -mindepth 1 -type d));do
-			cd $_dir
-			cp -fv logos/emblem-$_distributor.png logos/emblem-distributor.png
-			cd $_basedir
-		done
-	fi
+	for _dir in $(echo $(find -maxdepth 1 -mindepth 1 -type d));do
+		cd $_dir
+		cp -fv logos/emblem-$_distributor.png logos/emblem-distributor.png
+		cd $_basedir
+	done
 }
 
 custom_distroicon() {

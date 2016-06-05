@@ -1,12 +1,7 @@
 * [Packages](#packages)
 * [FAQs](#see-also)
 
-Ivy is a classic icon theme for bright/grey themes,
-
-Goals:
-
-* No symbolic icons
-* Desktop/Toolkit independent
+A universal icon theme for bright or grey themes.
 
 ### Packages
 
