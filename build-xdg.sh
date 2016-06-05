@@ -421,7 +421,7 @@ Threshold=3
 EOF
 	done
 ####extra fix for 22/24px icons due the overlaping threshold
-	allsize=22 24
+	allsize="22 24"
 	for _allsize in $(echo $_allsizes); do
 		cat <<EOF >> $_tmpdir/Ivy/index.theme.xdg
 
@@ -736,7 +736,7 @@ Threshold=3
 EOF
 	done
 ####extra fix for 22/24px icons due the overlaping threshold
-	allsize=22 24
+	allsize="22 24"
 	for _allsize in $(echo $_allsizes); do
 		cat <<EOF >> $_tmpdir/Ivy/index.theme.xdg
 
