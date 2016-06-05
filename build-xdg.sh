@@ -295,6 +295,9 @@ make_indextheme() {
 [Icon Theme]
 Name=Ivy
 Name[de]=Efeu
+Name[es]=Hiedra
+Name[fr]=Lierre
+Comment=pure XDG
 Example=start-here
 Inherits=hicolor
 
@@ -312,109 +315,223 @@ EOF
 Size=$_allsize
 Context=Actions
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/applications]
 Size=$_allsize
 Context=Applications
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/animations]
 Size=$_allsize
 Context=Animations
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/menus]
 Size=$_allsize
 Context=Categories
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/devices]
 Size=$_allsize
 Context=Devices
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/logos]
 Size=$_allsize
 Context=Emblems
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/emoticons]
 Size=$_allsize
 Context=Emotes
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/mimetypes]
 Size=$_allsize
 Context=MimeTypes
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/folders]
 Size=$_allsize
 Context=Places
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/status]
 Size=$_allsize
 Context=Status
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/international]
 Size=$_allsize
 Context=International
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc-filesystems]
 Size=$_allsize
 Context=FileSystems
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc-animations]
 Size=$_allsize
 Context=Misc
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc-mimetypes]
 Size=$_allsize
 Context=Misc
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc]
 Size=$_allsize
 Context=Misc
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc]
 Size=$_allsize
 Context=Stock
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc-animations]
 Size=$_allsize
 Context=Animations
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc-mimetypes]
 Size=$_allsize
 Context=MimeTypes
 Type=Threshold
-Threshold=1
+Threshold=3
+EOF
+	done
+####extra fix for 22/24px icons due the overlaping threshold
+	allsize=22 24
+	for _allsize in $(echo $_allsizes); do
+		cat <<EOF >> $_tmpdir/Ivy/index.theme.xdg
+
+[$_allsize/actions]
+Size=$_allsize
+Context=Actions
+Type=Fixed
+
+
+[$_allsize/applications]
+Size=$_allsize
+Context=Applications
+Type=Fixed
+
+
+[$_allsize/animations]
+Size=$_allsize
+Context=Animations
+Type=Fixed
+
+
+[$_allsize/menus]
+Size=$_allsize
+Context=Categories
+Type=Fixed
+
+
+[$_allsize/devices]
+Size=$_allsize
+Context=Devices
+Type=Fixed
+
+
+[$_allsize/logos]
+Size=$_allsize
+Context=Emblems
+Type=Fixed
+
+
+[$_allsize/emoticons]
+Size=$_allsize
+Context=Emotes
+Type=Fixed
+
+
+[$_allsize/mimetypes]
+Size=$_allsize
+Context=MimeTypes
+Type=Fixed
+
+
+[$_allsize/folders]
+Size=$_allsize
+Context=Places
+Type=Fixed
+
+
+[$_allsize/status]
+Size=$_allsize
+Context=Status
+Type=Fixed
+
+
+[$_allsize/international]
+Size=$_allsize
+Context=International
+Type=Fixed
+
+
+[$_allsize/misc-filesystems]
+Size=$_allsize
+Context=FileSystems
+Type=Fixed
+
+
+[$_allsize/misc-animations]
+Size=$_allsize
+Context=Misc
+Type=Fixed
+
+
+[$_allsize/misc-mimetypes]
+Size=$_allsize
+Context=Misc
+Type=Fixed
+
+
+[$_allsize/misc]
+Size=$_allsize
+Context=Misc
+Type=Fixed
+
+
+[$_allsize/misc]
+Size=$_allsize
+Context=Stock
+Type=Fixed
+
+
+[$_allsize/misc-animations]
+Size=$_allsize
+Context=Animations
+Type=Fixed
+
+
+[$_allsize/misc-mimetypes]
+Size=$_allsize
+Context=MimeTypes
+Type=Fixed
+
 EOF
 	done
 }
@@ -425,7 +542,9 @@ make_indexthemeqt() {
 [Icon Theme]
 Name=Ivy
 Name[de]=Efeu
-Comment=Qt/KDE workaround
+Name[es]=Hiedra
+Name[fr]=Lierre
+Comment=Qt/KDE fix
 Example=start-here
 Inherits=hicolor
 
@@ -457,7 +576,7 @@ EOF
 	for _allsize in $_allsizes; do
 		printf "$_allsize/actions,$_allsize/applications,$_allsize/animations,$_allsize/devices,$_allsize/emoticons,$_allsize/folders,$_allsize/international,$_allsize/logos,$_allsize/menus,$_allsize/mimetypes,$_allsize/status,$_allsize/misc,$_allsize/misc-animations,$_allsize/misc-mimetypes,$_allsize/misc-filesystems," >> $_tmpdir/Ivy/index.theme
 	done
-	for _allsize in $(echo $_allsizes); do
+	for _allsize in $(echo $_allsizes|sed 's/22 //'|sed 's/24//'); do
 		cat <<EOF >> $_tmpdir/Ivy/index.theme
 
 ######
@@ -468,151 +587,311 @@ EOF
 Size=$_allsize
 Context=Actions
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/applications]
 Size=$_allsize
 Context=Applications
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/animations]
 Size=$_allsize
 Context=Animations
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/menus]
 Size=$_allsize
 Context=Categories
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/devices]
 Size=$_allsize
 Context=Devices
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/logos]
 Size=$_allsize
 Context=Emblems
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/emoticons]
 Size=$_allsize
 Context=Emotes
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/mimetypes]
 Size=$_allsize
 Context=MimeTypes
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/folders]
 Size=$_allsize
 Context=Places
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/status]
 Size=$_allsize
 Context=Status
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/international]
 Size=$_allsize
 Context=International
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc-filesystems]
 Size=$_allsize
 Context=FileSystems
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc-animations]
 Size=$_allsize
 Context=Misc
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc-mimetypes]
 Size=$_allsize
 Context=Misc
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc]
 Size=$_allsize
 Context=Misc
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc]
 Size=$_allsize
 Context=Stock
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc-animations]
 Size=$_allsize
 Context=Animations
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc-mimetypes]
 Size=$_allsize
 Context=MimeTypes
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc]
 Size=$_allsize
 Context=Actions
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc]
 Size=$_allsize
 Context=Applications
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc]
 Size=$_allsize
 Context=Categories
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc]
 Size=$_allsize
 Context=Devices
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc]
 Size=$_allsize
 Context=FileSystems
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc]
 Size=$_allsize
 Context=Places
 Type=Threshold
-Threshold=1
+Threshold=3
 
 [$_allsize/misc]
 Size=$_allsize
 Context=Status
 Type=Threshold
-Threshold=1
+Threshold=3
+
+EOF
+	done
+####extra fix for 22/24px icons due the overlaping threshold
+	allsize=22 24
+	for _allsize in $(echo $_allsizes); do
+		cat <<EOF >> $_tmpdir/Ivy/index.theme.xdg
+
+######
+# ${_allsize}px
+######
+
+[$_allsize/actions]
+Size=$_allsize
+Context=Actions
+Type=Fixed
+
+
+[$_allsize/applications]
+Size=$_allsize
+Context=Applications
+Type=Fixed
+
+
+[$_allsize/animations]
+Size=$_allsize
+Context=Animations
+Type=Fixed
+
+
+[$_allsize/menus]
+Size=$_allsize
+Context=Categories
+Type=Fixed
+
+
+[$_allsize/devices]
+Size=$_allsize
+Context=Devices
+Type=Fixed
+
+
+[$_allsize/logos]
+Size=$_allsize
+Context=Emblems
+Type=Fixed
+
+
+[$_allsize/emoticons]
+Size=$_allsize
+Context=Emotes
+Type=Fixed
+
+
+[$_allsize/mimetypes]
+Size=$_allsize
+Context=MimeTypes
+Type=Fixed
+
+
+[$_allsize/folders]
+Size=$_allsize
+Context=Places
+Type=Fixed
+
+
+[$_allsize/status]
+Size=$_allsize
+Context=Status
+Type=Fixed
+
+
+[$_allsize/international]
+Size=$_allsize
+Context=International
+Type=Fixed
+
+
+[$_allsize/misc-filesystems]
+Size=$_allsize
+Context=FileSystems
+Type=Fixed
+
+
+[$_allsize/misc-animations]
+Size=$_allsize
+Context=Misc
+Type=Fixed
+
+
+[$_allsize/misc-mimetypes]
+Size=$_allsize
+Context=Misc
+Type=Fixed
+
+
+[$_allsize/misc]
+Size=$_allsize
+Context=Misc
+Type=Fixed
+
+
+[$_allsize/misc]
+Size=$_allsize
+Context=Stock
+Type=Fixed
+
+
+[$_allsize/misc-animations]
+Size=$_allsize
+Context=Animations
+Type=Fixed
+
+
+[$_allsize/misc-mimetypes]
+Size=$_allsize
+Context=MimeTypes
+Type=Fixed
+
+
+[$_allsize/misc]
+Size=$_allsize
+Context=Actions
+Type=Fixed
+
+
+[$_allsize/misc]
+Size=$_allsize
+Context=Applications
+Type=Fixed
+
+
+[$_allsize/misc]
+Size=$_allsize
+Context=Categories
+Type=Fixed
+
+
+[$_allsize/misc]
+Size=$_allsize
+Context=Devices
+Type=Fixed
+
+
+[$_allsize/misc]
+Size=$_allsize
+Context=FileSystems
+Type=Fixed
+
+
+[$_allsize/misc]
+Size=$_allsize
+Context=Places
+Type=Fixed
+
+
+[$_allsize/misc]
+Size=$_allsize
+Context=Status
+Type=Fixed
 
 EOF
 	done
@@ -658,7 +937,7 @@ for _allsize in in $(echo $_allsizes); do
 	fi
 done
 cp "$_basedir"/COPYING $_tmpdir/Ivy/COPYING
-ln -s COPYING $_tmpdir/Ivy/LICENSE
+cp "$_basedir"/LICENSE $_tmpdir/Ivy/LICENSE
 #FIXME RE-ADD TEXT (embeddedtextrectangles)
 cd $_tmpdir
 env XZ_OPT=-5 tar -cJvf $HOME/ivy-icon-theme.txz Ivy
