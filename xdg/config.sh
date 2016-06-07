@@ -33,7 +33,7 @@ auto_distroicon() {
 	if [ -f /etc/manjaro-release ];then
 		_distributor="manjaro"
 	fi
-	if [ ! -f 48/logos/emblem-$_distributor.png ];then
+	if [ -f 48/logos/emblem-$_distributor.png ];then
 		for _dir in $(echo $(find -maxdepth 1 -mindepth 1 -type d));do
 			cd $_dir
 			cp -fv logos/emblem-$_distributor.png logos/emblem-distributor.png
@@ -85,7 +85,7 @@ createsymbolicsymlinks() {
 	if [ -d /usr/share/icons ];then
 		_prefix=/usr
 	elif [ -d $(getconf PATH| sed -e 's/\/bin//g' -e 's/://g')/share/icons ];then
-		_prefix=$(getconf PATH| sed -e 's/\/bin//g' -e 's/://g')/share/icons
+		_prefix=$(getconf PATH| sed -e 's/\/bin//g' -e 's/://g')
 	else
 		printf "couldn't find prefix"
 	fi
