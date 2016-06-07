@@ -10,7 +10,7 @@ if [ ! -d /usr/share/icons ];then
 fi
 #FIXME add loop/integrity checks
 printf '\n==> Downloading the latest release from GitHub!\n'
-curl -L https://github.com/sixsixfive/Ivy/releases/download/pre/ivy-icon-theme.txz > "${_tmpdir}"/icons.src --progress-bar
+curl -L https://github.com/sixsixfive/Ivy/releases/download/PreRelese/ivy-icon-theme.txz > "${_tmpdir}"/icons.src --progress-bar
 
 printf '\n==> Extracting...\n'
 if [ -d /usr/share/icons/Ivy ]; then
@@ -19,6 +19,34 @@ if [ -d /usr/share/icons/Ivy ]; then
 fi
 tar -xvf "${_tmpdir}"/icons.src -C /usr/share/icons &&
 rm -f "${_tmpdir}"/icons.src
+
+cd /usr/share/icons/Ivy
+auto_distroicon() {
+	if [ $(cat /etc/os-release|grep "^ID=debian$") ];then
+		if dpkg --get-selections|grep siduction &>/dev/null;then
+			_distributor="siduction"
+		else
+			_distributor="debian"
+		fi
+	elif [ $(cat /etc/os-release|grep "^ID=opensuse$") ];then
+		_distributor="suse"
+	elif [ $(cat /etc/os-release|grep "^ID=kaos$") ];then
+		_distributor="kaos"
+	elif [ $(cat /etc/os-release|grep "^ID=chakra$") ];then
+		_distributor="chakra"
+	fi
+	if [ -f /etc/manjaro-release ];then
+		_distributor="manjaro"
+	fi
+	if [ -f 48/logos/emblem-$_distributor.png ];then
+		for _dir in $(echo $(find -maxdepth 1 -mindepth 1 -type d));do
+			cd $_dir
+			cp -fv logos/emblem-$_distributor.png logos/emblem-distributor.png
+			cd ..
+		done
+	fi
+}
+auto_distroicon
 
 
 ###dpkg
