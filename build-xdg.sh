@@ -133,6 +133,7 @@ check_optreq() {
 		_missing=1
 	fi
 	if [ "$_missing" = "1" ];then
+		printf "\n Optipng, parallel or gtk-update-icon-cache is missing\n"
 		printf "\n\n-->Would you like to continue? [N/y]\n"
 		read _abort1
 		case $_abort1 in
