@@ -3,7 +3,7 @@ set -e
 #use parallel?
 _parallelyn=y
 #number of jobs for parallel
-_inputthreads=$(expr $(nproc) \* 2)
+_inputthreads=$(expr \( $(nproc) \* 2 \) - 1)
 LANG=C
 _basedir="$(dirname "$(readlink -f "${0}")")"
 _basesizes="16 22 32 48"
@@ -21,7 +21,7 @@ settings_parallel() {
 			[yY])
 				_parallel=true
 				if type nproc &>/dev/null; then
-					_parallelthreads=$(expr $(nproc) \* 2)
+					_parallelthreads=$(expr \( $(nproc) \* 2 \) - 1)
 				else
 					_parallelthreads=1
 				fi
