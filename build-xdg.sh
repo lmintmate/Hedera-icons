@@ -668,3 +668,4 @@ cp "$_basedir"/LICENSE $_tmpdir/Ivy/LICENSE
 #FIXME RE-ADD TEXT (embeddedtextrectangles)
 cd $_tmpdir
 env XZ_OPT=-5 tar -cJvf $HOME/ivy-icon-theme.txz Ivy
+sha256sum $HOME/ivy-icon-theme.txz >$HOME/SHA256SUMS
