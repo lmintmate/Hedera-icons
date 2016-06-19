@@ -39,7 +39,7 @@ optimize_pngs() {
 		printf "\nOptimizing PNGs in $PWD\n\n"
 		case $_parallel in
 			true)
-				parallel --no-notice -j "$_parallelthreads" optipng -nb -strip all -out "{}" {} ::: *.png;;
+				parallel --no-notice -j "$_parallelthreads" optipng -o5 -nb -strip all -out "{}" {} ::: *.png;;
 			*)
 				optipng -nb -strip all ./*.png;;
 		esac
@@ -299,7 +299,7 @@ Name[de]=Efeu
 Name[es]=Hiedra
 Name[fr]=Lierre
 Comment=pure XDG
-Example=start-here
+Example=emblem-distributor
 Inherits=hicolor
 
 ##Dirs
@@ -432,7 +432,7 @@ Name[de]=Efeu
 Name[es]=Hiedra
 Name[fr]=Lierre
 Comment=Qt/KDE fix
-Example=start-here
+Example=emblem-distributor
 Inherits=hicolor
 
 #######
@@ -668,4 +668,5 @@ cp "$_basedir"/LICENSE $_tmpdir/Ivy/LICENSE
 #FIXME RE-ADD TEXT (embeddedtextrectangles)
 cd $_tmpdir
 env XZ_OPT=-5 tar -cJvf $HOME/ivy-icon-theme.txz Ivy
-sha256sum $HOME/ivy-icon-theme.txz >$HOME/SHA256SUMS
+cd $HOME
+sha256sum ivy-icon-theme.txz >SHA256SUMS

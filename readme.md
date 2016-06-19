@@ -1,7 +1,7 @@
 * [Packages](#packages)
 * [FAQs](#see-also)
 
-A universal icon theme for bright or grey themes.
+A classic icon theme for bright or grey themes.
 
 ### Packages
 

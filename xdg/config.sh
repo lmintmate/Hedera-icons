@@ -23,6 +23,8 @@ auto_distroicon() {
 		else
 			_distributor="debian"
 		fi
+	elif [ $(cat /etc/os-release|grep "^ID=devuan$") ];then
+		_distributor="devuan"
 	elif [ $(cat /etc/os-release|grep "^ID=opensuse$") ];then
 		_distributor="suse"
 	elif [ $(cat /etc/os-release|grep "^ID=chakra$") ];then
@@ -31,10 +33,10 @@ auto_distroicon() {
 	if [ -f /etc/manjaro-release ];then
 		_distributor="manjaro"
 	fi
-	if [ -f 48/logos/emblem-$_distributor.png ];then
+	if [ -f 48/logos/distributor-$_distributor.png ];then
 		for _dir in $(echo $(find -maxdepth 1 -mindepth 1 -type d));do
 			cd $_dir
-			cp -fv logos/emblem-$_distributor.png logos/emblem-distributor.png
+			cp -fv logos/distributor-$_distributor.png logos/emblem-distributor.png
 			cd $_basedir
 		done
 	fi
@@ -43,15 +45,15 @@ auto_distroicon() {
 custom_distroicon() {
 	printf "Please enter the name of the icon(eg: kde for emblem-kde.png)\n\n"
 	read _customiconname
-	if [ ! -f 48/logos/emblem-$_customiconname.png ];then
-		printf "\nemblem-$_customiconname.png does not exist - Aborting!\n"
+	if [ ! -f 48/logos/distributor-$_customiconname.png ];then
+		printf "\ndistributor-$_customiconname.png does not exist - Aborting!\n"
 		exit 1
 	else
 		_distributor="$_customiconname"
 	fi
 	for _dir in $(echo $(find -maxdepth 1 -mindepth 1 -type d));do
 		cd $_dir
-		cp -fv logos/emblem-$_distributor.png logos/emblem-distributor.png
+		cp -fv logos/distributor-$_distributor.png logos/emblem-distributor.png
 		cd $_basedir
 	done
 }
