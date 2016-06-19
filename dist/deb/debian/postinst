@@ -28,26 +28,19 @@ auto_distroicon() {
 		else
 			_distributor="debian"
 		fi
+	elif [ $(cat /etc/os-release|grep "^ID=devuan$") ];then
+		_distributor="devuan"
 	elif [ $(cat /etc/os-release|grep "^ID=opensuse$") ];then
 		_distributor="suse"
-	elif [ $(cat /etc/os-release|grep "^ID=kaos$") ];then
-		_distributor="kaos"
-	elif [ $(cat /etc/os-release|grep "^ID=chakra$") ];then
-		_distributor="chakra"
-	fi
-	if [ -f /etc/manjaro-release ];then
-		_distributor="manjaro"
-	fi
-	if [ -f 48/logos/emblem-$_distributor.png ];then
+	if [ -f 48/logos/distributor-$_distributor.png ];then
 		for _dir in $(echo $(find -maxdepth 1 -mindepth 1 -type d));do
 			cd $_dir
-			cp -fv logos/emblem-$_distributor.png logos/emblem-distributor.png
+			cp -fv logos/distributor-$_distributor.png logos/emblem-distributor.png
 			cd ..
 		done
 	fi
 }
 auto_distroicon
-
 
 ###dpkg
 ##add a filelist ###we need md5sums
