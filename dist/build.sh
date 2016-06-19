@@ -36,7 +36,7 @@ install_depends
 cd "${basedir}"
 build
 ##only tested on suse
-fakeroot alien -r -c -k -v --description="An easier way to install Ivy systemwide" ivy-icon-theme_1.0-1_all.deb
+#fakeroot alien -r -c -k -v --description="An easier way to install Ivy systemwide" ivy-icon-theme_1.0-1_all.deb
 clean
 printf "\n\n\ndone\n\n\n"
 sleep 5
