@@ -1,2 +1,159 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" viewBox="0 0 48 48" version="1.1" id="svg2" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><defs id="defs4"><linearGradient id="linearGradient4154"><stop stop-opacity="1" stop-color="#5288d1" id="stop4156"/><stop offset="1" stop-opacity="1" stop-color="#83aade" id="stop4158"/></linearGradient><linearGradient id="linearGradient4194"><stop stop-color="#fff" id="stop4196"/><stop offset="1" stop-opacity="0" stop-color="#fff" id="stop4198"/></linearGradient><linearGradient x2="0" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4194" y2="1044.3622" id="linearGradient4200" gradientTransform="matrix(1 0 0 1 0 -1004.3622)" y1="1012.3622"/><mask maskUnits="userSpaceOnUse" id="mask3428"><path fill-rule="evenodd" fill="#fff" id="path3430" d="m 10,7 28,0 c 3.324,0 6,2.676 6,6 l 0,22 c 0,3.324 -2.676,6 -6,6 L 10,41 C 6.676,41 4,38.324 4,35 L 4,13 C 4,9.676 6.676,7 10,7 Z"/></mask><linearGradient x2="25.694916" gradientUnits="userSpaceOnUse" x1="25.966103" xlink:href="#linearGradient4154" y2="42.1017" id="linearGradient4160" y1="6.305085"/></defs><path fill-rule="evenodd" opacity="0.1" id="rect4202" d="m 10,8 28,0 c 3.324,0 6,2.676 6,6 l 0,22 c 0,3.324 -2.676,6 -6,6 L 10,42 C 6.676,42 4,39.324 4,36 L 4,14 C 4,10.676 6.676,8 10,8 Z"/><path fill-opacity="1" fill-rule="evenodd" fill="url(#linearGradient4160)" id="rect3338" d="m 10,7 28,0 c 3.324,0 6,2.676 6,6 l 0,22 c 0,3.324 -2.676,6 -6,6 L 10,41 C 6.676,41 4,38.324 4,35 L 4,13 C 4,9.676 6.676,7 10,7 Z"/><g mask="url(#mask3428)" id="g3420"><path fill="#ffd506" id="path45" d="m 37,3 4,0 0,44 -4,0 z"/><path fill="#ffd506" id="path3418" d="m 30,3 4,0 0,44 -4,0 z"/></g><path fill-rule="evenodd" opacity="0.5" fill="none" stroke="#000" id="path3342" d="m 10,7.5362 c -3.0361989,0 -5.4628906,2.4267 -5.4628906,5.4629 l 0,22 c 0,3.0362 2.4266917,5.4629 5.4628906,5.4629 l 28,0 c 3.036199,0 5.462891,-2.4267 5.462891,-5.4629 l 0,-22 C 43.462891,9.9629 41.036199,7.5362 38,7.5362 l -28,0 z"/><path fill-rule="evenodd" opacity="0.3" fill="none" stroke="url(#linearGradient4200)" id="path4192" d="m 10,8.5323 c -2.5055529,0 -4.4667969,1.9613 -4.4667969,4.4668 l 0,22 c 0,2.5056 1.961244,4.4668 4.4667969,4.4668 l 28,0 c 2.505553,0 4.466797,-1.9612 4.466797,-4.4668 l 0,-22 C 42.466797,10.4936 40.505553,8.5323 38,8.5323 l -28,0 z"/><metadata id="metadata9999"><rdf:RDF><cc:Work><dc:format>image/svg+xml</dc:format><dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/><dc:title/><cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/><dc:creator><cc:Agent><dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title></cc:Agent></dc:creator><dc:publisher><cc:Agent><dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title></cc:Agent></dc:publisher><dc:source>https://github.com/sixsixfive</dc:source><dc:subject><rdf:Bag><rdf:li>ivy</rdf:li></rdf:Bag></dc:subject><dc:contributor><cc:Agent><dc:title>ssf</dc:title></cc:Agent></dc:contributor><dc:rights><cc:Agent><dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title></cc:Agent></dc:rights><dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description><dc:identifier>SSF</dc:identifier></cc:Work></rdf:RDF></metadata><!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
-<rect stroke-dasharray="none" height="10" width="28" fill-opacity="1" fill-rule="evenodd" stroke-linejoin="bevel" stroke-miterlimit="0" opacity="1" fill="#6a6a6a" stroke="none" id="rect3432" stroke-width="1" x="10" stroke-linecap="round" stroke-dashoffset="0" y="31" stroke-opacity="1"/><rect stroke-dasharray="none" height="1" width="28" fill-opacity="1" fill-rule="evenodd" stroke-linejoin="bevel" stroke-miterlimit="0" opacity="0.5" fill="#000" stroke="none" id="rect3434" stroke-width="1" x="10" stroke-linecap="round" stroke-dashoffset="0" y="31" stroke-opacity="1"/><rect stroke-dasharray="none" height="8" width="1" fill-opacity="1" fill-rule="evenodd" stroke-linejoin="bevel" stroke-miterlimit="0" opacity="0.5" fill="#000" stroke="none" id="rect3436" stroke-width="1" x="10" stroke-linecap="round" stroke-dashoffset="0" y="32" stroke-opacity="1"/><rect stroke-dasharray="none" height="8" width="1" fill-opacity="1" fill-rule="evenodd" stroke-linejoin="bevel" stroke-miterlimit="0" opacity="0.5" fill="#000" stroke="none" id="rect3438" stroke-width="1" x="37" stroke-linecap="round" stroke-dashoffset="0" y="32" stroke-opacity="1"/><rect stroke-dasharray="none" height="1" width="26" fill-opacity="1" fill-rule="evenodd" stroke-linejoin="bevel" stroke-miterlimit="0" opacity="0.3" fill="#fff" stroke="none" id="rect3440" stroke-width="1" x="11" stroke-linecap="round" stroke-dashoffset="0" y="32" stroke-opacity="1"/><rect stroke-dasharray="none" height="1" width="28" fill-opacity="1" fill-rule="evenodd" stroke-linejoin="bevel" stroke-miterlimit="0" opacity="0.0972" fill="#000" stroke="none" id="rect3450" stroke-width="1" x="10" stroke-linecap="round" stroke-dashoffset="0" y="30" stroke-opacity="1"/><rect stroke-dasharray="none" height="10" width="1" fill-opacity="1" fill-rule="evenodd" stroke-linejoin="bevel" stroke-miterlimit="0" opacity="0.0972" fill="#000" stroke="none" id="rect3452" stroke-width="1" x="9" stroke-linecap="round" stroke-dashoffset="0" y="30" stroke-opacity="1"/><rect stroke-dasharray="none" height="10.962" width="1" fill-opacity="1" fill-rule="evenodd" stroke-linejoin="bevel" stroke-miterlimit="0" opacity="0.0972" fill="#000" stroke="none" id="rect3454" stroke-width="1" x="38" stroke-linecap="round" stroke-dashoffset="0" y="30" stroke-opacity="1"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   height="22"
+   width="22"
+   id="svg2"
+   version="1.1"
+   viewBox="0 0 22 22">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4168">
+      <stop
+         id="stop4170"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         id="stop4172"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4154">
+      <stop
+         id="stop4156"
+         stop-color="#5288d1"
+         stop-opacity="1" />
+      <stop
+         id="stop4158"
+         stop-color="#83aade"
+         stop-opacity="1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0.5,0,0,0.5,-1,-0.49999996)"
+       y1="7"
+       id="linearGradient4160"
+       y2="41"
+       xlink:href="#linearGradient4154"
+       x1="26"
+       gradientUnits="userSpaceOnUse"
+       x2="26" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="19"
+       x2="10"
+       y1="4"
+       x1="10"
+       id="linearGradient4174"
+       xlink:href="#linearGradient4168" />
+  </defs>
+  <path
+     id="path4194"
+     d="m 4,4 14,0 c 1.662,0 3,1.338 3,3 l 0,11 c 0,1.662 -1.338,3 -3,3 L 4,21 C 2.338,21 1,19.662 1,18 L 1,7 C 1,5.338 2.338,4 4,4 Z"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;opacity:0.15" />
+  <path
+     style="fill:url(#linearGradient4160);fill-opacity:1;fill-rule:evenodd"
+     d="m 4,3 14,0 c 1.662,0 3,1.338 3,3 l 0,11 c 0,1.662 -1.338,3 -3,3 L 4,20 C 2.338,20 1,18.662 1,17 L 1,6 C 1,4.338 2.338,3 4,3 Z"
+     id="rect3338" />
+  <path
+     id="path45"
+     d="M 13 3 L 13 20 L 15 20 L 15 3 L 13 3 z M 17 3 L 17 20 L 18 20 C 18.352917 20 18.68601 19.929312 19 19.818359 L 19 3.1816406 C 18.68601 3.0706875 18.352917 3 18 3 L 17 3 z "
+     style="fill:#ffd506" />
+  <metadata
+     id="metadata9999">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Sixsixfive (sixsixfive.deviantart.com)</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:source>https://github.com/sixsixfive</dc:source>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>ivy</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>ssf</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Sixsixfive (sixisixfive.deviantart.com)</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:description>A simple icon theme published under CC-BY-SA_V4(http://creativecommons.org/licenses/by-sa/4.0)</dc:description>
+        <dc:identifier>SSF</dc:identifier>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <!--Part of the Ivy icon them published under the CC-BY-SA_V4: http://creativecommons.org/licenses/by-sa/4.0 -->
+  <rect
+     style="opacity:1;fill:#6a6a6a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     y="15"
+     x="4"
+     id="rect3432"
+     stroke-miterlimit="0"
+     width="14"
+     height="5" />
+  <path
+     d="M 4,3.5 C 2.606671,3.5 1.5,4.606671 1.5,6 l 0,11 c 0,1.393329 1.106671,2.5 2.5,2.5 l 14,0 c 1.393329,0 2.5,-1.106671 2.5,-2.5 l 0,-11 C 20.5,4.606671 19.393329,3.5 18,3.5 l -14,0 z"
+     id="path3364"
+     style="opacity:0.5;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000" />
+  <path
+     style="opacity:0.4;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient4174)"
+     id="path3366"
+     d="M 4,4.5019531 C 3.1436934,4.5019531 2.5019531,5.1436934 2.5019531,6 l 0,11 c 0,0.856307 0.6417403,1.498047 1.4980469,1.498047 l 14,0 c 0.856307,0 1.498047,-0.64174 1.498047,-1.498047 l 0,-11 C 19.498047,5.1436934 18.856307,4.5019531 18,4.5019531 l -14,0 z" />
+  <rect
+     height="5"
+     width="1"
+     stroke-miterlimit="0"
+     id="rect4180"
+     x="4"
+     y="15"
+     style="opacity:0.5;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <rect
+     style="opacity:0.5;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     y="15"
+     x="5"
+     id="rect4182"
+     stroke-miterlimit="0"
+     width="12"
+     height="1" />
+  <rect
+     style="opacity:0.5;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     y="15"
+     x="17"
+     id="rect4184"
+     stroke-miterlimit="0"
+     width="1"
+     height="5" />
+  <rect
+     height="1"
+     width="12"
+     stroke-miterlimit="0"
+     id="rect4186"
+     x="5"
+     y="16"
+     style="opacity:0.2;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+</svg>
