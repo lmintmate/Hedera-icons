@@ -2,7 +2,7 @@
 basedir="$(dirname "$(readlink -f "${0}")")"; cd "${basedir}"
 type su-to-root >/dev/null 2>&1 || { 
 	echo >&2 "I require menu, but it's not installed. aborting!";exit 1;}
-_scriptdep="debhelper dpkg-dev fakeroot findutils sed gawk grep libfile-fcntllock-perl alien"
+_scriptdep="debhelper dpkg-dev fakeroot findutils sed gawk grep libfile-fcntllock-perl"
 _makedep=""
 
 install_depends() {
@@ -12,7 +12,7 @@ install_depends() {
 	dpkg --get-selections|awk '{if ($2 == "install") print $1}' > "$basedir"/installed-new
 }
 clean() {
-	pkgdiff=$(diff installed installed-new | grep ">" | tr "\n" " " | sed -e 's/> //' -e 's/ > / /g')
+	pkgdiff=$(diff installed installed-new|grep ">"|tr "\n" " "|sed -e 's/> //' -e 's/ > / /g'|sort|uniq)
 	if [ ! -z "$pkgdiff" ]; then
 		printf "==>trying to remove build dependencies\n"
 		su-to-root -c "apt-get -m remove $pkgdiff"
