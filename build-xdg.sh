@@ -1,5 +1,10 @@
 #!/bin/sh
+########################################################################
+# FIXME 
+# 	+ RE-ADD TEXT (embeddedtextrectangles)
+########################################################################
 set -e
+SHELLOPTS=posix
 #use parallel?
 _parallelyn=y
 #number of jobs for parallel
@@ -36,33 +41,33 @@ settings_parallel() {
 
 optimize_pngs() {
 	if type optipng &>/dev/null; then
-		printf "\nOptimizing PNGs in $PWD\n\n"
+		printf "\nOptimizing PNGs in $PWD\n"
 		case $_parallel in
 			true)
-				parallel --no-notice -j "$_parallelthreads" optipng -o5 -nb -strip all -out "{}" {} ::: *.png;;
+#				parallel --no-notice -j "$_parallelthreads" optipng -o5 -nb -strip all -out "{}" {} ::: *.png;;
+				parallel --no-notice -j "$_parallelthreads" optipng -nb -strip all -out "{}" {} ::: *.png;;
 			*)
+#				optipng -nb -o5 -strip all ./*.png;;
 				optipng -nb -strip all ./*.png;;
 		esac
-		printf "\nPNG optimization... DONE\n\n"
+		printf "\nPNG optimization... DONE\n"
 	fi
 }
 
 check_req() {
-	printf "\nChecking Requirements...\n\n"
+	printf "\nChecking Requirements...\n"
 	_requirements="sed convert inkscape awk"
 	for _requirement in $_requirements; do
 		type $_requirement &>/dev/null || { 
 		printf >&2 "I require $_requirement but it's not installed. Aborting.\n"
-		sleep 2
 		exit 1
 		}
 	done
-	sleep 1
-	printf "\nChecking Requirements... DONE\n\n"
+	printf "\nChecking Requirements... DONE\n"
 }
 
 check_optreq() {
-	printf "\nChecking optional Requirements...\n\n"
+	printf "\nChecking optional Requirements...\n"
 	type optipng &>/dev/null||_missing=1
 	type parallel &>/dev/null||_missing=1
 	if type gtk-update-icon-cache &>/dev/null; then
@@ -84,8 +89,9 @@ check_optreq() {
 				exit 1;;
 		esac
 	fi
-	printf "\nChecking optional Requirements... DONE\n\n"
+	printf "\nChecking optional Requirements... DONE\n"
 }
+
 settings_parallel() {
 	type parallel >/dev/null 2>&1&&_parallel=found
 	if [ "$_parallel" = "found" ]; then
@@ -107,44 +113,15 @@ settings_parallel() {
 }
 
 check_req() {
-	printf "\nChecking Requirements...\n\n"
+	printf "\nChecking Requirements...\n"
 	_requirements="sed convert inkscape awk"
 	for _requirement in $_requirements; do
 		type $_requirement &>/dev/null || { 
 		printf >&2 "I require $_requirement but it's not installed. Aborting.\n"
-		sleep 2
 		exit 1
 		}
 	done
-	sleep 1
-	printf "\nChecking Requirements... DONE\n\n"
-}
-
-check_optreq() {
-	printf "\nChecking optional Requirements...\n\n"
-	type optipng &>/dev/null||_missing=1
-	type parallel &>/dev/null||_missing=1
-	if type gtk-update-icon-cache &>/dev/null; then
-		printf ""
-	elif type gtk-update-icon-cache-3.0 &>/dev/null; then
-		printf ""
-	else
-		printf "gtk-update-icon-cache is missing..."
-		_missing=1
-	fi
-	if [ "$_missing" = "1" ];then
-		printf "\n Optipng, parallel or gtk-update-icon-cache is missing\n"
-		printf "\n\n-->Would you like to continue? [N/y]\n"
-		read _abort1
-		case $_abort1 in
-			[yY])
-				printf "";;
-			*)
-				printf "\nAborting!\n"
-				exit 1;;
-		esac
-	fi
-	printf "\nChecking optional Requirements... DONE\n\n"
+	printf "\nChecking Requirements... DONE\n"
 }
 
 clean_build() {
@@ -154,7 +131,7 @@ clean_build() {
 }
 
 copybase_folders() {
-	printf "\nPreparing folders...\n\n"
+	printf "\nPreparing folders...\n"
 	cp -r $_basedir/xdg $_tmpdir/Ivy
 	for _scale48 in $_scales48; do
 		cp -rn $_tmpdir/Ivy/48 $_tmpdir/Ivy/$_scale48
@@ -163,30 +140,30 @@ copybase_folders() {
 		printf "failed - Aborting..."
 		exit 1
 	fi
-	printf "\nPreparing folders... DONE\n\n"
+	printf "\nPreparing folders... DONE\n"
 }
 
 create_icon_cache() {
-		printf "\ntrying to create icon cache\n\n"
+		printf "\ntrying to create icon cache\n"
 		if type gtk-update-icon-cache &>/dev/null; then
 			gtk-update-icon-cache $_tmpdir/Ivy
 		elif type gtk-update-icon-cache-3.0 &>/dev/null; then
 			gtk-update-icon-cache-3.0 $_tmpdir/Ivy
 		fi
 		if [ ! -f $_tmpdir/Ivy/icon-theme.cache ]; then
-			printf "\nIcon cache creation... DONE\n\n"
+			printf "\nIcon cache creation... DONE\n"
 		fi
 }
 
 svg2png() {
-	printf "\nConverting SVGs to PNGs...\n\n"
+	printf "\nConverting SVGs to PNGs...\n"
 	_sizes=$(echo "$_basesizes $_scales48")
 	for _size in $(echo $_sizes);do
 		cd $_tmpdir/Ivy/$_size
 			for _category in $_categories; do
 				if [ -d $_category ]; then
 					cd $_category
-					printf "\n\nConverting ${_size}px SVGs($_category)\n"
+					printf "\nConverting ${_size}px SVGs($_category)\n"
 					if [ "$_parallel" = "true" ]; then
 						parallel --no-notice -j "$_parallelthreads" inkscape -z -w $_size -h $_size -e "{}.png" {} ::: *.svg
 						for _stupid in $(find . -maxdepth 1 -mindepth 1 -wholename "./*.svg.png"); do
@@ -214,7 +191,7 @@ svg2png() {
 }
 
 create_fakescales() {
-	printf "\n\nCreating fake scales...\n"
+	printf "\nCreating fake scales...\n"
 	_basescales="24 22
 64 48
 72 48
@@ -252,12 +229,12 @@ create_fakescales() {
 }
 
 svgsymlinks2png() {
-	printf "\nConverting symlinks...\n\n"
+	printf "\nConverting symlinks...\n"
 	cd $_tmpdir/Ivy/48
 	for _symlinkdir in $(echo $_symlinkdirs); do
 		if [ -d "${_symlinkdir}" ]; then
 			cd "${_symlinkdir}"
-			printf "\n\nConverting Symlinks in ${PWD}\n"
+			printf "\nConverting Symlinks in ${PWD}\n"
 			for _svgsymlink in $(find . -maxdepth 1 -mindepth 1 -wholename "./*.svg"|cut -d/ -f2); do
 				ln -s "$(readlink $_svgsymlink|sed 's#.svg$#.png#')" "$(ls $_svgsymlink|sed 's#.svg$#.png#')"
 			done
@@ -265,15 +242,15 @@ svgsymlinks2png() {
 		fi
 	done
 	if [ ! -L "$_tmpdir/Ivy/48/misc-mimetypes/all-allfiles.png" ]; then
-		printf "\nCan't find png symlink - Aborting!\n\n"
+		printf "\nCan't find png symlink - Aborting!\n"
 		exit 1
 	fi
 }
 
 copy_symlinks() {
-	printf "\nCopying symlinks...\n\n"
+	printf "\nCopying symlinks...\n"
 	cd $_tmpdir
-	for _allsize in $(echo $_allsizes|sed -e 's# 48 # #'); do
+	for _allsize in $(echo $_allsizes|sed 's# 48 # #'); do
 		for _createsymlinkdir in $(echo $_symlinkdirs); do
 			cp -rn $_tmpdir/Ivy/48/$_createsymlinkdir  $_tmpdir/Ivy/$_allsize
 		done
@@ -291,14 +268,31 @@ copy_symlinks() {
 
 
 make_indextheme() {
-	printf "\nCreating theme index...\n\n"
+	printf "\nCreating theme index...\n"
 	cat <<\EOF > $_tmpdir/Ivy/index.theme.xdg
 [Icon Theme]
 Name=Ivy
+#Name=Hedera
+Name[ar]=اللبلاب
+Name[ca]=Heura
+Name[cs]=Břečťan
+Name[da]=Vedbend
 Name[de]=Efeu
+Name[en]=Ivy
+Name[el]=Κισσός
 Name[es]=Hiedra
 Name[fr]=Lierre
-Comment=pure XDG
+Name[gd]=Eidheann
+Name[it]=Edera
+Name[ja]=ツタ
+Name[la]=Hedera
+Name[lu]=Wantergréng
+Name[nl]=Klimop
+Name[pt]=Hera
+Name[ru]=Плющ
+Name[sv]=Murgröna
+Name[zh]=常春藤
+Comment=Pure XDG-theme
 Example=emblem-distributor
 Inherits=hicolor
 
@@ -317,313 +311,143 @@ Size=$_allsize
 Context=Actions
 Type=Fixed
 
-
 [$_allsize/applications]
 Size=$_allsize
 Context=Applications
 Type=Fixed
-
 
 [$_allsize/animations]
 Size=$_allsize
 Context=Animations
 Type=Fixed
 
-
 [$_allsize/menus]
 Size=$_allsize
 Context=Categories
 Type=Fixed
-
 
 [$_allsize/devices]
 Size=$_allsize
 Context=Devices
 Type=Fixed
 
-
 [$_allsize/logos]
 Size=$_allsize
 Context=Emblems
 Type=Fixed
-
 
 [$_allsize/emoticons]
 Size=$_allsize
 Context=Emotes
 Type=Fixed
 
-
 [$_allsize/mimetypes]
 Size=$_allsize
 Context=MimeTypes
 Type=Fixed
-
 
 [$_allsize/folders]
 Size=$_allsize
 Context=Places
 Type=Fixed
 
-
 [$_allsize/status]
 Size=$_allsize
 Context=Status
 Type=Fixed
-
 
 [$_allsize/international]
 Size=$_allsize
 Context=International
 Type=Fixed
 
-
 [$_allsize/misc-filesystems]
 Size=$_allsize
 Context=FileSystems
 Type=Fixed
-
 
 [$_allsize/misc-animations]
 Size=$_allsize
 Context=Misc
 Type=Fixed
 
-
 [$_allsize/misc-mimetypes]
 Size=$_allsize
 Context=Misc
 Type=Fixed
 
-
 [$_allsize/misc]
 Size=$_allsize
 Context=Misc
 Type=Fixed
-
 
 [$_allsize/misc]
 Size=$_allsize
 Context=Stock
 Type=Fixed
 
-
 [$_allsize/misc-animations]
 Size=$_allsize
 Context=Animations
 Type=Fixed
 
-
 [$_allsize/misc-mimetypes]
 Size=$_allsize
 Context=MimeTypes
 Type=Fixed
-
 EOF
 	done
 }
 
 make_indexthemeqt() {
-	printf "\nCreating theme index...\n\n"
-	cat <<\EOF > $_tmpdir/Ivy/index.theme
-[Icon Theme]
-Name=Ivy
-Name[de]=Efeu
-Name[es]=Hiedra
-Name[fr]=Lierre
-Comment=Qt/KDE fix
-Example=emblem-distributor
-Inherits=hicolor
-
-#######
-#KDE-STuff
-#######
-DisplayDepth=32
-LinkOverlay=emblem-symbolic-link
-LockOverlay=emblem-nowrite
-ShareOverlay=preferences-system-network-sharing
-ZipOverlay=p7zip
-DesktopDefault=48
-DesktopSizes=16,22,24,32,48,64,72,80,96,112,128,144,160,176,192,208,224,240,256
-ToolbarDefault=22
-ToolbarSizes=16,22,24,32,48,64,72,80,96,112,128,144,160,176,192,208,224,240,256
-MainToolbarDefault=22
-MainToolbarSizes=16,22,24,32,48,64,72,80,96,112,128,144,160,176,192,208,224,240,256
-SmallDefault=16
-SmallSizes=16,22,24,32,48,64,72,80,96,112,128,144,160,176,192,208,224,240,256
-PanelDefault=22
-PanelSizes=16,22,24,32,48,64,72,80,96,112,128,144,160,176,192,208,224,240,256
-DialogDefault=48
-DialogSizes=16,22,24,32,48,64,72,80,96,112,128,144,160,176,192,208,224,240,256
-
-##Dirs
-EOF
-	printf "Directories=" >> $_tmpdir/Ivy/index.theme
-###dirs!
-	for _allsize in $_allsizes; do
-		printf "$_allsize/actions,$_allsize/applications,$_allsize/animations,$_allsize/devices,$_allsize/emoticons,$_allsize/folders,$_allsize/international,$_allsize/logos,$_allsize/menus,$_allsize/mimetypes,$_allsize/status,$_allsize/misc,$_allsize/misc-animations,$_allsize/misc-mimetypes,$_allsize/misc-filesystems," >> $_tmpdir/Ivy/index.theme
-	done
+	printf "\nCreating theme index...\n"
+	cp $_tmpdir/Ivy/index.theme.xdg $_tmpdir/Ivy/index.theme
 	for _allsize in $(echo $_allsizes); do
 		cat <<EOF >> $_tmpdir/Ivy/index.theme
 
-######
-# ${_allsize}px
-######
-
-[$_allsize/actions]
-Size=$_allsize
-Context=Actions
-Type=Fixed
-
-
-[$_allsize/applications]
-Size=$_allsize
-Context=Applications
-Type=Fixed
-
-
-[$_allsize/animations]
-Size=$_allsize
-Context=Animations
-Type=Fixed
-
-
-[$_allsize/menus]
-Size=$_allsize
-Context=Categories
-Type=Fixed
-
-
-[$_allsize/devices]
-Size=$_allsize
-Context=Devices
-Type=Fixed
-
-
-[$_allsize/logos]
-Size=$_allsize
-Context=Emblems
-Type=Fixed
-
-
-[$_allsize/emoticons]
-Size=$_allsize
-Context=Emotes
-Type=Fixed
-
-
-[$_allsize/mimetypes]
-Size=$_allsize
-Context=MimeTypes
-Type=Fixed
-
-
-[$_allsize/folders]
-Size=$_allsize
-Context=Places
-Type=Fixed
-
-
-[$_allsize/status]
-Size=$_allsize
-Context=Status
-Type=Fixed
-
-
-[$_allsize/international]
-Size=$_allsize
-Context=International
-Type=Fixed
-
-
-[$_allsize/misc-filesystems]
-Size=$_allsize
-Context=FileSystems
-Type=Fixed
-
-
-[$_allsize/misc-animations]
-Size=$_allsize
-Context=Misc
-Type=Fixed
-
-
-[$_allsize/misc-mimetypes]
-Size=$_allsize
-Context=Misc
-Type=Fixed
-
-
-[$_allsize/misc]
-Size=$_allsize
-Context=Misc
-Type=Fixed
-
-
-[$_allsize/misc]
-Size=$_allsize
-Context=Stock
-Type=Fixed
-
-
-[$_allsize/misc-animations]
-Size=$_allsize
-Context=Animations
-Type=Fixed
-
-
-[$_allsize/misc-mimetypes]
-Size=$_allsize
-Context=MimeTypes
-Type=Fixed
-
+########################################################################
+###################### Qt workaround ###################################
+########################################################################
 
 [$_allsize/misc]
 Size=$_allsize
 Context=Actions
 Type=Fixed
 
-
 [$_allsize/misc]
 Size=$_allsize
 Context=Applications
 Type=Fixed
-
 
 [$_allsize/misc]
 Size=$_allsize
 Context=Categories
 Type=Fixed
 
-
 [$_allsize/misc]
 Size=$_allsize
 Context=Devices
 Type=Fixed
-
 
 [$_allsize/misc]
 Size=$_allsize
 Context=FileSystems
 Type=Fixed
 
-
 [$_allsize/misc]
 Size=$_allsize
 Context=Places
 Type=Fixed
 
-
 [$_allsize/misc]
 Size=$_allsize
 Context=Status
 Type=Fixed
-
 
 EOF
 	done
+	sed -i 's|Comment=Pure XDG-theme|Comment=Qt/KDE-fix|g' $_tmpdir/Ivy/index.theme
 }
-
 
 cd "$_basedir"
 sh -c "$_basedir"/xdg/updatesymlinks.sh
@@ -665,7 +489,6 @@ for _allsize in in $(echo $_allsizes); do
 done
 cp "$_basedir"/COPYING $_tmpdir/Ivy/COPYING
 cp "$_basedir"/LICENSE $_tmpdir/Ivy/LICENSE
-#FIXME RE-ADD TEXT (embeddedtextrectangles)
 cd $_tmpdir
 env XZ_OPT=-5 tar -cJvf $HOME/ivy-icon-theme.txz Ivy
 cd $HOME

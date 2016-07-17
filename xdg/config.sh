@@ -43,7 +43,7 @@ auto_distroicon() {
 }
 
 custom_distroicon() {
-	printf "Please enter the name of the icon(eg: kde for emblem-kde.png)\n\n"
+	printf "Please enter the name of the icon(eg: kde for distributor-kde.png)\n\n"
 	read _customiconname
 	if [ ! -f 48/logos/distributor-$_customiconname.png ];then
 		printf "\ndistributor-$_customiconname.png does not exist - Aborting!\n"
