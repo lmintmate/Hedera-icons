@@ -13,7 +13,7 @@ Ivy is now a part of the Hedera-theme so the simpliest way to get it is:
 
 2) Download the Ivy/Hedera icon theme with Subversion:
 
-    svn co https://github.com/sixsixfive/Hedera/trunk/CP_TO_DATADIRS/icons/Ivy Ivy
+    svn co https://github.com/sixsixfive/Hedera/trunk/CP_TO_DATADIRS/icons/Hedera Hedera
 
 #### Misc
 
