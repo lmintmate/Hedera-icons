@@ -489,7 +489,10 @@ for _allsize in in $(echo $_allsizes); do
 done
 cp "$_basedir"/COPYING $_tmpdir/Ivy/COPYING
 cp "$_basedir"/LICENSE $_tmpdir/Ivy/LICENSE
-cd $_tmpdir
-env XZ_OPT=-5 tar -cJvf $HOME/ivy-icon-theme.txz Ivy
+if [ "$USER" = "ssf" ];then
+	if [ -d "$_basedir"/../Hedera ];then
+		rm -rf "$_basedir"/../CP_TO_DATADIRS/icons/Hedera
+		mv $_tmpdir/Ivy "$_basedir"/../CP_TO_DATADIRS/icons/Hedera
+	fi
+fi
 cd $HOME
-sha256sum ivy-icon-theme.txz >SHA256SUMS
