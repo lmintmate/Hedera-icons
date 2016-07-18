@@ -1,18 +1,20 @@
-* [Packages](#packages)
+* [Install](#install)
 * [FAQs](#see-also)
 
 A classic icon theme for bright or grey themes.
 
-### Packages
+#### Install
 
-* [@All](https://github.com/sixsixfive/Ivy/releases/latest)
+Ivy is now a part of the Hedera-theme so the simpliest way to get it is:
 
-##### Distro(use at your own risk!) 
+1) Open term and navigate into your icon themes directory eg:
 
-* [@Chakra](https://chakraos.org/ccr/packages.php?ID=7715)
-* [@Debian](https://raw.githubusercontent.com/sixsixfive/Ivy/master/dist/ivy-icon-theme_1.0-1_all.deb)
+    cd /usr/share/icons
 
-### See also:
+2) Download the Ivy/Hedera icon theme with Subversion:
+
+    svn co https://github.com/sixsixfive/Hedera/trunk/CP_TO_DATADIRS/icons/Ivy Ivy
+
+#### Misc
 
 * [Icon FAQ](https://github.com/sixsixfive/Ivy/tree/master/faq.md)
-* [Changelog](https://github.com/sixsixfive/Ivy/releases/latest)

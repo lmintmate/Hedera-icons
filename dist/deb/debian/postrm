@@ -1,9 +1,0 @@
-#!/bin/sh
-
-set -e
-
-if [ -d /usr/share/icons/Ivy ]; then
-	rm -rvf /usr/share/icons/Ivy
-fi
-
-printf '\n==> Done!\n'

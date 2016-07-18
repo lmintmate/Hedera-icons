@@ -271,8 +271,8 @@ make_indextheme() {
 	printf "\nCreating theme index...\n"
 	cat <<\EOF > $_tmpdir/Ivy/index.theme.xdg
 [Icon Theme]
-Name=Ivy
-#Name=Hedera
+#Name=Ivy
+Name=Hedera
 Name[ar]=اللبلاب
 Name[ca]=Heura
 Name[cs]=Břečťan
