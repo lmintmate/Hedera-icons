@@ -58,7 +58,7 @@ check_req() {
 	printf "\nChecking Requirements...\n"
 	_requirements="sed convert inkscape awk"
 	for _requirement in $_requirements; do
-		type $_requirement &>/dev/null || { 
+		type $_requirement 2>/dev/null || { 
 		printf >&2 "I require $_requirement but it's not installed. Aborting.\n"
 		exit 1
 		}
