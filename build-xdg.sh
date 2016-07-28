@@ -4,7 +4,7 @@
 # 	+ RE-ADD TEXT (embeddedtextrectangles)
 ########################################################################
 set -e
-SHELLOPTS=posix
+#SHELLOPTS=posix
 #use parallel?
 _parallelyn=y
 #number of jobs for parallel
@@ -58,8 +58,8 @@ check_req() {
 	printf "\nChecking Requirements...\n"
 	_requirements="sed convert inkscape awk"
 	for _requirement in $_requirements; do
-		type $_requirement 2>/dev/null || { 
-		printf >&2 "I require $_requirement but it's not installed. Aborting.\n"
+		type $_requirement &>/dev/null || { 
+		printf "I require $_requirement but it's not installed. Aborting.\n"
 		exit 1
 		}
 	done
@@ -306,6 +306,7 @@ EOF
 	for _allsize in $(echo $_allsizes); do
 		cat <<EOF >> $_tmpdir/Ivy/index.theme.xdg
 
+
 [$_allsize/actions]
 Size=$_allsize
 Context=Actions
@@ -489,7 +490,7 @@ for _allsize in in $(echo $_allsizes); do
 done
 cp "$_basedir"/COPYING $_tmpdir/Ivy/COPYING
 cp "$_basedir"/LICENSE $_tmpdir/Ivy/LICENSE
-if [ "$USER" = "ssf" ];then
+if [ "$USER" = "sixsixfive" ];then
 	if [ -d "$_basedir"/../Hedera ];then
 		rm -rf "$_basedir"/../CP_TO_DATADIRS/icons/Hedera
 		mv $_tmpdir/Ivy "$_basedir"/../CP_TO_DATADIRS/icons/Hedera
