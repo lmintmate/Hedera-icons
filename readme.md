@@ -15,7 +15,7 @@ A classic icon theme for bright or grey themes.
 
     svn co https://github.com/sixsixfive/Hedera/trunk/CP_TO_DATADIRS/icons/Hedera Hedera
 
-#### Build it from source:
+#### Build from source:
 
 You can also build it from source (req. SED, AWK, Inkscape & Convert {GNU parallel is strongly recommended!})
 
