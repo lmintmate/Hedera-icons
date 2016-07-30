@@ -25,7 +25,7 @@ You can also build it from source (req. SED, AWK, Inkscape & Convert {GNU parall
 
 2) run the build script:
 
-    cd Ivy && sh build-xdg.sh
+    cd Hedera && sh build-xdg.sh
 
 after finishing the Icon theme should be in side your /tmp dir! - you can also modify it with the config script as explained in the FAQ
 
