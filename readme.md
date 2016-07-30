@@ -11,7 +11,7 @@ A classic icon theme for bright or grey themes.
 
     cd /usr/share/icons
 
-2) Download the Hedera icon theme with Subversion:
+2) Download yust the icon theme from [Hedera](https://github.com/sixsixfive/Hedera) with Subversion:
 
     svn co https://github.com/sixsixfive/Hedera/trunk/CP_TO_DATADIRS/icons/Hedera Hedera
 
@@ -27,7 +27,7 @@ You can also build it from source (req. SED, AWK, Inkscape & Convert {GNU parall
 
     cd Hedera && sh build-xdg.sh
 
-after finishing the Icon theme should be in side your /tmp dir! - you can also modify it with the config script as explained in the FAQ
+after finishing the Icon theme should be in side your /tmp dir! - you can also execute the included config script to set a distributor icon etc.
 
 ## Misc
 

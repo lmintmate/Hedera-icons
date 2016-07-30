@@ -125,18 +125,18 @@ check_req() {
 }
 
 clean_build() {
-	if [ -d $_tmpdir/Ivy ];then
-		rm -rf $_tmpdir/Ivy
+	if [ -d $_tmpdir/Hedera-icons ];then
+		rm -rf $_tmpdir/Hedera-icons
 	fi
 }
 
 copybase_folders() {
 	printf "\nPreparing folders...\n"
-	cp -r $_basedir/xdg $_tmpdir/Ivy
+	cp -r $_basedir/xdg $_tmpdir/Hedera-icons
 	for _scale48 in $_scales48; do
-		cp -rn $_tmpdir/Ivy/48 $_tmpdir/Ivy/$_scale48
+		cp -rn $_tmpdir/Hedera-icons/48 $_tmpdir/Hedera-icons/$_scale48
 	done
-	if [ ! -d $_tmpdir/Ivy/240 ]; then
+	if [ ! -d $_tmpdir/Hedera-icons/240 ]; then
 		printf "failed - Aborting..."
 		exit 1
 	fi
@@ -146,11 +146,11 @@ copybase_folders() {
 create_icon_cache() {
 		printf "\ntrying to create icon cache\n"
 		if type gtk-update-icon-cache &>/dev/null; then
-			gtk-update-icon-cache $_tmpdir/Ivy
+			gtk-update-icon-cache $_tmpdir/Hedera-icons
 		elif type gtk-update-icon-cache-3.0 &>/dev/null; then
-			gtk-update-icon-cache-3.0 $_tmpdir/Ivy
+			gtk-update-icon-cache-3.0 $_tmpdir/Hedera-icons
 		fi
-		if [ ! -f $_tmpdir/Ivy/icon-theme.cache ]; then
+		if [ ! -f $_tmpdir/Hedera-icons/icon-theme.cache ]; then
 			printf "\nIcon cache creation... DONE\n"
 		fi
 }
@@ -159,7 +159,7 @@ svg2png() {
 	printf "\nConverting SVGs to PNGs...\n"
 	_sizes=$(echo "$_basesizes $_scales48")
 	for _size in $(echo $_sizes);do
-		cd $_tmpdir/Ivy/$_size
+		cd $_tmpdir/Hedera-icons/$_size
 			for _category in $_categories; do
 				if [ -d $_category ]; then
 					cd $_category
@@ -178,12 +178,12 @@ svg2png() {
 					cd ..
 				fi
 			done
-			convert +append $_tmpdir/Ivy/$_size/status/status-busy*.png $_tmpdir/Ivy/$_size/animations/process-working.png
-			convert -append $_tmpdir/Ivy/$_size/status/status-busy*.png $_tmpdir/Ivy/$_size/animations/process-working-kde.png
+			convert +append $_tmpdir/Hedera-icons/$_size/status/status-busy*.png $_tmpdir/Hedera-icons/$_size/animations/process-working.png
+			convert -append $_tmpdir/Hedera-icons/$_size/status/status-busy*.png $_tmpdir/Hedera-icons/$_size/animations/process-working-kde.png
 			cd animations
 			optimize_pngs
 			cd ..
-			if [ ! -f $_tmpdir/Ivy/$_size/logos/emblem-ivy.png ]; then
+			if [ ! -f $_tmpdir/Hedera-icons/$_size/logos/emblem-ivy.png ]; then
 				printf "converting for $_size failed - Aborting..."
 				exit 1
 			fi
@@ -204,8 +204,8 @@ create_fakescales() {
 224 192
 256 240"
 	for _fakescale in $_fakescales; do
-		cp -r $_tmpdir/Ivy/$(echo "$_basescales"|awk '{if ($1 == '$_fakescale') print $2}') $_tmpdir/Ivy/$_fakescale
-		cd $_tmpdir/Ivy/$_fakescale
+		cp -r $_tmpdir/Hedera-icons/$(echo "$_basescales"|awk '{if ($1 == '$_fakescale') print $2}') $_tmpdir/Hedera-icons/$_fakescale
+		cd $_tmpdir/Hedera-icons/$_fakescale
 		for _category in $_categories; do
 			if [ -d $_category ]; then
 				cd $_category
@@ -216,12 +216,12 @@ create_fakescales() {
 				cd ..
 			fi
 		done
-			convert +append $_tmpdir/Ivy/$_fakescale/status/status-busy*.png $_tmpdir/Ivy/$_fakescale/animations/process-working.png
-			convert -append $_tmpdir/Ivy/$_fakescale/status/status-busy*.png $_tmpdir/Ivy/$_fakescale/animations/process-working-kde.png
+			convert +append $_tmpdir/Hedera-icons/$_fakescale/status/status-busy*.png $_tmpdir/Hedera-icons/$_fakescale/animations/process-working.png
+			convert -append $_tmpdir/Hedera-icons/$_fakescale/status/status-busy*.png $_tmpdir/Hedera-icons/$_fakescale/animations/process-working-kde.png
 		cd animations
 		optimize_pngs
 		cd ..
-		if [ ! -f $_tmpdir/Ivy/$_fakescale/logos/emblem-ivy.png ]; then
+		if [ ! -f $_tmpdir/Hedera-icons/$_fakescale/logos/emblem-ivy.png ]; then
 			printf "converting for $_fakescale failed - Aborting..."
 			exit 1
 		fi
@@ -230,7 +230,7 @@ create_fakescales() {
 
 svgsymlinks2png() {
 	printf "\nConverting symlinks...\n"
-	cd $_tmpdir/Ivy/48
+	cd $_tmpdir/Hedera-icons/48
 	for _symlinkdir in $(echo $_symlinkdirs); do
 		if [ -d "${_symlinkdir}" ]; then
 			cd "${_symlinkdir}"
@@ -238,10 +238,10 @@ svgsymlinks2png() {
 			for _svgsymlink in $(find . -maxdepth 1 -mindepth 1 -wholename "./*.svg"|cut -d/ -f2); do
 				ln -s "$(readlink $_svgsymlink|sed 's#.svg$#.png#')" "$(ls $_svgsymlink|sed 's#.svg$#.png#')"
 			done
-			cd $_tmpdir/Ivy/48
+			cd $_tmpdir/Hedera-icons/48
 		fi
 	done
-	if [ ! -L "$_tmpdir/Ivy/48/misc-mimetypes/all-allfiles.png" ]; then
+	if [ ! -L "$_tmpdir/Hedera-icons/48/misc-mimetypes/all-allfiles.png" ]; then
 		printf "\nCan't find png symlink - Aborting!\n"
 		exit 1
 	fi
@@ -252,13 +252,13 @@ copy_symlinks() {
 	cd $_tmpdir
 	for _allsize in $(echo $_allsizes|sed 's# 48 # #'); do
 		for _createsymlinkdir in $(echo $_symlinkdirs); do
-			cp -rn $_tmpdir/Ivy/48/$_createsymlinkdir  $_tmpdir/Ivy/$_allsize
+			cp -rn $_tmpdir/Hedera-icons/48/$_createsymlinkdir  $_tmpdir/Hedera-icons/$_allsize
 		done
 		if [ "$_allsize" -ne "48" ];then
 			if [ "$_allsize" -ne "32" ];then
 					if [ "$_allsize" -ne "22" ];then
 							if [ "$_allsize" -ne "16" ];then
-								cp -fR $_tmpdir/Ivy/32/misc-icondata $_tmpdir/Ivy/$_allsize/
+								cp -fR $_tmpdir/Hedera-icons/32/misc-icondata $_tmpdir/Hedera-icons/$_allsize/
 							fi
 					fi
 			fi
@@ -269,7 +269,7 @@ copy_symlinks() {
 
 make_indextheme() {
 	printf "\nCreating theme index...\n"
-	cat <<\EOF > $_tmpdir/Ivy/index.theme.xdg
+	cat <<\EOF > $_tmpdir/Hedera-icons/index.theme.xdg
 [Icon Theme]
 #Name=Ivy
 Name=Hedera
@@ -298,13 +298,13 @@ Inherits=hicolor
 
 ##Dirs
 EOF
-	printf "Directories=" >> $_tmpdir/Ivy/index.theme.xdg
+	printf "Directories=" >> $_tmpdir/Hedera-icons/index.theme.xdg
 ###dirs!
 	for _allsize in $_allsizes; do
-		printf "$_allsize/actions,$_allsize/applications,$_allsize/animations,$_allsize/devices,$_allsize/emoticons,$_allsize/folders,$_allsize/international,$_allsize/logos,$_allsize/menus,$_allsize/mimetypes,$_allsize/status,$_allsize/misc,$_allsize/misc-animations,$_allsize/misc-mimetypes,$_allsize/misc-filesystems," >> $_tmpdir/Ivy/index.theme.xdg
+		printf "$_allsize/actions,$_allsize/applications,$_allsize/animations,$_allsize/devices,$_allsize/emoticons,$_allsize/folders,$_allsize/international,$_allsize/logos,$_allsize/menus,$_allsize/mimetypes,$_allsize/status,$_allsize/misc,$_allsize/misc-animations,$_allsize/misc-mimetypes,$_allsize/misc-filesystems," >> $_tmpdir/Hedera-icons/index.theme.xdg
 	done
 	for _allsize in $(echo $_allsizes); do
-		cat <<EOF >> $_tmpdir/Ivy/index.theme.xdg
+		cat <<EOF >> $_tmpdir/Hedera-icons/index.theme.xdg
 
 
 [$_allsize/actions]
@@ -402,9 +402,9 @@ EOF
 
 make_indexthemeqt() {
 	printf "\nCreating theme index...\n"
-	cp $_tmpdir/Ivy/index.theme.xdg $_tmpdir/Ivy/index.theme
+	cp $_tmpdir/Hedera-icons/index.theme.xdg $_tmpdir/Hedera-icons/index.theme
 	for _allsize in $(echo $_allsizes); do
-		cat <<EOF >> $_tmpdir/Ivy/index.theme
+		cat <<EOF >> $_tmpdir/Hedera-icons/index.theme
 
 ########################################################################
 ###################### Qt workaround ###################################
@@ -447,7 +447,7 @@ Type=Fixed
 
 EOF
 	done
-	sed -i 's|Comment=Pure XDG-theme|Comment=Qt/KDE-fix|g' $_tmpdir/Ivy/index.theme
+	sed -i 's|Comment=Pure XDG-theme|Comment=Qt/KDE-fix|g' $_tmpdir/Hedera-icons/index.theme
 }
 
 cd "$_basedir"
@@ -465,11 +465,11 @@ make_indextheme
 make_indexthemeqt
 create_icon_cache
 for _allsize in $(echo $_allsizes|sed 's/48 //'); do
-    mv $_tmpdir/Ivy/$_allsize/misc-icondata/emblem-*.icon $_tmpdir/Ivy/$_allsize/logos/
-    mv $_tmpdir/Ivy/$_allsize/misc-icondata/flag-*.icon $_tmpdir/Ivy/$_allsize/international/
-    rm -rf $_tmpdir/Ivy/$_allsize/misc-icondata
+    mv $_tmpdir/Hedera-icons/$_allsize/misc-icondata/emblem-*.icon $_tmpdir/Hedera-icons/$_allsize/logos/
+    mv $_tmpdir/Hedera-icons/$_allsize/misc-icondata/flag-*.icon $_tmpdir/Hedera-icons/$_allsize/international/
+    rm -rf $_tmpdir/Hedera-icons/$_allsize/misc-icondata
 done
-cd $_tmpdir/Ivy/48/misc-icondata
+cd $_tmpdir/Hedera-icons/48/misc-icondata
 for _symlink in $(find . -maxdepth 1 -mindepth 1 -wholename "./*.icon"|cut -d/ -f2); do
     cp --remove-destination $(readlink $_symlink) $_symlink
 done
@@ -479,21 +479,21 @@ done
 for _symlink in $(find . -maxdepth 1 -mindepth 1 -wholename "./flag-*.icon"|cut -d/ -f2); do
     ln -s ../misc-icondata/$_symlink ../international/$_symlink
 done
-if [ -d "$_tmpdir/Ivy" ];then
-	rm $_tmpdir/Ivy/updatesymlinks.sh
-	find $_tmpdir/Ivy -mindepth 1 -name "*.svg" -exec rm -rf {} \;
+if [ -d "$_tmpdir/Hedera-icons" ];then
+	rm $_tmpdir/Hedera-icons/updatesymlinks.sh
+	find $_tmpdir/Hedera-icons -mindepth 1 -name "*.svg" -exec rm -rf {} \;
 fi
 for _allsize in in $(echo $_allsizes); do
-	if [ -d $_tmpdir/Ivy/$_allsize/pool ];then
-		rm -rf $_tmpdir/Ivy/$_allsize/pool
+	if [ -d $_tmpdir/Hedera-icons/$_allsize/pool ];then
+		rm -rf $_tmpdir/Hedera-icons/$_allsize/pool
 	fi
 done
-cp "$_basedir"/COPYING $_tmpdir/Ivy/COPYING
-cp "$_basedir"/LICENSE $_tmpdir/Ivy/LICENSE
+cp "$_basedir"/COPYING $_tmpdir/Hedera-icons/COPYING
+cp "$_basedir"/LICENSE $_tmpdir/Hedera-icons/LICENSE
 if [ "$USER" = "sixsixfive" ];then
 	if [ -d "$_basedir"/../Hedera ];then
 		rm -rf "$_basedir"/../CP_TO_DATADIRS/icons/Hedera
-		mv $_tmpdir/Ivy "$_basedir"/../CP_TO_DATADIRS/icons/Hedera
+		mv $_tmpdir/Hedera-icons "$_basedir"/../Hedera/CP_TO_DATADIRS/icons/Hedera
 	fi
 fi
 cd $HOME
