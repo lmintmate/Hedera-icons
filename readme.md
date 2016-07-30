@@ -25,7 +25,7 @@ You can also build it from source (req. SED, AWK, Inkscape & Convert {GNU parall
 
     https://github.com/sixsixfive/Ivy.git Ivy
 
-2) Download the Ivy/Hedera icon theme with Subversion:
+2) run the build script:
 
     cd Ivy && sh build-xdg.sh
 
