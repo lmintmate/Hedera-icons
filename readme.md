@@ -11,7 +11,7 @@ A classic icon theme for bright or grey themes.
 
     cd /usr/share/icons
 
-2) Download yust the icon theme from [Hedera](https://github.com/sixsixfive/Hedera) with Subversion:
+2) Download just the icon theme from [Hedera](https://github.com/sixsixfive/Hedera) with Subversion:
 
     svn co https://github.com/sixsixfive/Hedera/trunk/CP_TO_DATADIRS/icons/Hedera Hedera
 
