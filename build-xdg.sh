@@ -494,7 +494,9 @@ cp "$_basedir"/COPYING "$_tmpdir/Hedera"/COPYING
 cp "$_basedir"/LICENSE "$_tmpdir/Hedera"/LICENSE
 if [ "$USER" = "sixsixfive" ];then
 	if [ -d "$_basedir"/../Hedera ];then
-		rm -rf "$_basedir"/../CP_TO_DATADIRS/icons/Hedera
+		if [ -d "$_basedir"/../Hedera/CP_TO_DATADIRS/icons/Hedera ]; then
+			rm -rf "$_basedir"/../Hedera/CP_TO_DATADIRS/icons/Hedera
+		fi
 		mv "$_tmpdir/Hedera" "$_basedir"/../Hedera/CP_TO_DATADIRS/icons/Hedera
 	fi
 fi
