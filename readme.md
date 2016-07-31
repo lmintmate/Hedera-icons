@@ -1,8 +1,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/sixsixfive/Hedera-icons/master/.preview.png">
-</p>
-
 A classic icon theme in the spirit of [Tango!](http://tango.freedesktop.org/Tango_Desktop_Project).
+</p>
 
 ## Install
 
