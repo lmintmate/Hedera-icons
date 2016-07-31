@@ -1,7 +1,7 @@
 * [Install](#install)
 * [FAQs](#see-also)
 
-A classic icon theme for bright or grey themes.
+A classic icon theme in the spirit of [Tango!](http://tango.freedesktop.org/Tango_Desktop_Project).
 
 ## Install
 
