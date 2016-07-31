@@ -5,9 +5,33 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    viewBox="0 0 48 48"
-   id="svg2">
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="network-facebook.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="907"
+     inkscape:window-height="480"
+     id="namedview15"
+     showgrid="false"
+     inkscape:zoom="4.9166667"
+     inkscape:cx="16.861924"
+     inkscape:cy="24"
+     inkscape:window-x="48"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
   <defs
      id="defs4">
     <linearGradient
@@ -49,6 +73,10 @@
      id="path4170"
      d="M 34.509766 10.988281 C 32.080762 10.988281 29.917686 11.751991 28.386719 13.277344 C 26.855751 14.802697 26.013672 17.039244 26.013672 19.753906 L 26.013672 23.068359 L 22 23.068359 A 1.0119889 1.0119889 0 0 0 20.988281 24.080078 L 20.988281 29.947266 A 1.0119889 1.0119889 0 0 0 22 30.958984 L 26.013672 30.958984 L 26.013672 45 L 34.046875 45 L 34.046875 30.958984 L 38.046875 30.958984 A 1.0119889 1.0119889 0 0 0 39.050781 30.076172 L 39.800781 24.208984 A 1.0119889 1.0119889 0 0 0 38.796875 23.068359 L 34.046875 23.068359 L 34.046875 20.335938 C 34.046875 19.579373 34.149862 19.361743 34.248047 19.273438 C 34.346231 19.185132 34.801609 18.992187 35.917969 18.992188 L 39 18.990234 A 1.0119889 1.0119889 0 0 0 40.011719 17.978516 L 40.011719 12.230469 A 1.0119889 1.0119889 0 0 0 39.134766 11.226562 C 38.496263 11.141141 36.688306 10.988281 34.509766 10.988281 z "
      style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.3" />
+  <path
+     id="path162"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     d="m 33.034424,45 0,-15.052719 5.012223,0 0.750351,-5.866428 -5.762574,0 0,-3.745302 c 0,-1.698475 0.467759,-2.355709 2.883911,-2.355709 L 39,17.978158 39,12.231132 C 38.466913,12.159813 36.637688,12 34.509597,12 c -4.443017,0 -7.484556,2.7338 -7.484556,7.754479 l 0,4.326184 -5.025041,0 0,5.86642 5.025041,0 0,15.052727 6.009383,0" />
   <g
      fill="none"
      id="g20">
@@ -64,10 +92,6 @@
        opacity="0.4"
        id="path24" />
   </g>
-  <path
-     id="path162"
-     style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-     d="m 33.034424,45 0,-15.052719 5.012223,0 0.750351,-5.866428 -5.762574,0 0,-3.745302 c 0,-1.698475 0.467759,-2.355709 2.883911,-2.355709 L 39,17.978158 39,12.231132 C 38.466913,12.159813 36.637688,12 34.509597,12 c -4.443017,0 -7.484556,2.7338 -7.484556,7.754479 l 0,4.326184 -5.025041,0 0,5.86642 5.025041,0 0,15.052727 6.009383,0" />
   <metadata
      id="metadata9999">
     <rdf:RDF>
@@ -75,7 +99,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
         <dc:creator>

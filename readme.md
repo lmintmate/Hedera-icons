@@ -1,5 +1,5 @@
-* [Install](#install)
-* [FAQs](#see-also)
+->![alt text](https://raw.githubusercontent.com/sixsixfive/Hedera-icons/master/.preview.png)<-
+
 
 A classic icon theme in the spirit of [Tango!](http://tango.freedesktop.org/Tango_Desktop_Project).
 
@@ -9,11 +9,13 @@ A classic icon theme in the spirit of [Tango!](http://tango.freedesktop.org/Tang
 
 1) Open term and navigate into your icon themes directory eg:
 
-    cd /usr/share/icons
+    cd $HOME/.local/share/icons
 
-2) Download just the icon theme from [Hedera](https://github.com/sixsixfive/Hedera) with Subversion:
+2) Checkout just the icon theme from [Hedera](https://github.com/sixsixfive/Hedera) with Subversion:
 
     svn co https://github.com/sixsixfive/Hedera/trunk/CP_TO_DATADIRS/icons/Hedera Hedera
+
+you can also execute the included config script to set a distributor icon etc.
 
 #### Build from source:
 
