@@ -40,6 +40,6 @@ You can also build it from source (req. SED, AWK, Inkscape & Convert {GNU parall
 
 after finishing the Icon theme should be inside your /tmp dir! - you can also execute the included config script to set a distributor icon etc.
 
-## Misc/Notes/FAQ
-
+## Links
 * [Icon FAQ](https://github.com/sixsixfive/Hedera-icons/tree/master/faq.md)
+* [Sailfish OS Port](https://openrepos.net/content/dfstorm/ivy-icon-theme)
