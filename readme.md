@@ -3,6 +3,15 @@
 </p>
 A classic icon theme in the spirit of [Tango!](http://tango.freedesktop.org/Tango_Desktop_Project).
 
+Features:
+
+* Colorful
+* Icons with borders
+* optimized for speed
+* Includes ~800 icons in 4 different main sizes
+* supports more than 4200 common icons in the most common sizes
+* works on KDE3/4, Plasma 5, Xfce 4.12, LXQt/LXDE, MATE
+
 ## Install
 
 #### Prebuild version:
