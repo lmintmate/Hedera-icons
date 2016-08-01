@@ -1,12 +1,7 @@
-* [Install the Icon Theme](#install-the-icon-theme)
 * [Set the Icon Theme](#set-the-icon-theme)
 * [FAQ](#faq)
 	* [Missing Icons](#missing-icons)
 * [Limitations and Bugs](#limitations-and-bugs)
-
-### Install the Icon theme
-
-just extract The Ivy folder to your systems icon folder($SYSPREFIX/$DATADIR/icons).
 
 ### Set the icon theme
 
@@ -17,7 +12,7 @@ Also make sure the icon theme is installed in $SYSPREFIX/$DATADIR/icons!
 Add or change the icon theme in $HOME/.gtkrc-2.0
 
 ```
-gtk-icon-theme-name="Ivy"
+gtk-icon-theme-name="Hedera"
 gtk-fallback-icon-theme="tango"
 ```
 
@@ -28,7 +23,7 @@ Add or change the icon theme in $XDG_CONFIG_HOME/gtk-3.0/settings.ini
 ```
 [Settings]
 gtk-menu-images=true
-gtk-icon-theme-name=Ivy
+gtk-icon-theme-name=Hedera
 ```
 
 ###### KDE
@@ -37,7 +32,7 @@ Add or change the icon theme in $XDG_CONFIG_HOME/kdeglobals($HOME/.kde/share/con
 
 ```
 [Icons]
-Theme=Ivy
+Theme=Hedera
 ```
 
 ###### Qt4
@@ -49,6 +44,15 @@ you also need to set your DESKTOP_SESSION to gnome eg:
 ```
 printf "export DESKTOP_SESSION=gnome" >>~/.profile
 ```
+
+_you can also use KDE4 plugin by setting the desktop session to KDE and adding:_
+
+
+```
+[Icons]
+Theme=Hedera
+```
+to your KDE4 kdeglobals
 
 ###### Qt5
 
