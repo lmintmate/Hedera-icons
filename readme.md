@@ -10,7 +10,7 @@ Features:
 * optimized for speed
 * Includes ~800 icons in 4 different main sizes
 * supports more than 4200 common icons in the most common sizes
-* works on KDE3/4, Plasma 5, Xfce 4.12, LXQt/LXDE, MATE
+* works on KDE3/4, Plasma 5, Xfce 4.12, LXQt/LXDE, MATE & Enlightenment
 
 ## Install
 
