@@ -38,7 +38,7 @@ You can also build it from source (req. SED, AWK, Inkscape & Convert {GNU parall
 
     cd Hedera && sh build-xdg.sh
 
-after finishing the Icon theme should be inside your /tmp dir! - you can also execute the included config script to set a distributor icon etc.
+once finished the Icon theme should be inside your /tmp dir! - you can also execute the included config script to set a distributor icon etc.
 
 ## Links
 * [Icon FAQ](https://github.com/sixsixfive/Hedera-icons/tree/master/faq.md)
