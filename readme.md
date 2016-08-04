@@ -20,7 +20,7 @@ Features:
 
     cd $HOME/.local/share/icons
 
-2) Checkout just the icon theme from [Hedera](https://github.com/sixsixfive/Hedera) with Subversion:
+2) Checkout just the icon theme with Subversion:
 
     svn co https://github.com/sixsixfive/Hedera/trunk/CP_TO_DATADIRS/icons/Hedera Hedera
 
