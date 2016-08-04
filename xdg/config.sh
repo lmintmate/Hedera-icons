@@ -71,8 +71,7 @@ toggleqtworkaround() {
 		printf "disabling Qt-workaround\n"
 		mv -v index.theme index.theme.qt
 		mv -v index.theme.xdg index.theme
-	fi
-	if [ -f index.theme.qt ];then
+	elif [ -f index.theme.qt ];then
 		printf "enabling Qt-workaround\n"
 		mv -v index.theme index.theme.xdg
 		mv -v index.theme.qt index.theme
@@ -84,8 +83,8 @@ createsymbolicsymlinks() {
 	unset "_tmpicons"
 	if [ -d /usr/share/icons ];then
 		_prefix=/usr
-	elif [ -d $(getconf PATH| sed -e 's/\/bin//g' -e 's/://g')/share/icons ];then
-		_prefix=$(getconf PATH| sed -e 's/\/bin//g' -e 's/://g')
+	elif [ -d $(getconf PATH| sed 's/\/bin//g;s/://g')/share/icons ];then
+		_prefix=$(getconf PATH| sed 's/\/bin//g;s/://g')
 	else
 		printf "couldn't find prefix"
 	fi
