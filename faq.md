@@ -78,7 +78,7 @@ There is an experimental config script included that will create fake symboic ic
 
 This works only if the GTK3 theme doesn't modify the icon design!
 
-##### Inherit other themnes
+##### Inherit other themes
 
 Since the icon theme is not yet complete you might need to let it inherit some desktop specifc themes.
 
