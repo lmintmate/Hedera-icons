@@ -26,7 +26,7 @@ Features:
 
 you can also execute the included config script to set a distributor icon etc.
 
-PS: Devuan/Debian >=testing users could also install the full [Hedera theme deb](https://github.com/sixsixfive/Hedera/raw/master/dist/hedera-theme_2.0-1_all.deb)
+PS: You could also install the full (WIP) [Hedera theme](https://github.com/sixsixfive/Hedera)
 
 #### Build from source:
 
