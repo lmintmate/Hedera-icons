@@ -450,6 +450,7 @@ Type=Fixed
 EOF
 	done
 	sed -i 's|Comment=Pure XDG-theme|Comment=Qt/KDE-fix|g' "$_tmpdir/Hedera"/index.theme
+	sed -i 's|Inherits=hicolor|Inherits=hicolor,oxygen|g' "$_tmpdir/Hedera"/index.theme
 }
 
 cd "$_basedir"
