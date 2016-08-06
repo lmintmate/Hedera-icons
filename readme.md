@@ -26,7 +26,7 @@ Features:
 
 you can also execute the included config script to set a distributor icon etc.
 
-PS: You could also install the full (WIP) [Hedera theme](https://github.com/sixsixfive/Hedera)
+PS: You could also install/download the full (WIP) [Hedera theme](https://github.com/sixsixfive/Hedera).
 
 #### Build from source:
 
