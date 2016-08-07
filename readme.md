@@ -14,21 +14,27 @@ Features:
 
 ## Install
 
-#### Prebuild version:
+Archlinux: [hedera-icon-theme-git](https://aur.archlinux.org/packages/hedera-icon-theme-git/)
 
-1) Open term and navigate into your icon themes directory eg:
+### Prebuild version:
 
-    cd $HOME/.local/share/icons
+1. Checkout with git:
 
-2) Checkout just the icon theme with Subversion:
+    ```
+    git clone https://github.com/sixsixfive/Hedera Hedera
+    ```
+    
+2. Copy files to your icon themes directory eg:
 
-    svn co https://github.com/sixsixfive/Hedera/trunk/CP_TO_DATADIRS/icons/Hedera Hedera
+    ```
+    cp -r Hedera/CP_TO_DATADIRS/icons/Hedera/ $HOME/.local/share/icons/
+    ```
 
 you can also execute the included config script to set a distributor icon etc.
 
 PS: You could also install/download the full (WIP) [Hedera theme](https://github.com/sixsixfive/Hedera).
 
-#### Build from source:
+### Build from source:
 
 You can also build it from source (req. SED, AWK, Inkscape & Convert {GNU parallel is strongly recommended!})
 
